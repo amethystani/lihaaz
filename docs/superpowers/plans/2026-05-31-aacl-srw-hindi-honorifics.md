@@ -981,7 +981,9 @@ def test_selectivity_high_when_confound_random():
     honorific = np.array([1]*20 + [0]*20)
     feature = np.where(honorific==1, 5.0, 0.0) + rng.normal(0, 0.1, n)
     confound = rng.integers(0, 2, n)
-    assert compute_selectivity(feature, honorific, confound) > 0.5
+    # Random-confound selectivity centers on 0.5 exactly (auroc_c ~ 0.5), so the
+    # strict >0.5 boundary is finite-sample fragile; assert >0.4 vs. the 0.0 matched case.
+    assert compute_selectivity(feature, honorific, confound) > 0.4
 
 def test_selectivity_low_when_confound_matches():
     from src.sae.selectivity import compute_selectivity
