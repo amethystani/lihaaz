@@ -2,9 +2,9 @@
 from __future__ import annotations
 from src.data.pairs import HonorificPair
 
-# Romanized + Devanagari pronoun sets
-AAP_TOKENS  = {"aap", "aapka", "aapki", "aapke", "aapko", "aapse", "aapne",
-               "aap", "aapka", "aapki", "aapke"}
+# Romanized Hindi pronoun sets. Devanagari forms (आप/तुम/तू + inflections)
+# are added in Phase 5 when the corpus switches to Devanagari script.
+AAP_TOKENS  = {"aap", "aapka", "aapki", "aapke", "aapko", "aapse", "aapne"}
 TUM_TOKENS  = {"tum", "tumhara", "tumhari", "tumhare", "tumhen", "tumne", "tumse"}
 TU_TOKENS   = {"tu", "tera", "teri", "tere", "tujhe", "tune", "tujhse"}
 ALL_PRONOUNS = AAP_TOKENS | TUM_TOKENS | TU_TOKENS
