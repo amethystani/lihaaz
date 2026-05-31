@@ -1,0 +1,316 @@
+[
+  {
+    "id": "h001",
+    "high": "aap kahan ja rahe hain?",
+    "low": "tum kahan ja rahe ho?",
+    "high_level": "aap",
+    "low_level": "tum",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "kahan ja rahe hain?",
+      "pronoun_stripped_low": "kahan ja rahe ho?",
+      "length_ratio": 1.0
+    },
+    "notes": ""
+  },
+  {
+    "id": "h002",
+    "high": "aap baithiye, main abhi aata hun.",
+    "low": "tum baitho, main abhi aata hun.",
+    "high_level": "aap",
+    "low_level": "tum",
+    "domain": "professional",
+    "confounds": {},
+    "notes": ""
+  },
+  {
+    "id": "h003",
+    "high": "aapka order taiyar hai.",
+    "low": "tumhara order taiyar hai.",
+    "high_level": "aap",
+    "low_level": "tum",
+    "domain": "service",
+    "confounds": {
+      "length_ratio": 1.05
+    },
+    "notes": ""
+  },
+  {
+    "id": "h004",
+    "high": "kya aap chai lenge?",
+    "low": "kya tum chai loge?",
+    "high_level": "aap",
+    "low_level": "tum",
+    "domain": "social",
+    "confounds": {},
+    "notes": ""
+  },
+  {
+    "id": "h005",
+    "high": "aap is form ko bhar dijiye.",
+    "low": "tum is form ko bhar do.",
+    "high_level": "aap",
+    "low_level": "tum",
+    "domain": "professional",
+    "confounds": {},
+    "notes": ""
+  },
+  {
+    "id": "h006",
+    "high": "aap kab aa rahe hain?",
+    "low": "tum kab aa rahe ho?",
+    "high_level": "aap",
+    "low_level": "tum",
+    "domain": "family",
+    "confounds": {},
+    "notes": ""
+  },
+  {
+    "id": "h007",
+    "high": "aapne bahut accha kaam kiya.",
+    "low": "tumne bahut accha kaam kiya.",
+    "high_level": "aap",
+    "low_level": "tum",
+    "domain": "social",
+    "confounds": {},
+    "notes": ""
+  },
+  {
+    "id": "h008",
+    "high": "aap andar aa jaiye.",
+    "low": "tum andar aa jao.",
+    "high_level": "aap",
+    "low_level": "tum",
+    "domain": "service",
+    "confounds": {},
+    "notes": ""
+  },
+  {
+    "id": "h009",
+    "high": "aap mujhe bataiye, main madad kar sakta hun.",
+    "low": "tum mujhe batao, main madad kar sakta hun.",
+    "high_level": "aap",
+    "low_level": "tum",
+    "domain": "professional",
+    "confounds": {},
+    "notes": ""
+  },
+  {
+    "id": "h010",
+    "high": "aap yahan rehte hain?",
+    "low": "tum yahan rehte ho?",
+    "high_level": "aap",
+    "low_level": "tum",
+    "domain": "social",
+    "confounds": {},
+    "notes": ""
+  },
+  {
+    "id": "h011",
+    "high": "aap theek hain?",
+    "low": "tu theek hai?",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "theek hain?",
+      "pronoun_stripped_low": "theek hai?",
+      "length_ratio": 0.95
+    },
+    "notes": ""
+  },
+  {
+    "id": "h012",
+    "high": "aap kahan se hain?",
+    "low": "tu kahan se hai?",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {},
+    "notes": ""
+  },
+  {
+    "id": "h013",
+    "high": "aapka naam kya hai?",
+    "low": "tera naam kya hai?",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {},
+    "notes": ""
+  },
+  {
+    "id": "h014",
+    "high": "aap khana kha lijiye.",
+    "low": "tu khana kha le.",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {},
+    "notes": ""
+  },
+  {
+    "id": "h015",
+    "high": "aap bahut acche gaate hain.",
+    "low": "tu bahut accha gaata hai.",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {},
+    "notes": ""
+  },
+  {
+    "id": "h016",
+    "high": "aap apna parcha dikhiye.",
+    "low": "tu apna parcha dikha.",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "service",
+    "confounds": {},
+    "notes": ""
+  },
+  {
+    "id": "h017",
+    "high": "aap yahan baith sakte hain.",
+    "low": "tu yahan baith sakta hai.",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {},
+    "notes": ""
+  },
+  {
+    "id": "h018",
+    "high": "aap sahi keh rahe hain.",
+    "low": "tu sahi keh raha hai.",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {},
+    "notes": ""
+  },
+  {
+    "id": "h019",
+    "high": "aapne mujhe bulaya?",
+    "low": "tune mujhe bulaya?",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {},
+    "notes": ""
+  },
+  {
+    "id": "h020",
+    "high": "aap mere saath chaliye.",
+    "low": "tu mere saath chal.",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "service",
+    "confounds": {},
+    "notes": ""
+  },
+  {
+    "id": "h021",
+    "high": "tum kahan ja rahe ho?",
+    "low": "tu kahan ja raha hai?",
+    "high_level": "tum",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "kahan ja rahe ho?",
+      "pronoun_stripped_low": "kahan ja raha hai?",
+      "length_ratio": 1.0
+    },
+    "notes": ""
+  },
+  {
+    "id": "h022",
+    "high": "tum theek ho?",
+    "low": "tu theek hai?",
+    "high_level": "tum",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {},
+    "notes": ""
+  },
+  {
+    "id": "h023",
+    "high": "tumne yeh kab seekha?",
+    "low": "tune yeh kab seekha?",
+    "high_level": "tum",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {},
+    "notes": ""
+  },
+  {
+    "id": "h024",
+    "high": "tum khana khaoge?",
+    "low": "tu khana khayega?",
+    "high_level": "tum",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {},
+    "notes": ""
+  },
+  {
+    "id": "h025",
+    "high": "tum bahut samajhdar ho.",
+    "low": "tu bahut samajhdar hai.",
+    "high_level": "tum",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {},
+    "notes": ""
+  },
+  {
+    "id": "h026",
+    "high": "tum yeh kaam kar sakte ho.",
+    "low": "tu yeh kaam kar sakta hai.",
+    "high_level": "tum",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {},
+    "notes": ""
+  },
+  {
+    "id": "h027",
+    "high": "tum kab aaye?",
+    "low": "tu kab aaya?",
+    "high_level": "tum",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {},
+    "notes": ""
+  },
+  {
+    "id": "h028",
+    "high": "tumhe yeh pasand hai?",
+    "low": "tujhe yeh pasand hai?",
+    "high_level": "tum",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {},
+    "notes": ""
+  },
+  {
+    "id": "h029",
+    "high": "tum sahi jagah aaye ho.",
+    "low": "tu sahi jagah aaya hai.",
+    "high_level": "tum",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {},
+    "notes": ""
+  },
+  {
+    "id": "h030",
+    "high": "tumhara kaam ho gaya.",
+    "low": "tera kaam ho gaya.",
+    "high_level": "tum",
+    "low_level": "tu",
+    "domain": "service",
+    "confounds": {},
+    "notes": ""
+  }
+]
