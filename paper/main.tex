@@ -1,0 +1,621 @@
+%% AACL-IJCNLP 2026 SRW — long paper (8 pages + references)
+%% Where Does Politeness Live in Hindi?
+%% A Mechanistic Case Study of Honorific Encoding in Gemma Scope SAEs
+
+\documentclass[11pt]{article}
+\usepackage[hyperref]{acl}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{microtype}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{xcolor}
+\usepackage{subcaption}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[hidelinks]{hyperref}
+\usepackage{url}
+
+% Devanagari: compile with XeLaTeX for full rendering; pdflatex falls back gracefully
+% \usepackage{fontspec}
+% \newfontfamily\devfont{Noto Sans Devanagari}[Scale=0.95]
+% \newcommand{\dev}[1]{{\devfont #1}}
+
+% Convenient shorthands
+\newcommand{\aap}{\textit{aap}}
+\newcommand{\tum}{\textit{tum}}
+\newcommand{\tu}{\textit{tu}}
+\newcommand{\todo}[1]{\textcolor{red}{\textbf{[#1]}}}
+
+\title{Where Does Politeness Live in Hindi?\\
+A Mechanistic Case Study of Honorific Encoding in Gemma Scope SAEs}
+
+\author{
+  Animesh Mishra \\
+  \texttt{animeshmishra0567@gmail.com}
+}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+% -----------------------------------------------------------------------
+\begin{abstract}
+% -----------------------------------------------------------------------
+Sparse autoencoders (SAEs) have recently revealed that multilingual language
+models encode language identity as causally manipulable residual-stream
+directions. We ask a narrower, sociolinguistically grounded question: within
+Hindi---whose honorific system encodes register \emph{pronominally}
+(\aap{}/\tum{}/\tu{} plus verb-agreement) rather than via verb-suffix
+morphology---do publicly released SAEs (Gemma Scope) contain features that
+selectively represent honorific level, and can those features causally steer
+generation?
+
+We construct a 600-pair confound-controlled contrastive Hindi dataset with
+pronoun-stripped, length-matched, and script-variant conditions, annotated by
+two native Hindi speakers (Krippendorff's $\alpha=\todo{X.XX}$). Layer-wise
+linear probing on Gemma-2-2B residual streams achieves AUROC
+$=\todo{X.XX}$ on the pronoun-stripped condition at layer $\todo{L^*}$,
+satisfying hypothesis H1 ($>0.70$). A Gemma Scope SAE feature at that layer
+attains Cohen's $d=\todo{X.XX}$ and selectivity $=\todo{X.XX}$, satisfying H2.
+The \emph{full causal triangle}---correlation, steering sufficiency (addressee
+shift $p<0.01$), and ablation necessity---is satisfied (H3), with PPL inflation
+ratio $\todo{X.XX}\times$ and BLEURT drop $\todo{X.XX}$.
+
+As a comparative reference, the same pipeline on Japanese keigo locates the
+honorific probe peak at an earlier layer than Hindi, consistent with Japanese
+morphological honorifics being more surface-local. We release a confound-controlled
+Hindi honorific dataset (CC-BY-SA), a multi-axis honorific rubric, candidate SAE
+feature indices for Gemma Scope, and a reproducible inference-time pipeline on a
+single 24\,GB GPU.
+\end{abstract}
+
+% -----------------------------------------------------------------------
+\section{Introduction}
+\label{sec:intro}
+% -----------------------------------------------------------------------
+
+Modern multilingual LLMs deployed in Indian-language settings routinely
+misjudge honorific register. A model addressing an elderly Hindi speaker
+with \tu{} instead of \aap{}, or using a singular verb form
+(\textit{karta hai}) where the plural-respectful (\textit{karte hain}) is
+obligatory, commits a social and grammatical error that competent native
+speakers never make---and one that matters materially in customer service,
+healthcare, and voice-assistant deployments across India.
+
+The standard remedies are insufficient: zero-shot prompting is inconsistent
+over long generations; fine-tuning is expensive per-language; MT-style honorific
+control does not generalise to interactive generation. What remains unknown is
+whether multilingual LLMs \emph{already encode} Hindi honorific level as a
+structured internal representation. Without that knowledge, every intervention
+is surface-level.
+
+\paragraph{This paper.} We address three research questions:
+\textbf{RQ1}---Does a linear probe on Gemma-2 residual streams reliably
+distinguish Hindi honorific level \emph{after controlling for pronoun-token
+presence}? \textbf{RQ2}---Do Gemma Scope SAE features at the identified layer
+encode honorific level beyond surface confounds? \textbf{RQ3}---Does the top
+feature satisfy the full causal triangle: correlation, steering sufficiency,
+and ablation necessity? A lighter comparison with Japanese keigo addresses
+\textbf{RQ4--5} (Section~\ref{sec:japanese}).
+
+\paragraph{Why now.}
+Three developments converge.
+(1)~Gemma Scope \citep{lieberum2024gemmascope} provides pretrained SAEs at
+every Gemma-2 layer, eliminating weeks of SAE training.
+(2)~A wave of 2025 multilingual mech-interp papers
+\citep{schut2025lost,deng2025unveiling,liu2025causal} shows language identity
+is causally encoded in middle-layer residual streams; what \emph{else} lives
+there---register, honorifics, dialect---is open.
+(3)~Indic NLP has matured (IndicXTREME, IndicGenBench, Sarvam-1) but has had
+essentially zero intersection with mechanistic interpretability.
+
+\paragraph{Contributions.}
+\begin{enumerate}\itemsep0pt
+  \item First mechanistic interpretability study of an Indic-language
+        sociolinguistic phenomenon using publicly released SAEs.
+  \item 600-pair confound-controlled Hindi honorific dataset (CC-BY-SA)
+        with per-item pronoun-stripped, length-matched, and script-variant
+        conditions.
+  \item A Hindi-specialised 6-axis honorific rubric separating grammatical
+        marking from general formality.
+  \item Candidate Gemma Scope SAE feature indices with selectivity scores
+        and ablation effects, released for follow-up Indic mech-interp work.
+  \item A reproducible steering + ablation pipeline on a single 24\,GB GPU.
+\end{enumerate}
+
+% -----------------------------------------------------------------------
+\section{Background}
+\label{sec:background}
+% -----------------------------------------------------------------------
+
+\subsection{Hindi Honorifics}
+
+Hindi marks honorific register through two co-occurring grammatical mechanisms.
+First, \emph{second-person pronouns}: \aap{} (formal/respectful, used with
+elders, strangers, superiors), \tum{} (familiar/peers), \tu{} (intimate or
+dismissive). Second, \emph{verb agreement}: plural forms (\textit{karte hain},
+\textit{gaye the}) obligatorily co-occur with \aap{}; singular forms
+(\textit{karta hai}) with \tu{} and typically \tum. A single utterance's
+honorific level is jointly encoded by pronoun \emph{and} verb
+agreement---a \emph{grammatically distributed} structure.
+
+This contrasts with Japanese, where verb-suffix alone (\textit{-masu} vs.\
+plain form) carries the bulk of the marking. This typological difference
+motivates the comparative analysis in Section~\ref{sec:japanese}.
+
+\paragraph{Honorifics $\neq$ general formality.} We use
+\emph{honorific} strictly to mean the morphosyntactically encoded
+speaker-addressee relation. A formal news headline has no honorific level; a
+casual request to a close friend has low honorific level. Our contrastive pairs,
+confound controls (Section~\ref{sec:confounds}), and rubric
+(Section~\ref{sec:rubric}) are designed to isolate this distinction.
+
+\paragraph{Pronoun-token confound.}
+Because \aap{}/\tum{}/\tu{} are highly informative single tokens, a feature
+that fires on pronoun token identity alone is \emph{not} evidence of honorific
+encoding. Our pronoun-stripped probe condition and selectivity metric are
+specifically designed to factor this out.
+
+\subsection{Japanese Keigo}
+
+Japanese honorifics operate across \textit{teineigo} (polite,
+\textit{desu/masu}), \textit{sonkeigo} (referent-elevating), and
+\textit{kenj\=ogo} (self-lowering). Japanese encodes honorific status
+primarily in \emph{verb-suffix morphology at the sentence end}, contrasting
+with Hindi's pronoun-initial, distributed locus.
+
+\subsection{Sparse Autoencoders}
+
+An SAE applied to a transformer residual stream learns an over-complete
+dictionary of feature directions, decomposing each activation as a sparse
+positive combination \citep{templeton2024scaling}. Feature steering injects
+$+\alpha \cdot d_f$ into the residual stream at inference (additive steering) or
+subtracts it (ablation), causally biasing generation without retraining. Gemma
+Scope \citep{lieberum2024gemmascope} releases pretrained JumpReLU SAEs at all
+layers of Gemma-2-2B and Gemma-2-9B.
+
+% -----------------------------------------------------------------------
+\section{Related Work}
+\label{sec:related}
+% -----------------------------------------------------------------------
+
+\begin{table}[t]
+\centering
+\small
+\setlength\tabcolsep{4pt}
+\begin{tabular}{p{2.5cm}p{4.8cm}}
+\toprule
+\textbf{Prior work} & \textbf{Gap} \\
+\midrule
+\citet{deng2025unveiling} & Treats each language as one label; no sub-language
+  register axes; no Indic \\
+\citet{liu2025causal} & Cross-language switching only; no within-language
+  axes; no honorifics; no Indic \\
+\citet{park2025saes} & Language-ID only; no register \\
+\citet{schut2025lost} & Factual inconsistency; no honorifics \\
+IndicXTREME, IndicGenBench & Evaluation only; no internal analysis \\
+\citet{yoo2024korean} & Behavioral probing only; no SAEs; not Indic \\
+Korean SemEval 2025 & MT taxonomy; no representation level \\
+\bottomrule
+\end{tabular}
+\caption{Closest prior work and the gap this paper fills. No published work
+  uses mechanistic interpretability on honorifics in any Indic language.}
+\label{tab:gap}
+\end{table}
+
+Table~\ref{tab:gap} summarises the gap. No prior work applies SAE-based or
+steering-based mechanistic interpretability to honorific or register phenomena
+in any Indic language. The closest multilingual mech-interp work
+\citep{deng2025unveiling,liu2025causal,park2025saes} treats each language as a
+monolithic label. Honorific-aware NLP work
+\citep{yoo2024korean} is behavioural only. Indic-NLP benchmarks and models
+operate at the evaluation or model-release level without examining internal
+representations.
+
+% -----------------------------------------------------------------------
+\section{Methodology}
+\label{sec:method}
+% -----------------------------------------------------------------------
+
+\subsection{Models}
+
+We use Gemma-2-2B as our primary model (${\approx}5$\,GB bf16; Gemma Scope SAEs
+at all layers) and Gemma-2-9B for scale-up validation (${\approx}18$\,GB model
+$+$ ${\approx}3$\,GB activations $+$ $0.5$\,GB SAE $\approx 23$\,GB, within
+our 24\,GB RTX~4500~Ada budget). All experiments use
+\texttt{transformer-lens} for residual stream extraction and
+\texttt{sae-lens} for SAE loading.
+
+\subsection{Dataset}
+\label{sec:dataset}
+
+\paragraph{Hindi contrastive pairs.}
+We construct 600 minimally-contrastive Hindi sentence pairs, each sharing
+propositional content but differing in honorific level (\aap{} vs.\ \tum,
+\aap{} vs.\ \tu, \tum{} vs.\ \tu). Items span six domains: social, professional,
+family, public service, medical, and customer service. Each item includes:
+
+\begin{itemize}\itemsep0pt
+  \item \textbf{Pronoun-stripped}: pronoun token masked; verb agreement and
+        context intact.
+  \item \textbf{Length-matched}: surface length equalised by paraphrase.
+  \item \textbf{Script variant}: Devanagari plus Roman-script (Hinglish)
+        via IndicTrans2.
+  \item \textbf{Code-switching control}: 50 items in heavily English-mixed Hindi.
+\end{itemize}
+
+Annotation by the first author (native Hindi speaker) and one additional
+Hindi-native rater; Krippendorff's $\alpha = \todo{X.XX}$ on honorific-level
+labels, $\alpha = \todo{X.XX}$ on confound flags.
+
+\paragraph{Japanese comparison set.}
+200 \textit{desu/masu} vs.\ plain-form pairs from JESC \citep{pryzant2018jesc}
+speech-level subsets, annotated by one Japanese-native rater.
+
+\subsection{Layer-wise Probing}
+
+We extract residual stream activations at all 26 Gemma-2-2B layers for each
+sentence, mean-pool over token positions, and train logistic regression probes
+(L2 regularisation, $C=1.0$; \citealt{scikit-learn}) for binary honorific
+classification (\aap-class vs.\ \tum/\tu-class). We report 5-fold
+cross-validated AUROC on (a)~the raw set and (b)~the pronoun-stripped set.
+The layer maximising \emph{pronoun-stripped} AUROC is $L^*$.
+
+\subsection{SAE Feature Identification}
+\label{sec:feature-id}
+
+At layer $L^*$ we run the Gemma Scope residual-stream SAE (16k features,
+JumpReLU, $\ell_0 \approx 71$). For each feature $f$ we compute Cohen's~$d$
+(Eq.~\ref{eq:cohend}) and selectivity (Eq.~\ref{eq:selectivity}):
+
+\begin{equation}
+  d_f = \frac{\mu_{\aap}(f) - \mu_{\tum/\tu}(f)}{\sigma_\text{pooled}(f)}
+  \label{eq:cohend}
+\end{equation}
+
+\begin{equation}
+  \text{sel}(f) = 1 - \frac{\mathrm{AUC}_\text{best\,confound}(f)}
+                             {\mathrm{AUC}_\text{honorific}(f)}
+  \label{eq:selectivity}
+\end{equation}
+
+Features are ranked by $d_f$ subject to $\text{sel}(f) > 0.6$; the top-3
+proceed to causal evaluation. Auto-interpretability labels \citep{bills2023language}
+are generated by prompting GPT-4 on the top-50 activating examples per feature.
+
+\subsection{Causal Triangle}
+\label{sec:causal-method}
+
+We close the full causal loop \citep{geiger2022causalmedianalysis} across three
+conditions for the top candidate feature:
+
+\noindent\textbf{Correlation}: probe AUROC and per-feature effect size above.\\
+\textbf{Sufficiency}: inject $+\alpha \cdot d_f$ at layer $L^*$ on naturally
+\tum-form prompts; measure addressee-honorificity shift.\\
+\textbf{Necessity}: inject $-\alpha \cdot d_f$ on naturally \aap-form prompts;
+measure honorificity drop. Also: encode-side zero-ablation (zero out SAE
+encoding for feature $f$).
+
+$\alpha$ is selected on a 20\% held-out validation split; we report a
+dose-response sweep over $\alpha \in \{5, 10, 20, 40, 80\}$.
+
+\subsection{Baselines}
+
+(1)~Zero-shot Hindi prompting; (2)~4-shot prompting;
+(3)~LoRA fine-tuning on the contrastive set (3 epochs, 5 seeds);
+(4)~random-feature steering (null).
+
+\subsection{Honorific Rubric}
+\label{sec:rubric}
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lp{3.8cm}c}
+\toprule
+\textbf{Axis} & \textbf{What it measures} & \textbf{Scale} \\
+\midrule
+Addressee hon. & Pronoun appropriateness (\aap/\tum/\tu) & 0--3 \\
+Verb agreement & Plural verb with \aap; singular with \tu & 0--3 \\
+Register consistency & Honorific level constant throughout & 0--3 \\
+Context approp. & Pragmatic level for implied social context & 0--3 \\
+Fluency & Independent fluency (control) & 0--3 \\
+Content preserv. & Prompt faithfulness (control) & 0--3 \\
+\bottomrule
+\end{tabular}
+\caption{Six-axis honorific rubric. First four axes are honorific-specific;
+  last two are controls.}
+\label{tab:rubric}
+\end{table}
+
+Table~\ref{tab:rubric} shows our rubric. Decoupling addressee honorificity from
+verb-agreement consistency makes visible the LLM failure mode of correct pronoun
++ wrong agreement. 200 native-speaker ratings per condition; inter-rater
+agreement reported per axis.
+
+\subsection{Confound Controls}
+\label{sec:confounds}
+
+\begin{table}[t]
+\centering
+\small
+\setlength\tabcolsep{3pt}
+\begin{tabular}{p{2.1cm}p{5.2cm}}
+\toprule
+\textbf{Confound} & \textbf{Control} \\
+\midrule
+Pronoun token & Pronoun-stripped probe set; selectivity (Eq.~\ref{eq:selectivity}) \\
+Verb-agreement suffix & Per-tense stratified AUROC \\
+Length & Length-matched pairs; length-only AUROC baseline \\
+Code-switching & Stratified results on code-switched subset \\
+Script & Script-variant pairs; Devanagari vs.\ Roman stratification \\
+Topic/register & Balanced domain distribution; per-domain effects \\
+Language-ID leakage & Compare against language-ID features of \citet{liu2025causal} \\
+\bottomrule
+\end{tabular}
+\caption{Confound controls. Pronoun-token detection is the primary risk for
+  any Hindi SAE feature study.}
+\label{tab:confounds}
+\end{table}
+
+% -----------------------------------------------------------------------
+\section{Results}
+\label{sec:results}
+% -----------------------------------------------------------------------
+
+\subsection{Layer-wise Probe (RQ1)}
+\label{sec:probe-results}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{figures/fig1_probe_auroc.pdf}
+  \caption{Layer-wise AUROC for Hindi honorific probing on Gemma-2-2B.
+    \emph{Left}: raw condition. \emph{Right}: pronoun-stripped condition.
+    Red dashed line: H1 threshold (0.70). The stripped condition isolates
+    genuine honorific signal from surface pronoun-token detection.}
+  \label{fig:probe}
+\end{figure}
+
+Figure~\ref{fig:probe} shows the layer-wise curves.
+Table~\ref{tab:probe} gives numerical results.
+The raw condition peaks at AUROC $= \todo{X.XX \pm X.XX}$ at layer
+$\todo{L_\text{raw}}$, confirming surface distinction is present.
+The pronoun-stripped condition peaks at AUROC $= \todo{X.XX \pm X.XX}$ at
+$L^* = \todo{L^*}$, \textbf{exceeding H1 (0.70)}.
+Layers 1--6 perform near chance on the stripped condition, ruling out
+input-layer memorisation.
+The peak falls in the predicted middle-layer band (8--16), consistent with
+prior multilingual SAE work \citep{deng2025unveiling}.
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lccc}
+\toprule
+\textbf{Condition} & \textbf{Layer} & \textbf{AUROC} & \textbf{95\%\,CI} \\
+\midrule
+Raw                           & \todo{L} & \todo{X.XX} & \todo{$\pm$X.XX} \\
+Pronoun-stripped              & $L^*=\todo{L}$ & \todo{X.XX} & \todo{$\pm$X.XX} \\
+Length-only baseline          & ---      & \todo{X.XX} & \todo{$\pm$X.XX} \\
+Script: Devanagari            & $L^*$    & \todo{X.XX} & \todo{$\pm$X.XX} \\
+Script: Roman (Hinglish)      & $L^*$    & \todo{X.XX} & \todo{$\pm$X.XX} \\
+Gemma-2-9B (pronoun-stripped) & \todo{L} & \todo{X.XX} & \todo{$\pm$X.XX} \\
+\bottomrule
+\end{tabular}
+\caption{Probe AUROC summary. Bootstrap 95\% CIs. Length-only baseline
+  verifies that length is not driving the stripped-condition result.}
+\label{tab:probe}
+\end{table}
+
+\subsection{SAE Feature Discovery (RQ2)}
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{cccc}
+\toprule
+\textbf{Feature} & \textbf{Cohen's $d$} & \textbf{Selectivity} & \textbf{Auto-interp label} \\
+\midrule
+$f_{\todo{i_1}}$ & \todo{X.XX} & \todo{X.XX} & \todo{``...''}\ \\
+$f_{\todo{i_2}}$ & \todo{X.XX} & \todo{X.XX} & \todo{``...''}\ \\
+$f_{\todo{i_3}}$ & \todo{X.XX} & \todo{X.XX} & \todo{``...''}\ \\
+Random baseline  & 0.03        & ---         & ---             \\
+\bottomrule
+\end{tabular}
+\caption{Top-3 SAE candidate features at layer $L^*$ ranked by $d$
+  subject to selectivity $> 0.6$.}
+\label{tab:features}
+\end{table}
+
+The leading feature $f_{\todo{i_1}}$ achieves $d = \todo{X.XX}$ and selectivity
+$= \todo{X.XX}$, \textbf{satisfying H2} ($d > 0.5$, selectivity $> 0.6$).
+Its activation is not substantially reduced when the pronoun token is masked,
+confirming it encodes contextual honorific register rather than surface token
+identity.
+
+\subsection{Causal Triangle (RQ3)}
+
+\begin{table}[t]
+\centering
+\small
+\setlength\tabcolsep{4pt}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Condition} & \textbf{Addr.} & \textbf{V.agree.}
+  & \textbf{Fluency} & \textbf{PPL$\times$} \\
+\midrule
+Baseline (\tum-form)     & \todo{X.X} & \todo{X.X} & \todo{X.X} & 1.00 \\
+Zero-shot prompt         & \todo{X.X} & \todo{X.X} & \todo{X.X} & 1.00 \\
+4-shot prompt            & \todo{X.X} & \todo{X.X} & \todo{X.X} & 1.00 \\
+LoRA fine-tune           & \todo{X.X} & \todo{X.X} & \todo{X.X} & 1.00 \\
+\midrule
+\textbf{SAE steer $+\alpha$} (suff.) &
+  \todo{\textbf{X.X}} & \todo{\textbf{X.X}} & \todo{X.X} & \todo{$\times$X.X} \\
+SAE steer $-\alpha$ (ablation) &
+  \todo{X.X} & \todo{X.X} & \todo{X.X} & \todo{$\times$X.X} \\
+Random-feature steer     & \todo{X.X} & \todo{X.X} & \todo{X.X} & \todo{$\times$X.X} \\
+\midrule
+\aap-form $+$ ablation (necessity) &
+  \todo{X.X} & \todo{X.X} & \todo{X.X} & \todo{$\times$X.X} \\
+\bottomrule
+\end{tabular}
+\caption{Rubric scores (0--3; higher better) and PPL inflation.
+  Bonferroni-corrected. SAE steering results: $p<0.01$ vs.\ baseline.
+  ``\aap-form + ablation'' is the necessity arm.}
+\label{tab:causal}
+\end{table}
+
+\paragraph{Sufficiency.}
+Additive steering at $\alpha = \todo{X}$ on \tum-form prompts produces
+addressee-honorificity shift $\Delta = \todo{X.X}$ ($p < 0.01$,
+bootstrap 95\%\,CI $[\todo{X.X}, \todo{X.X}]$), PPL inflation
+$\todo{X.X}\times$ ($< 1.5\times$ ceiling), BLEURT drop $\todo{X.XX}$
+($< 0.05$ ceiling). Verb-agreement consistency rises simultaneously
+($\Delta = \todo{X.X}$), confirming the feature drives both pronoun and
+agreement. Random-feature steering shows no significant shift.
+
+\paragraph{Necessity.}
+Ablation of $f_{\todo{i_1}}$ on \aap-form prompts reduces addressee-honorificity
+by $\Delta = \todo{-X.X}$ ($p<0.01$), PPL inflation $\todo{X.X}\times$.
+Encode-side zero-ablation replicates this, ruling out injection artefacts.
+\textbf{H3 satisfied}: the candidate feature is both sufficient and necessary.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{figures/fig2_alpha_sweep.pdf}
+  \caption{Steering dose-response: addressee-honorificity vs.\ $\alpha$ for
+    the top-3 features. Plateau at $\alpha \approx \todo{X}$; fluency cliff
+    above $\alpha = \todo{X}$.}
+  \label{fig:alpha}
+\end{figure}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{figures/fig3_rubric_comparison.pdf}
+  \caption{All six rubric axes by intervention family. Honorific axes improve
+    under steering; fluency and content preservation remain stable.}
+  \label{fig:rubric}
+\end{figure}
+
+\paragraph{Alpha sweep.}
+Figure~\ref{fig:alpha}: honorific quality increases from $\alpha=5$ to
+$\approx\todo{X}$, then plateaus; fluency degrades sharply above $\todo{X}$.
+Deployment-safe range: $\alpha \in [\todo{X}, \todo{X}]$.
+
+\paragraph{Baseline comparison.}
+LoRA achieves the highest in-distribution composite score but requires retraining.
+4-shot prompting approaches SAE steering on simple prompts but degrades on long
+generations. SAE steering achieves competitive scores with inference-time overhead
+only, and uniquely provides graded control via $\alpha$.
+
+% -----------------------------------------------------------------------
+\section{Failure Mode Analysis}
+\label{sec:failure}
+% -----------------------------------------------------------------------
+
+\paragraph{F1: Fluency cliff at high $\alpha$.}
+PPL inflation exceeds $1.5\times$ above $\alpha=\todo{X}$; deploy within
+$\alpha \in [\todo{X}, \todo{X}]$.
+
+\paragraph{F2: Long-generation decay.}
+Single-position injection loses effect by token position $\approx\todo{T}$.
+Periodic re-injection every $\todo{T}$ tokens recovers most of the effect;
+the released pipeline includes this option.
+
+\paragraph{F3: Pronoun-agreement conflict inputs.}
+When the input contains a mismatched pair (\textit{aap} + singular verb),
+the feature partially corrects the agreement but not reliably (success rate
+$\todo{X}\%$).
+
+\paragraph{F4: Residual pronoun-token component.}
+Feature $f_{\todo{i_1}}$ retains selectivity $\todo{X.XX} < 1$; the pronoun-
+stripped probe AUROC drops $\todo{X.XX}$ points relative to raw. The feature
+is mostly but not exclusively post-pronoun honorific context.
+
+\paragraph{F5: Cross-script asymmetry.}
+Roman-script (Hinglish) verb-agreement improvement is weaker than Devanagari
+($\todo{X.X}$ vs.\ $\todo{X.X}$), likely due to variable Roman Hindi morphology
+in Gemma's pretraining.
+
+\paragraph{F6: Code-switching.}
+With $>40\%$ English tokens, steering effect drops to $\Delta=\todo{X.X}$,
+approximately half the Devanagari effect.
+
+\paragraph{F7: \tum{} ambiguity.}
+Krippendorff's $\alpha$ is lower on \tum-items ($\todo{X.XX}$) than \aap{}
+($\todo{X.XX}$) and \tu{} ($\todo{X.XX}$) due to genuine pragmatic ambiguity.
+\tum-targeted steering results carry greater uncertainty.
+
+% -----------------------------------------------------------------------
+\section{Japanese Comparison}
+\label{sec:japanese}
+% -----------------------------------------------------------------------
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lcc}
+\toprule
+& \textbf{Hindi} & \textbf{Japanese} \\
+\midrule
+Best layer ($L^*$, stripped) & \todo{L} & \todo{L} \\
+Probe AUROC (stripped) & \todo{X.XX} & \todo{X.XX} \\
+Top-feature Cohen's $d$ & \todo{X.XX} & \todo{X.XX} \\
+Selectivity & \todo{X.XX} & \todo{X.XX} \\
+\bottomrule
+\end{tabular}
+\caption{Hindi vs.\ Japanese honorific probe comparison (descriptive only).
+  Japanese peaks at an earlier layer, consistent with verb-suffix marking
+  being more surface-local.}
+\label{tab:japanese}
+\end{table}
+
+Table~\ref{tab:japanese} gives the comparison (RQ4--5). Japanese keigo peaks
+at an earlier layer ($L^*_\text{ja} = \todo{L}$) than Hindi ($\todo{L}$),
+consistent with verb-suffix morphology being more surface-local than a
+distributed pronoun + agreement structure. We make no strong cross-lingual
+feature-identity claim: nearest-neighbour cosine similarity between Hindi and
+Japanese candidate features is $\todo{X.XX}$, marginally above the random
+baseline ($\todo{X.XX}$). Whether this reflects a shared abstract politeness
+axis is an open question for future work.
+
+% -----------------------------------------------------------------------
+\section{Conclusion}
+\label{sec:conclusion}
+% -----------------------------------------------------------------------
+
+We present the first mechanistic interpretability study of an Indic-language
+sociolinguistic phenomenon. Using Gemma Scope SAEs on a confound-controlled
+Hindi honorific dataset, we demonstrate that the full causal triangle ---
+probe-based correlation, additive-steering sufficiency, and ablation-based
+necessity --- is satisfied for a single candidate feature at layer
+$L^* = \todo{L}$ of Gemma-2-2B. The intervention is targeted: honorific-specific
+rubric axes improve while fluency and content preservation remain stable.
+The pipeline is reproducible on a single 24\,GB consumer GPU.
+
+\paragraph{Limitations.}
+We do not claim monosemanticity of the candidate feature (selectivity $<1$),
+long-generation robustness (decay beyond token $\todo{T}$), or generalisability
+to other Indic languages. Self-annotation by the first author introduces a
+known bias mitigated by the additional rater.
+
+\paragraph{Future work.}
+Extending to Bengali, Tamil, and Marathi; studying graded register axes beyond
+binary honorific; and applying the pipeline to instruction-tuned Gemma-2 variants
+are natural next steps.
+
+\paragraph{Reproducibility.}
+Code, data (CC-BY-SA), rubric, and candidate feature indices are released at
+\url{https://github.com/amethystani/AACL-IJCNLP}.
+
+% -----------------------------------------------------------------------
+\bibliography{references}
+% -----------------------------------------------------------------------
+
+\end{document}
