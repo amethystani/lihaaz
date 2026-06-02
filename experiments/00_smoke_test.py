@@ -11,21 +11,22 @@ def main():
     model = HookedTransformer.from_pretrained("google/gemma-2-2b", device=device)
     print(f"Model loaded. Layers: {model.cfg.n_layers}")
 
-    print("Loading Gemma Scope SAE at layer 12...")
+    # l0=71 exists at layer 20 for 16k width; layer 12 has l0=41/82 only
+    print("Loading Gemma Scope SAE at layer 20 (width_16k, average_l0_71)...")
     sae, cfg_dict, _ = SAE.from_pretrained(
         release="gemma-scope-2b-pt-res",
-        sae_id="layer_12/width_16k/average_l0_71",
+        sae_id="layer_20/width_16k/average_l0_71",
     )
     sae = sae.to(device)
     print(f"SAE loaded. Feature dim: {sae.cfg.d_sae}")
 
-    test_sentence = "aap kaise hain?"  # fallback ASCII; replace with Devanagari if tokenizer supports
+    test_sentence = "aap kaise hain?"
     tokens = model.to_tokens(test_sentence)
     print(f"Tokens: {tokens.shape}")
 
     with torch.no_grad():
         logits, cache = model.run_with_cache(tokens)
-        resid = cache["resid_post", 12]
+        resid = cache["resid_post", 20]
         feature_acts = sae.encode(resid[0])
 
     print(f"Residual stream shape: {resid.shape}")
