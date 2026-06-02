@@ -11,7 +11,7 @@ if TYPE_CHECKING:
 def cohen_d(group1: np.ndarray, group2: np.ndarray) -> float:
     n1, n2 = len(group1), len(group2)
     pooled_std = np.sqrt(((n1-1)*group1.std()**2 + (n2-1)*group2.std()**2) / (n1+n2-2))
-    return 0.0 if pooled_std == 0 else (group1.mean() - group2.mean()) / pooled_std
+    return 0.0 if pooled_std == 0 else float((group1.mean() - group2.mean()) / pooled_std)
 
 
 def get_feature_activations(
@@ -36,9 +36,9 @@ def rank_features_by_effect_size(feature_acts: np.ndarray, labels: np.ndarray, t
     high = feature_acts[labels == 1]
     low  = feature_acts[labels == 0]
     results = [
-        {"feature_idx": f, "cohen_d": abs(cohen_d(high[:, f], low[:, f])),
+        {"feature_idx": int(f), "cohen_d": abs(cohen_d(high[:, f], low[:, f])),
          "cohen_d_signed": cohen_d(high[:, f], low[:, f]),
-         "mean_high": high[:, f].mean(), "mean_low": low[:, f].mean()}
+         "mean_high": float(high[:, f].mean()), "mean_low": float(low[:, f].mean())}
         for f in range(feature_acts.shape[1])
     ]
     results.sort(key=lambda x: x["cohen_d"], reverse=True)

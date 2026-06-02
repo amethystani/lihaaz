@@ -29,7 +29,7 @@ def score_top_features(
         col = feature_acts[:, f_idx]
         row: dict = {"feature_idx": f_idx}
         for name, conf_labels in confound_labels_dict.items():
-            row[f"sel_{name}"] = compute_selectivity(col, honorific_labels, conf_labels)
+            row[f"sel_{name}"] = float(compute_selectivity(col, honorific_labels, conf_labels))
         row["mean_selectivity"] = float(np.mean([v for k, v in row.items() if k.startswith("sel_")]))
         results.append(row)
     return results
