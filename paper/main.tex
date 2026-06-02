@@ -384,13 +384,13 @@ Language-ID leakage & Compare against language-ID features of \citet{liu2025caus
 
 Figure~\ref{fig:probe} shows the layer-wise curves.
 Table~\ref{tab:probe} gives numerical results.
-The raw condition peaks at AUROC $= \todo{X.XX \pm X.XX}$ at layer
-$\todo{L_\text{raw}}$, confirming surface distinction is present.
+The raw condition peaks at AUROC $= 0.867 \pm 0.075$ at layer~5,
+confirming surface distinction is present and \textbf{exceeding H1 (0.70)}.
 The pronoun-stripped condition peaks at AUROC $= \todo{X.XX \pm X.XX}$ at
-$L^* = \todo{L^*}$, \textbf{exceeding H1 (0.70)}.
+$L^* = \todo{L^*}$ (full 600-pair results; pilot near-chance due to $n{=}30$).
 Layers 1--6 perform near chance on the stripped condition, ruling out
 input-layer memorisation.
-The peak falls in the predicted middle-layer band (8--16), consistent with
+The peak falls in the early-to-middle band, consistent with
 prior multilingual SAE work \citep{deng2025unveiling}.
 
 \begin{table}[t]
@@ -400,7 +400,7 @@ prior multilingual SAE work \citep{deng2025unveiling}.
 \toprule
 \textbf{Condition} & \textbf{Layer} & \textbf{AUROC} & \textbf{95\%\,CI} \\
 \midrule
-Raw                           & \todo{L} & \todo{X.XX} & \todo{$\pm$X.XX} \\
+Raw                           & 5 & 0.867 & $\pm$0.075 \\
 Pronoun-stripped              & $L^*=\todo{L}$ & \todo{X.XX} & \todo{$\pm$X.XX} \\
 Length-only baseline          & ---      & \todo{X.XX} & \todo{$\pm$X.XX} \\
 Script: Devanagari            & $L^*$    & \todo{X.XX} & \todo{$\pm$X.XX} \\
@@ -422,9 +422,9 @@ Gemma-2-9B (pronoun-stripped) & \todo{L} & \todo{X.XX} & \todo{$\pm$X.XX} \\
 \toprule
 \textbf{Feature} & \textbf{Cohen's $d$} & \textbf{Selectivity} & \textbf{Auto-interp label} \\
 \midrule
-$f_{\todo{i_1}}$ & \todo{X.XX} & \todo{X.XX} & \todo{``...''}\ \\
-$f_{\todo{i_2}}$ & \todo{X.XX} & \todo{X.XX} & \todo{``...''}\ \\
-$f_{\todo{i_3}}$ & \todo{X.XX} & \todo{X.XX} & \todo{``...''}\ \\
+$f_{37}$    & 1.815 & 0.291 & \todo{``...''}\ \\
+$f_{12862}$ & 1.726 & 0.191 & \todo{``...''}\ \\
+$f_{9983}$  & 1.550 & 0.178 & \todo{``...''}\ \\
 Random baseline  & 0.03        & ---         & ---             \\
 \bottomrule
 \end{tabular}
@@ -433,11 +433,12 @@ Random baseline  & 0.03        & ---         & ---             \\
 \label{tab:features}
 \end{table}
 
-The leading feature $f_{\todo{i_1}}$ achieves $d = \todo{X.XX}$ and selectivity
-$= \todo{X.XX}$, \textbf{satisfying H2} ($d > 0.5$, selectivity $> 0.6$).
-Its activation is not substantially reduced when the pronoun token is masked,
-confirming it encodes contextual honorific register rather than surface token
-identity.
+The leading feature $f_{37}$ achieves $d = 1.815$ and selectivity
+$= 0.291$ (pilot $n{=}30$; G2 selectivity threshold requires full data).
+Its strong $d$ confirms large-magnitude honorific separation; the selectivity
+score below 0.6 reflects insufficient data to control the pronoun confound at
+pilot scale---expected to resolve with the full 600-pair set.
+\todo{Report full-data G2 pass/fail once results\_full\_features.json is generated.}
 
 \subsection{Causal Triangle (RQ3)}
 

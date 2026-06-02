@@ -1,0 +1,95 @@
+{
+  "baseline": [
+    {
+      "prompt": "tu kaisa hai? kya tune khana khaya?",
+      "output": "\n\nI am fine. I have eaten.\n\ntu kaisa hai? kya tune khana khaya?\n\nI am fine. I have eaten.\n\ntu kaisa hai? kya tune khana khaya?\n\nI am fine. I have eaten.\n\ntu kaisa hai? kya tune khana khaya?\n\nI am fine. I have eaten.\n\ntu kaisa hai"
+    },
+    {
+      "prompt": "tu kahan se aa raha hai? kya tu thaka hua hai?",
+      "output": "\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?"
+    },
+    {
+      "prompt": "tera kaam kaisa chal raha hai?",
+      "output": "\n\n[User 0001]\n\nI am a new member of this forum. I am a student of B.Tech. I am from India. I am a student of 3rd year. I am a student of Computer Science and Engineering. I am a student of Computer Science and Engineering. I am a student of Computer Science and Engineering. I am a student of Computer Science"
+    },
+    {
+      "prompt": "tu bahut accha gaata hai.",
+      "output": "\n\nI am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your"
+    },
+    {
+      "prompt": "tujhse milkar accha laga.",
+      "output": "\nEnglish: I like you.<eos>"
+    }
+  ],
+  "steering_pos": [
+    {
+      "prompt": "tu kaisa hai? kya tune khana khaya?",
+      "output": "\n\n[User 0001]\n\nI am a new member of this forum. I am a 20 year old girl from India. I am a student of B.Tech. I am a very good cook. I am a very good singer. I am a very good dancer. I am a very good writer. I am a very good student. I am a very good",
+      "alpha": 20.0
+    },
+    {
+      "prompt": "tu kahan se aa raha hai? kya tu thaka hua hai?",
+      "output": "\n\ntu kahan se aa raha hai? kya thaka hua hai?\n\ntu kahan se aa raha hai? kya thaka hua hai?\n\ntu kahan se aa raha hai? kya thaka hua hai?\n\ntu kahan se aa raha hai? kya thaka hua hai?\n\ntu kahan se aa raha hai? kya thaka hua hai?\n\ntu kahan se",
+      "alpha": 20.0
+    },
+    {
+      "prompt": "tera kaam kaisa chal raha hai?",
+      "output": "\n\n[User 0001]\n\nI am a student of 12th class. I am a student of 12th class. I am a student of 12th class. I am a student of 12th class. I am a student of 12th class. I am a student of 12th class. I am a student",
+      "alpha": 20.0
+    },
+    {
+      "prompt": "tu bahut accha gaata hai.",
+      "output": "\n\nI am a big fan of this show.\n\nI am a big fan of this show.\n\nI am a big fan of this show.\n\nI am a big fan of this show.\n\nI am a big fan of this show.\n\nI am a big fan of this show.\n\nI am a big fan of this show.\n\nI am a big fan of this show.",
+      "alpha": 20.0
+    },
+    {
+      "prompt": "tujhse milkar accha laga.",
+      "output": "\n\n[User 0001]\n\nI'm not sure if this is the right place to post this, but I'm not sure where else to post it.\n\nI'm a 20 year old girl from the US, and I'm currently in India for 6 months. I'm here to learn Hindi, and I'm also here to learn",
+      "alpha": 20.0
+    }
+  ],
+  "ablation_neg": [
+    {
+      "prompt": "aap kaise hain? kya aapne khana kha liya?",
+      "output": "\n\naap kaise hain? kya aapne khana kha liya?\n\naap kaise hain? kya aapne khana kha liya?\n\naap kaise hain? kya aapne khana kha liya?\n\naap kaise hain? kya aapne khana kha liya?\n\naap kaise hain? kya aapne khana kha liya?"
+    },
+    {
+      "prompt": "aap kahan se aa rahe hain? kya aap thake hue hain?",
+      "output": "\n\naap kahan se aa rahe hain? kya aap thake hue hain?\n\naap kahan se aa rahe hain? kya aap thake hue hain?\n\naap kahan se aa rahe hain? kya aap thake hue hain?\n\naap kahan se aa rahe hain? kya aap thake hue hain?\n\naap kahan se aa rahe"
+    },
+    {
+      "prompt": "aapka kaam kaisa chal raha hai?",
+      "output": "\n\n[User 0001]\n\naapka kaam kaisa chal raha hai?\n\n \n\n[User 0002]\n\nI don't know.\n\n \n\n[User 0003]\n\nI don't know.\n\n \n\n[User 0004]\n\nI don't know.\n\n \n\n[User "
+    },
+    {
+      "prompt": "aap bahut acche gaate hain.",
+      "output": "\n\naap bahut acche gaate hain.\n\naap bahut acche gaate hain.\n\naap bahut acche gaate hain.\n\naap bahut acche gaate hain.\n\naap bahut acche gaate hain.\n\naap bahut acche gaate hain.\n\naap bahut acche gaate hain.\n\naap bahut acche gaate hain."
+    },
+    {
+      "prompt": "aapse milkar bahut accha laga.",
+      "output": "\n\nI am a student of class 10th. I am a very good student. I am very good in studies. I am a very good student. I am a very good student. I am a very good student. I am a very good student. I am a very good student. I am a very good student. I am a very good student. I am a very good"
+    }
+  ],
+  "ablation_zero": [
+    {
+      "prompt": "aap kaise hain? kya aapne khana kha liya?",
+      "output": "\n—\n—\n—\n—\n—\n—\n—\n—\n—\n—\n—\n—\n—\n—\n—\n—\n—\n—\n—\n—\n—\n—\n—\n—\n—\n—\n—\n—\n—\n—\n—\n—\n—\n—\n—\n—\n—\n—\n—\n—"
+    },
+    {
+      "prompt": "aap kahan se aa rahe hain? kya aap thake hue hain?",
+      "output": "\n<h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5>"
+    },
+    {
+      "prompt": "aapka kaam kaisa chal raha hai?",
+      "output": "\naapke kaam kaisa chal raha hai?\naapke kaam kaisa chal raha hai?\naapke kaam kaisa chal raha hai?\naapke kaam kaisa chal raha hai?\naapke kaam kaisa chal raha hai?\naapke kaam kaisa chal raha hai?\naapke kaam kaisa"
+    },
+    {
+      "prompt": "aap bahut acche gaate hain.",
+      "output": "\n<h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6><h6>"
+    },
+    {
+      "prompt": "aapse milkar bahut accha laga.",
+      "output": "\n<h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5><h5>"
+    }
+  ]
+}
