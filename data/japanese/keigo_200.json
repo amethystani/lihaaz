@@ -1,0 +1,2602 @@
+[
+  {
+    "id": "jp_0000",
+    "high": "今日はいい天気ですね。",
+    "low": "今日はいい天気だね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "今日はいい天気ですね。",
+      "pronoun_stripped_low": "今日はいい天気だね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0001",
+    "high": "どこへ行かれますか？",
+    "low": "どこ行くの？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "どこへ行かれますか？",
+      "pronoun_stripped_low": "どこ行くの？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0002",
+    "high": "お元気ですか？",
+    "low": "元気？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "お元気ですか？",
+      "pronoun_stripped_low": "元気？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0003",
+    "high": "よろしくお願いします。",
+    "low": "よろしく。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "よろしくお願いします。",
+      "pronoun_stripped_low": "よろしく。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0004",
+    "high": "ありがとうございます。",
+    "low": "ありがとう。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "ありがとうございます。",
+      "pronoun_stripped_low": "ありがとう。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0005",
+    "high": "すみませんが、少しよろしいですか？",
+    "low": "ちょっといい？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "すみませんが、少しよろしいですか？",
+      "pronoun_stripped_low": "ちょっといい？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0006",
+    "high": "お待たせしました。",
+    "low": "待たせたね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "お待たせしました。",
+      "pronoun_stripped_low": "待たせたね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0007",
+    "high": "どうぞ、お座りください。",
+    "low": "座って。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "どうぞ、お座りください。",
+      "pronoun_stripped_low": "座って。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0008",
+    "high": "おめでとうございます。",
+    "low": "おめでとう。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "おめでとうございます。",
+      "pronoun_stripped_low": "おめでとう。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0009",
+    "high": "ご連絡ありがとうございます。",
+    "low": "連絡ありがとう。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "ご連絡ありがとうございます。",
+      "pronoun_stripped_low": "連絡ありがとう。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0010",
+    "high": "少々お待ちください。",
+    "low": "ちょっと待って。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "少々お待ちください。",
+      "pronoun_stripped_low": "ちょっと待って。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0011",
+    "high": "何かお手伝いできることはありますか？",
+    "low": "何か手伝えることある？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "何かお手伝いできることはありますか？",
+      "pronoun_stripped_low": "何か手伝えることある？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0012",
+    "high": "ご都合はいかがですか？",
+    "low": "都合どう？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "ご都合はいかがですか？",
+      "pronoun_stripped_low": "都合どう？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0013",
+    "high": "またお会いしましょう。",
+    "low": "また会おう。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "またお会いしましょう。",
+      "pronoun_stripped_low": "また会おう。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0014",
+    "high": "お気をつけてお帰りください。",
+    "low": "気をつけて帰ってね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "お気をつけてお帰りください。",
+      "pronoun_stripped_low": "気をつけて帰ってね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0015",
+    "high": "どうぞよろしくお願いいたします。",
+    "low": "よろしく頼む。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "どうぞよろしくお願いいたします。",
+      "pronoun_stripped_low": "よろしく頼む。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0016",
+    "high": "失礼いたします。",
+    "low": "失礼するよ。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "失礼いたします。",
+      "pronoun_stripped_low": "失礼するよ。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0017",
+    "high": "ご迷惑をおかけして申し訳ありません。",
+    "low": "迷惑かけてごめん。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "ご迷惑をおかけして申し訳ありません。",
+      "pronoun_stripped_low": "迷惑かけてごめん。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0018",
+    "high": "お時間をいただけますか？",
+    "low": "時間もらえる？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "お時間をいただけますか？",
+      "pronoun_stripped_low": "時間もらえる？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0019",
+    "high": "どうかよろしくお願いします。",
+    "low": "どうかよろしく。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "どうかよろしくお願いします。",
+      "pronoun_stripped_low": "どうかよろしく。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0020",
+    "high": "こちらがよろしければ、どうぞ。",
+    "low": "これでよければどうぞ。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "こちらがよろしければ、どうぞ。",
+      "pronoun_stripped_low": "これでよければどうぞ。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0021",
+    "high": "ご意見をお聞かせください。",
+    "low": "意見聞かせて。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "ご意見をお聞かせください。",
+      "pronoun_stripped_low": "意見聞かせて。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0022",
+    "high": "少し遅れますが、ご了承ください。",
+    "low": "少し遅れるけど、了解して。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "少し遅れますが、ご了承ください。",
+      "pronoun_stripped_low": "少し遅れるけど、了解して。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0023",
+    "high": "本当に助かりました。ありがとうございます。",
+    "low": "本当に助かった。ありがとう。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "本当に助かりました。ありがとうございます。",
+      "pronoun_stripped_low": "本当に助かった。ありがとう。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0024",
+    "high": "お時間があれば、ぜひいらしてください。",
+    "low": "時間があれば、ぜひ来て。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "お時間があれば、ぜひいらしてください。",
+      "pronoun_stripped_low": "時間があれば、ぜひ来て。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0025",
+    "high": "ご不便をおかけして申し訳ありません。",
+    "low": "不便かけてごめん。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "ご不便をおかけして申し訳ありません。",
+      "pronoun_stripped_low": "不便かけてごめん。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0026",
+    "high": "ご確認いただけますか？",
+    "low": "確認してもらえる？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "ご確認いただけますか？",
+      "pronoun_stripped_low": "確認してもらえる？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0027",
+    "high": "ご参加いただきありがとうございます。",
+    "low": "参加してくれてありがとう。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "ご参加いただきありがとうございます。",
+      "pronoun_stripped_low": "参加してくれてありがとう。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0028",
+    "high": "お疲れ様でございます。",
+    "low": "お疲れ。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "お疲れ様でございます。",
+      "pronoun_stripped_low": "お疲れ。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0029",
+    "high": "今後ともよろしくお願いいたします。",
+    "low": "これからもよろしく。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "今後ともよろしくお願いいたします。",
+      "pronoun_stripped_low": "これからもよろしく。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0030",
+    "high": "どうかご自愛ください。",
+    "low": "体に気をつけてね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "どうかご自愛ください。",
+      "pronoun_stripped_low": "体に気をつけてね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0031",
+    "high": "ご提案ありがとうございます。",
+    "low": "提案ありがとう。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "ご提案ありがとうございます。",
+      "pronoun_stripped_low": "提案ありがとう。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0032",
+    "high": "お忙しいところ恐れ入ります。",
+    "low": "忙しいところごめん。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "お忙しいところ恐れ入ります。",
+      "pronoun_stripped_low": "忙しいところごめん。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0033",
+    "high": "拝見いたしました。",
+    "low": "見たよ。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "拝見いたしました。",
+      "pronoun_stripped_low": "見たよ。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0034",
+    "high": "よいご旅行をお過ごしください。",
+    "low": "よい旅を。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "よいご旅行をお過ごしください。",
+      "pronoun_stripped_low": "よい旅を。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0035",
+    "high": "どうかお大事になさってください。",
+    "low": "お大事に。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "どうかお大事になさってください。",
+      "pronoun_stripped_low": "お大事に。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0036",
+    "high": "また連絡させていただきます。",
+    "low": "また連絡するね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "また連絡させていただきます。",
+      "pronoun_stripped_low": "また連絡するね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0037",
+    "high": "ご検討のほど、よろしくお願いします。",
+    "low": "検討してね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "ご検討のほど、よろしくお願いします。",
+      "pronoun_stripped_low": "検討してね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0038",
+    "high": "いつもお世話になっております。",
+    "low": "いつもありがとう。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "いつもお世話になっております。",
+      "pronoun_stripped_low": "いつもありがとう。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0039",
+    "high": "ご返信ありがとうございます。",
+    "low": "返信ありがとう。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "social",
+    "confounds": {
+      "pronoun_stripped_high": "ご返信ありがとうございます。",
+      "pronoun_stripped_low": "返信ありがとう。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0040",
+    "high": "会議は何時から始まりますか？",
+    "low": "会議何時から？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "会議は何時から始まりますか？",
+      "pronoun_stripped_low": "会議何時から？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0041",
+    "high": "資料をお送りします。",
+    "low": "資料送るよ。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "資料をお送りします。",
+      "pronoun_stripped_low": "資料送るよ。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0042",
+    "high": "ご確認のほどよろしくお願いします。",
+    "low": "確認しておいて。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "ご確認のほどよろしくお願いします。",
+      "pronoun_stripped_low": "確認しておいて。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0043",
+    "high": "本日はお時間をいただきありがとうございます。",
+    "low": "今日は時間ありがとう。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "本日はお時間をいただきありがとうございます。",
+      "pronoun_stripped_low": "今日は時間ありがとう。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0044",
+    "high": "プロジェクトの進捗を共有いたします。",
+    "low": "プロジェクトの進み具合を共有するね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "プロジェクトの進捗を共有いたします。",
+      "pronoun_stripped_low": "プロジェクトの進み具合を共有するね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0045",
+    "high": "締め切りはいつでしょうか？",
+    "low": "締め切りいつ？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "締め切りはいつでしょうか？",
+      "pronoun_stripped_low": "締め切りいつ？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0046",
+    "high": "ご提案の件、検討いたします。",
+    "low": "提案の件、考えてみる。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "ご提案の件、検討いたします。",
+      "pronoun_stripped_low": "提案の件、考えてみる。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0047",
+    "high": "担当者に確認してご連絡いたします。",
+    "low": "担当に確認して連絡するね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "担当者に確認してご連絡いたします。",
+      "pronoun_stripped_low": "担当に確認して連絡するね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0048",
+    "high": "修正をお願いできますか？",
+    "low": "修正お願いしていい？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "修正をお願いできますか？",
+      "pronoun_stripped_low": "修正お願いしていい？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0049",
+    "high": "会議室を予約していただけますか？",
+    "low": "会議室予約してくれる？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "会議室を予約していただけますか？",
+      "pronoun_stripped_low": "会議室予約してくれる？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0050",
+    "high": "報告書を拝受いたしました。",
+    "low": "報告書受け取ったよ。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "報告書を拝受いたしました。",
+      "pronoun_stripped_low": "報告書受け取ったよ。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0051",
+    "high": "スケジュールをご共有ください。",
+    "low": "スケジュール共有して。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "スケジュールをご共有ください。",
+      "pronoun_stripped_low": "スケジュール共有して。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0052",
+    "high": "担当部署へお問い合わせください。",
+    "low": "担当部署に聞いてみて。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "担当部署へお問い合わせください。",
+      "pronoun_stripped_low": "担当部署に聞いてみて。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0053",
+    "high": "ご不明な点はお申し付けください。",
+    "low": "わからないことがあったら言って。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "ご不明な点はお申し付けください。",
+      "pronoun_stripped_low": "わからないことがあったら言って。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0054",
+    "high": "承知いたしました。",
+    "low": "わかった。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "承知いたしました。",
+      "pronoun_stripped_low": "わかった。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0055",
+    "high": "ご指摘いただきありがとうございます。",
+    "low": "指摘ありがとう。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "ご指摘いただきありがとうございます。",
+      "pronoun_stripped_low": "指摘ありがとう。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0056",
+    "high": "本件についてご相談したいのですが。",
+    "low": "この件について相談したいんだけど。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "本件についてご相談したいのですが。",
+      "pronoun_stripped_low": "この件について相談したいんだけど。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0057",
+    "high": "お手数ですがご対応をお願いします。",
+    "low": "手間だけど対応お願い。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "お手数ですがご対応をお願いします。",
+      "pronoun_stripped_low": "手間だけど対応お願い。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0058",
+    "high": "ご連絡が遅くなり申し訳ありません。",
+    "low": "連絡遅くなってごめん。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "ご連絡が遅くなり申し訳ありません。",
+      "pronoun_stripped_low": "連絡遅くなってごめん。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0059",
+    "high": "先ほどお送りしたメールをご確認ください。",
+    "low": "さっき送ったメール確認して。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "先ほどお送りしたメールをご確認ください。",
+      "pronoun_stripped_low": "さっき送ったメール確認して。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0060",
+    "high": "ご多忙中恐縮ですが、ご回答ください。",
+    "low": "忙しいと思うけど、返事ください。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "ご多忙中恐縮ですが、ご回答ください。",
+      "pronoun_stripped_low": "忙しいと思うけど、返事ください。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0061",
+    "high": "予算についてご相談があります。",
+    "low": "予算について相談がある。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "予算についてご相談があります。",
+      "pronoun_stripped_low": "予算について相談がある。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0062",
+    "high": "議事録を共有いたします。",
+    "low": "議事録共有するね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "議事録を共有いたします。",
+      "pronoun_stripped_low": "議事録共有するね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0063",
+    "high": "ご質問がございましたら、お気軽にどうぞ。",
+    "low": "質問があれば気軽に聞いて。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "ご質問がございましたら、お気軽にどうぞ。",
+      "pronoun_stripped_low": "質問があれば気軽に聞いて。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0064",
+    "high": "ご参考までにお送りします。",
+    "low": "参考までに送るね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "ご参考までにお送りします。",
+      "pronoun_stripped_low": "参考までに送るね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0065",
+    "high": "次回のミーティングをご調整ください。",
+    "low": "次のミーティング調整して。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "次回のミーティングをご調整ください。",
+      "pronoun_stripped_low": "次のミーティング調整して。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0066",
+    "high": "ご確認いただいた上でご返信ください。",
+    "low": "確認した上で返信して。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "ご確認いただいた上でご返信ください。",
+      "pronoun_stripped_low": "確認した上で返信して。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0067",
+    "high": "本日中にご対応いただけますか？",
+    "low": "今日中に対応してもらえる？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "本日中にご対応いただけますか？",
+      "pronoun_stripped_low": "今日中に対応してもらえる？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0068",
+    "high": "ご質問の件につきまして、ご回答いたします。",
+    "low": "質問の件、答えるね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "ご質問の件につきまして、ご回答いたします。",
+      "pronoun_stripped_low": "質問の件、答えるね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0069",
+    "high": "プレゼン資料を共有していただけますか？",
+    "low": "プレゼン資料共有してくれる？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "プレゼン資料を共有していただけますか？",
+      "pronoun_stripped_low": "プレゼン資料共有してくれる？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0070",
+    "high": "お手元にご確認ください。",
+    "low": "手元で確認して。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "お手元にご確認ください。",
+      "pronoun_stripped_low": "手元で確認して。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0071",
+    "high": "今後ともご支援のほどよろしくお願いいたします。",
+    "low": "これからもよろしく。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "今後ともご支援のほどよろしくお願いいたします。",
+      "pronoun_stripped_low": "これからもよろしく。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0072",
+    "high": "フィードバックをいただけますか？",
+    "low": "フィードバックもらえる？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "フィードバックをいただけますか？",
+      "pronoun_stripped_low": "フィードバックもらえる？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0073",
+    "high": "お力添えいただきありがとうございます。",
+    "low": "助けてくれてありがとう。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "お力添えいただきありがとうございます。",
+      "pronoun_stripped_low": "助けてくれてありがとう。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0074",
+    "high": "ご都合のよい日程をお教えください。",
+    "low": "都合のいい日程を教えて。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "ご都合のよい日程をお教えください。",
+      "pronoun_stripped_low": "都合のいい日程を教えて。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0075",
+    "high": "報告をお待ちしております。",
+    "low": "報告待ってるよ。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "報告をお待ちしております。",
+      "pronoun_stripped_low": "報告待ってるよ。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0076",
+    "high": "追ってご連絡いたします。",
+    "low": "また連絡するね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "追ってご連絡いたします。",
+      "pronoun_stripped_low": "また連絡するね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0077",
+    "high": "ご承認をいただけますでしょうか？",
+    "low": "承認してもらえる？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "ご承認をいただけますでしょうか？",
+      "pronoun_stripped_low": "承認してもらえる？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0078",
+    "high": "お申し込みはこちらからお願いします。",
+    "low": "申し込みはこちらから。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "お申し込みはこちらからお願いします。",
+      "pronoun_stripped_low": "申し込みはこちらから。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0079",
+    "high": "内容をご確認の上、サインをお願いします。",
+    "low": "内容確認してサインして。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "professional",
+    "confounds": {
+      "pronoun_stripped_high": "内容をご確認の上、サインをお願いします。",
+      "pronoun_stripped_low": "内容確認してサインして。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0080",
+    "high": "お母さん、今日はどこへ行かれましたか？",
+    "low": "お母さん、今日どこ行ったの？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "お母さん、今日はどこへ行かれましたか？",
+      "pronoun_stripped_low": "お母さん、今日どこ行ったの？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0081",
+    "high": "お父さん、お体の具合はいかがですか？",
+    "low": "お父さん、体の調子どう？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "お父さん、お体の具合はいかがですか？",
+      "pronoun_stripped_low": "お父さん、体の調子どう？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0082",
+    "high": "お祖母さん、夕食はお済みですか？",
+    "low": "おばあちゃん、夕飯食べた？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "お祖母さん、夕食はお済みですか？",
+      "pronoun_stripped_low": "おばあちゃん、夕飯食べた？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0083",
+    "high": "いつもお世話になっております。",
+    "low": "いつもありがとう。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "いつもお世話になっております。",
+      "pronoun_stripped_low": "いつもありがとう。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0084",
+    "high": "ご家族の皆様によろしくお伝えください。",
+    "low": "家族みんなによろしく。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "ご家族の皆様によろしくお伝えください。",
+      "pronoun_stripped_low": "家族みんなによろしく。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0085",
+    "high": "お父様はご在宅でしょうか？",
+    "low": "お父さんいる？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "お父様はご在宅でしょうか？",
+      "pronoun_stripped_low": "お父さんいる？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0086",
+    "high": "大変お世話になりました。",
+    "low": "本当にありがとう。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "大変お世話になりました。",
+      "pronoun_stripped_low": "本当にありがとう。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0087",
+    "high": "お祖父さん、今日はお元気ですか？",
+    "low": "おじいちゃん、元気？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "お祖父さん、今日はお元気ですか？",
+      "pronoun_stripped_low": "おじいちゃん、元気？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0088",
+    "high": "お兄様はどちらへ？",
+    "low": "お兄さんどこ行ったの？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "お兄様はどちらへ？",
+      "pronoun_stripped_low": "お兄さんどこ行ったの？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0089",
+    "high": "お姉さまにご伝言をお伝えします。",
+    "low": "お姉さんに伝言するね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "お姉さまにご伝言をお伝えします。",
+      "pronoun_stripped_low": "お姉さんに伝言するね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0090",
+    "high": "お子様はいくつでいらっしゃいますか？",
+    "low": "お子さんいくつ？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "お子様はいくつでいらっしゃいますか？",
+      "pronoun_stripped_low": "お子さんいくつ？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0091",
+    "high": "ご夫婦でいらっしゃるのですか？",
+    "low": "ご夫婦で来てるの？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "ご夫婦でいらっしゃるのですか？",
+      "pronoun_stripped_low": "ご夫婦で来てるの？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0092",
+    "high": "ご結婚のお祝いを申し上げます。",
+    "low": "結婚おめでとう。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "ご結婚のお祝いを申し上げます。",
+      "pronoun_stripped_low": "結婚おめでとう。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0093",
+    "high": "お誕生日おめでとうございます。",
+    "low": "誕生日おめでとう。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "お誕生日おめでとうございます。",
+      "pronoun_stripped_low": "誕生日おめでとう。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0094",
+    "high": "いつかまたお越しください。",
+    "low": "またいつか来てね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "いつかまたお越しください。",
+      "pronoun_stripped_low": "またいつか来てね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0095",
+    "high": "お気持ちはありがたく頂戴いたします。",
+    "low": "気持ちはありがたくもらうね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "お気持ちはありがたく頂戴いたします。",
+      "pronoun_stripped_low": "気持ちはありがたくもらうね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0096",
+    "high": "遠くからようこそいらっしゃいました。",
+    "low": "遠くからよく来たね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "遠くからようこそいらっしゃいました。",
+      "pronoun_stripped_low": "遠くからよく来たね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0097",
+    "high": "どうかお体にお気をつけください。",
+    "low": "体に気をつけてね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "どうかお体にお気をつけください。",
+      "pronoun_stripped_low": "体に気をつけてね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0098",
+    "high": "末永くお幸せに。",
+    "low": "末長く幸せにね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "末永くお幸せに。",
+      "pronoun_stripped_low": "末長く幸せにね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0099",
+    "high": "どうかご自愛ください。",
+    "low": "体大事にしてね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "どうかご自愛ください。",
+      "pronoun_stripped_low": "体大事にしてね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0100",
+    "high": "ご報告ありがとうございます。",
+    "low": "報告ありがとう。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "ご報告ありがとうございます。",
+      "pronoun_stripped_low": "報告ありがとう。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0101",
+    "high": "よろしければお召し上がりください。",
+    "low": "よければ食べてね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "よろしければお召し上がりください。",
+      "pronoun_stripped_low": "よければ食べてね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0102",
+    "high": "何かあればご連絡ください。",
+    "low": "何かあったら連絡してね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "何かあればご連絡ください。",
+      "pronoun_stripped_low": "何かあったら連絡してね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0103",
+    "high": "お戻りになりましたら教えてください。",
+    "low": "帰ったら教えてね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "お戻りになりましたら教えてください。",
+      "pronoun_stripped_low": "帰ったら教えてね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0104",
+    "high": "ご都合がよろしければ、ご参加ください。",
+    "low": "都合がよければ参加してね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "ご都合がよろしければ、ご参加ください。",
+      "pronoun_stripped_low": "都合がよければ参加してね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0105",
+    "high": "どうかよろしくお伝えください。",
+    "low": "よろしく伝えてね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "どうかよろしくお伝えください。",
+      "pronoun_stripped_low": "よろしく伝えてね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0106",
+    "high": "おかえりなさいませ。",
+    "low": "おかえり。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "おかえりなさいませ。",
+      "pronoun_stripped_low": "おかえり。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0107",
+    "high": "いってらっしゃいませ。",
+    "low": "いってらっしゃい。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "いってらっしゃいませ。",
+      "pronoun_stripped_low": "いってらっしゃい。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0108",
+    "high": "ご無事でよかったです。",
+    "low": "無事でよかった。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "ご無事でよかったです。",
+      "pronoun_stripped_low": "無事でよかった。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0109",
+    "high": "何かお手伝いできることがあればおっしゃってください。",
+    "low": "何か手伝えることあったら言ってね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "何かお手伝いできることがあればおっしゃってください。",
+      "pronoun_stripped_low": "何か手伝えることあったら言ってね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0110",
+    "high": "ご連絡をお待ちしておりました。",
+    "low": "連絡待ってたよ。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "ご連絡をお待ちしておりました。",
+      "pronoun_stripped_low": "連絡待ってたよ。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0111",
+    "high": "こちらこそよろしくお願いします。",
+    "low": "こちらこそよろしく。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "こちらこそよろしくお願いします。",
+      "pronoun_stripped_low": "こちらこそよろしく。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0112",
+    "high": "ごゆっくりお過ごしください。",
+    "low": "ゆっくりしていってね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "ごゆっくりお過ごしください。",
+      "pronoun_stripped_low": "ゆっくりしていってね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0113",
+    "high": "いつでもいらしてください。",
+    "low": "いつでも来てね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "いつでもいらしてください。",
+      "pronoun_stripped_low": "いつでも来てね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0114",
+    "high": "ご家族のご健康をお祈りしております。",
+    "low": "家族みんなが元気でいることを祈ってるよ。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "ご家族のご健康をお祈りしております。",
+      "pronoun_stripped_low": "家族みんなが元気でいることを祈ってるよ。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0115",
+    "high": "どうかお子様をよろしくお願いします。",
+    "low": "子供をよろしくね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "どうかお子様をよろしくお願いします。",
+      "pronoun_stripped_low": "子供をよろしくね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0116",
+    "high": "またお目にかかりましょう。",
+    "low": "またね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "またお目にかかりましょう。",
+      "pronoun_stripped_low": "またね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0117",
+    "high": "いつもお気にかけていただきありがとうございます。",
+    "low": "いつも気にかけてくれてありがとう。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "いつもお気にかけていただきありがとうございます。",
+      "pronoun_stripped_low": "いつも気にかけてくれてありがとう。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0118",
+    "high": "お身体を大切にしてください。",
+    "low": "体大切にしてね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "お身体を大切にしてください。",
+      "pronoun_stripped_low": "体大切にしてね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0119",
+    "high": "ごきげんよう。",
+    "low": "元気でね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "family",
+    "confounds": {
+      "pronoun_stripped_high": "ごきげんよう。",
+      "pronoun_stripped_low": "元気でね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0120",
+    "high": "ただいまご対応いたします。",
+    "low": "今対応するね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "ただいまご対応いたします。",
+      "pronoun_stripped_low": "今対応するね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0121",
+    "high": "こちらの窓口にお並びください。",
+    "low": "こっちの窓口に並んで。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "こちらの窓口にお並びください。",
+      "pronoun_stripped_low": "こっちの窓口に並んで。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0122",
+    "high": "お名前をお教えください。",
+    "low": "名前教えて。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "お名前をお教えください。",
+      "pronoun_stripped_low": "名前教えて。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0123",
+    "high": "書類をお持ちですか？",
+    "low": "書類持ってる？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "書類をお持ちですか？",
+      "pronoun_stripped_low": "書類持ってる？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0124",
+    "high": "番号札をお取りください。",
+    "low": "番号札取ってね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "番号札をお取りください。",
+      "pronoun_stripped_low": "番号札取ってね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0125",
+    "high": "ご用件をお聞かせください。",
+    "low": "用件聞かせて。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "ご用件をお聞かせください。",
+      "pronoun_stripped_low": "用件聞かせて。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0126",
+    "high": "しばらくお待ちください。",
+    "low": "ちょっと待ってて。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "しばらくお待ちください。",
+      "pronoun_stripped_low": "ちょっと待ってて。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0127",
+    "high": "こちらにご記入ください。",
+    "low": "ここに記入して。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "こちらにご記入ください。",
+      "pronoun_stripped_low": "ここに記入して。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0128",
+    "high": "申請書類はこちらになります。",
+    "low": "申請書類はこれだよ。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "申請書類はこちらになります。",
+      "pronoun_stripped_low": "申請書類はこれだよ。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0129",
+    "high": "ご住所をご確認ください。",
+    "low": "住所確認して。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "ご住所をご確認ください。",
+      "pronoun_stripped_low": "住所確認して。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0130",
+    "high": "本日の受付は終了いたしました。",
+    "low": "今日の受付は終わったよ。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "本日の受付は終了いたしました。",
+      "pronoun_stripped_low": "今日の受付は終わったよ。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0131",
+    "high": "お手続きが完了いたしました。",
+    "low": "手続き完了したよ。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "お手続きが完了いたしました。",
+      "pronoun_stripped_low": "手続き完了したよ。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0132",
+    "high": "次回は予約をお取りください。",
+    "low": "次回は予約してね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "次回は予約をお取りください。",
+      "pronoun_stripped_low": "次回は予約してね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0133",
+    "high": "証明書をご提出ください。",
+    "low": "証明書出して。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "証明書をご提出ください。",
+      "pronoun_stripped_low": "証明書出して。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0134",
+    "high": "ご不明な点はご質問ください。",
+    "low": "わからないことは質問して。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "ご不明な点はご質問ください。",
+      "pronoun_stripped_low": "わからないことは質問して。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0135",
+    "high": "こちらにサインをお願いします。",
+    "low": "ここにサインして。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "こちらにサインをお願いします。",
+      "pronoun_stripped_low": "ここにサインして。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0136",
+    "high": "結果は後日ご通知いたします。",
+    "low": "結果は後で知らせるよ。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "結果は後日ご通知いたします。",
+      "pronoun_stripped_low": "結果は後で知らせるよ。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0137",
+    "high": "オンラインでもお手続きいただけます。",
+    "low": "オンラインでも手続きできるよ。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "オンラインでもお手続きいただけます。",
+      "pronoun_stripped_low": "オンラインでも手続きできるよ。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0138",
+    "high": "受付番号をお控えください。",
+    "low": "受付番号メモしてね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "受付番号をお控えください。",
+      "pronoun_stripped_low": "受付番号メモしてね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0139",
+    "high": "申し訳ありませんが、本日はご対応できません。",
+    "low": "ごめんだけど、今日は対応できないよ。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "申し訳ありませんが、本日はご対応できません。",
+      "pronoun_stripped_low": "ごめんだけど、今日は対応できないよ。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0140",
+    "high": "混雑しておりますので、しばらくお待ちください。",
+    "low": "混んでるから少し待ってね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "混雑しておりますので、しばらくお待ちください。",
+      "pronoun_stripped_low": "混んでるから少し待ってね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0141",
+    "high": "手数料は窓口でお支払いください。",
+    "low": "手数料は窓口で払って。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "手数料は窓口でお支払いください。",
+      "pronoun_stripped_low": "手数料は窓口で払って。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0142",
+    "high": "必要書類をご確認ください。",
+    "low": "必要書類確認して。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "必要書類をご確認ください。",
+      "pronoun_stripped_low": "必要書類確認して。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0143",
+    "high": "こちらの案内をご覧ください。",
+    "low": "この案内を見て。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "こちらの案内をご覧ください。",
+      "pronoun_stripped_low": "この案内を見て。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0144",
+    "high": "お電話でのお問い合わせも承っております。",
+    "low": "電話でも問い合わせできるよ。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "お電話でのお問い合わせも承っております。",
+      "pronoun_stripped_low": "電話でも問い合わせできるよ。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0145",
+    "high": "ご来庁ありがとうございます。",
+    "low": "来てくれてありがとう。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "ご来庁ありがとうございます。",
+      "pronoun_stripped_low": "来てくれてありがとう。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0146",
+    "high": "手続きは終わりましたか？",
+    "low": "手続き終わった？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "手続きは終わりましたか？",
+      "pronoun_stripped_low": "手続き終わった？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0147",
+    "high": "こちらに記載事項をご確認ください。",
+    "low": "ここに書いてあること確認して。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "こちらに記載事項をご確認ください。",
+      "pronoun_stripped_low": "ここに書いてあること確認して。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0148",
+    "high": "受け取りはこちらでよろしいですか？",
+    "low": "受け取りはここでいい？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "受け取りはこちらでよろしいですか？",
+      "pronoun_stripped_low": "受け取りはここでいい？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0149",
+    "high": "改めてご連絡いたします。",
+    "low": "また連絡するね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "改めてご連絡いたします。",
+      "pronoun_stripped_low": "また連絡するね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0150",
+    "high": "ご申請ありがとうございます。",
+    "low": "申請ありがとう。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "ご申請ありがとうございます。",
+      "pronoun_stripped_low": "申請ありがとう。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0151",
+    "high": "お問い合わせ内容を確認いたします。",
+    "low": "問い合わせ内容確認するね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "お問い合わせ内容を確認いたします。",
+      "pronoun_stripped_low": "問い合わせ内容確認するね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0152",
+    "high": "こちらのフォームにご記入ください。",
+    "low": "このフォームに記入して。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "こちらのフォームにご記入ください。",
+      "pronoun_stripped_low": "このフォームに記入して。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0153",
+    "high": "担当者をお呼びします。",
+    "low": "担当者呼ぶね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "担当者をお呼びします。",
+      "pronoun_stripped_low": "担当者呼ぶね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0154",
+    "high": "お手元のカードをご確認ください。",
+    "low": "手元のカード確認して。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "お手元のカードをご確認ください。",
+      "pronoun_stripped_low": "手元のカード確認して。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0155",
+    "high": "お忘れ物がないようにご確認ください。",
+    "low": "忘れ物ないか確認してね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "お忘れ物がないようにご確認ください。",
+      "pronoun_stripped_low": "忘れ物ないか確認してね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0156",
+    "high": "ご意見をお聞かせください。",
+    "low": "意見聞かせて。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "ご意見をお聞かせください。",
+      "pronoun_stripped_low": "意見聞かせて。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0157",
+    "high": "こちらのページをご参照ください。",
+    "low": "このページを参照して。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "こちらのページをご参照ください。",
+      "pronoun_stripped_low": "このページを参照して。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0158",
+    "high": "ご案内いたします。",
+    "low": "案内するね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "ご案内いたします。",
+      "pronoun_stripped_low": "案内するね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0159",
+    "high": "受領印をいただけますか？",
+    "low": "受領印もらえる？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "public_service",
+    "confounds": {
+      "pronoun_stripped_high": "受領印をいただけますか？",
+      "pronoun_stripped_low": "受領印もらえる？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0160",
+    "high": "先生、質問があるのですが、よろしいですか？",
+    "low": "先生、質問いい？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "先生、質問があるのですが、よろしいですか？",
+      "pronoun_stripped_low": "先生、質問いい？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0161",
+    "high": "課題を提出いたしました。",
+    "low": "課題出したよ。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "課題を提出いたしました。",
+      "pronoun_stripped_low": "課題出したよ。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0162",
+    "high": "ご指導いただきありがとうございます。",
+    "low": "指導ありがとう。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "ご指導いただきありがとうございます。",
+      "pronoun_stripped_low": "指導ありがとう。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0163",
+    "high": "論文の添削をお願いできますか？",
+    "low": "論文の添削お願いできる？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "論文の添削をお願いできますか？",
+      "pronoun_stripped_low": "論文の添削お願いできる？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0164",
+    "high": "本日の講義はいかがでしたか？",
+    "low": "今日の講義どうだった？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "本日の講義はいかがでしたか？",
+      "pronoun_stripped_low": "今日の講義どうだった？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0165",
+    "high": "参考文献を教えていただけますか？",
+    "low": "参考文献教えてもらえる？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "参考文献を教えていただけますか？",
+      "pronoun_stripped_low": "参考文献教えてもらえる？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0166",
+    "high": "研究室の見学をさせていただけますか？",
+    "low": "研究室を見学させてもらえる？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "研究室の見学をさせていただけますか？",
+      "pronoun_stripped_low": "研究室を見学させてもらえる？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0167",
+    "high": "発表の日程を確認させてください。",
+    "low": "発表の日程確認させて。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "発表の日程を確認させてください。",
+      "pronoun_stripped_low": "発表の日程確認させて。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0168",
+    "high": "レポートを確認していただけますか？",
+    "low": "レポート確認してもらえる？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "レポートを確認していただけますか？",
+      "pronoun_stripped_low": "レポート確認してもらえる？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0169",
+    "high": "次回のゼミはいつですか？",
+    "low": "次のゼミいつ？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "次回のゼミはいつですか？",
+      "pronoun_stripped_low": "次のゼミいつ？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0170",
+    "high": "お時間をいただいてよろしいでしょうか？",
+    "low": "時間もらっていい？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "お時間をいただいてよろしいでしょうか？",
+      "pronoun_stripped_low": "時間もらっていい？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0171",
+    "high": "論文の構成についてご意見をいただけますか？",
+    "low": "論文の構成について意見もらえる？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "論文の構成についてご意見をいただけますか？",
+      "pronoun_stripped_low": "論文の構成について意見もらえる？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0172",
+    "high": "実験の結果を共有いたします。",
+    "low": "実験の結果共有するね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "実験の結果を共有いたします。",
+      "pronoun_stripped_low": "実験の結果共有するね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0173",
+    "high": "今後の研究方針についてご相談したいです。",
+    "low": "今後の研究方針について相談したい。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "今後の研究方針についてご相談したいです。",
+      "pronoun_stripped_low": "今後の研究方針について相談したい。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0174",
+    "high": "お忙しいところ失礼いたします。",
+    "low": "忙しいところごめん。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "お忙しいところ失礼いたします。",
+      "pronoun_stripped_low": "忙しいところごめん。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0175",
+    "high": "ご説明いただいた内容を整理いたします。",
+    "low": "説明してもらった内容をまとめるね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "ご説明いただいた内容を整理いたします。",
+      "pronoun_stripped_low": "説明してもらった内容をまとめるね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0176",
+    "high": "データの解析方法を教えていただけますか？",
+    "low": "データの解析方法教えてもらえる？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "データの解析方法を教えていただけますか？",
+      "pronoun_stripped_low": "データの解析方法教えてもらえる？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0177",
+    "high": "先行研究についてご存知ですか？",
+    "low": "先行研究について知ってる？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "先行研究についてご存知ですか？",
+      "pronoun_stripped_low": "先行研究について知ってる？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0178",
+    "high": "ご確認の上、コメントをいただけますか？",
+    "low": "確認した上でコメントもらえる？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "ご確認の上、コメントをいただけますか？",
+      "pronoun_stripped_low": "確認した上でコメントもらえる？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0179",
+    "high": "卒業論文の進捗はいかがですか？",
+    "low": "卒論の進み具合どう？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "卒業論文の進捗はいかがですか？",
+      "pronoun_stripped_low": "卒論の進み具合どう？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0180",
+    "high": "参加登録をよろしくお願いします。",
+    "low": "参加登録お願いね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "参加登録をよろしくお願いします。",
+      "pronoun_stripped_low": "参加登録お願いね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0181",
+    "high": "討論の機会をいただきありがとうございます。",
+    "low": "討論の機会ありがとう。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "討論の機会をいただきありがとうございます。",
+      "pronoun_stripped_low": "討論の機会ありがとう。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0182",
+    "high": "発表資料を添付いたします。",
+    "low": "発表資料添付するね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "発表資料を添付いたします。",
+      "pronoun_stripped_low": "発表資料添付するね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0183",
+    "high": "ご査読をよろしくお願いいたします。",
+    "low": "査読よろしく。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "ご査読をよろしくお願いいたします。",
+      "pronoun_stripped_low": "査読よろしく。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0184",
+    "high": "ご出席いただきありがとうございます。",
+    "low": "出席ありがとう。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "ご出席いただきありがとうございます。",
+      "pronoun_stripped_low": "出席ありがとう。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0185",
+    "high": "実験プロトコルをご確認ください。",
+    "low": "実験プロトコル確認してね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "実験プロトコルをご確認ください。",
+      "pronoun_stripped_low": "実験プロトコル確認してね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0186",
+    "high": "共同研究についてご相談できますか？",
+    "low": "共同研究について相談できる？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "共同研究についてご相談できますか？",
+      "pronoun_stripped_low": "共同研究について相談できる？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0187",
+    "high": "研究成果を発表させていただきます。",
+    "low": "研究成果を発表するね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "研究成果を発表させていただきます。",
+      "pronoun_stripped_low": "研究成果を発表するね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0188",
+    "high": "ご指摘の点を修正いたします。",
+    "low": "指摘の点を修正するね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "ご指摘の点を修正いたします。",
+      "pronoun_stripped_low": "指摘の点を修正するね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0189",
+    "high": "学会発表の準備を進めております。",
+    "low": "学会発表の準備してるよ。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "学会発表の準備を進めております。",
+      "pronoun_stripped_low": "学会発表の準備してるよ。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0190",
+    "high": "先生のご助言をお願いしたいのですが。",
+    "low": "先生に助言お願いしたいんだけど。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "先生のご助言をお願いしたいのですが。",
+      "pronoun_stripped_low": "先生に助言お願いしたいんだけど。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0191",
+    "high": "ゼミのテーマについてご意見をいただけますか？",
+    "low": "ゼミのテーマについて意見もらえる？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "ゼミのテーマについてご意見をいただけますか？",
+      "pronoun_stripped_low": "ゼミのテーマについて意見もらえる？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0192",
+    "high": "文献リストを確認していただけますか？",
+    "low": "文献リスト確認してもらえる？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "文献リストを確認していただけますか？",
+      "pronoun_stripped_low": "文献リスト確認してもらえる？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0193",
+    "high": "倫理審査書類をご確認ください。",
+    "low": "倫理審査書類確認してね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "倫理審査書類をご確認ください。",
+      "pronoun_stripped_low": "倫理審査書類確認してね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0194",
+    "high": "研究計画書を提出いたします。",
+    "low": "研究計画書提出するね。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "研究計画書を提出いたします。",
+      "pronoun_stripped_low": "研究計画書提出するね。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0195",
+    "high": "実験参加者を募集しております。",
+    "low": "実験参加者を募集してるよ。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "実験参加者を募集しております。",
+      "pronoun_stripped_low": "実験参加者を募集してるよ。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0196",
+    "high": "論文の最終確認をお願いできますか？",
+    "low": "論文の最終確認お願いできる？",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "論文の最終確認をお願いできますか？",
+      "pronoun_stripped_low": "論文の最終確認お願いできる？"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0197",
+    "high": "学術的な観点からご意見をください。",
+    "low": "学術的な観点から意見ください。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "学術的な観点からご意見をください。",
+      "pronoun_stripped_low": "学術的な観点から意見ください。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0198",
+    "high": "ご多忙の中、ありがとうございます。",
+    "low": "忙しい中、ありがとう。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "ご多忙の中、ありがとうございます。",
+      "pronoun_stripped_low": "忙しい中、ありがとう。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  },
+  {
+    "id": "jp_0199",
+    "high": "今後ともご指導のほどよろしくお願いいたします。",
+    "low": "これからもよろしく。",
+    "high_level": "aap",
+    "low_level": "tu",
+    "domain": "academic",
+    "confounds": {
+      "pronoun_stripped_high": "今後ともご指導のほどよろしくお願いいたします。",
+      "pronoun_stripped_low": "これからもよろしく。"
+    },
+    "notes": "teineigo vs. plain-form Japanese keigo contrast"
+  }
+]

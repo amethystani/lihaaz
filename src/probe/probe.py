@@ -16,7 +16,7 @@ def train_probe(
 ) -> dict:
     pipe = Pipeline([
         ("scaler", StandardScaler()),
-        ("clf", LogisticRegression(C=C, penalty="l2", max_iter=1000, solver="lbfgs")),
+        ("clf", LogisticRegression(C=C, max_iter=1000, solver="lbfgs")),
     ])
     cv = StratifiedKFold(n_splits=n_splits, shuffle=True, random_state=random_state)
     scores = cross_val_score(pipe, X, y, cv=cv, scoring="roc_auc")
