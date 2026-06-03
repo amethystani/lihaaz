@@ -1,0 +1,214 @@
+{
+  "raw": {
+    "0": {
+      "auroc_mean": 0.8895,
+      "auroc_std": 0.0072
+    },
+    "1": {
+      "auroc_mean": 0.8907,
+      "auroc_std": 0.0068
+    },
+    "2": {
+      "auroc_mean": 0.8897,
+      "auroc_std": 0.0081
+    },
+    "3": {
+      "auroc_mean": 0.8889,
+      "auroc_std": 0.0076
+    },
+    "4": {
+      "auroc_mean": 0.8889,
+      "auroc_std": 0.008
+    },
+    "5": {
+      "auroc_mean": 0.8899,
+      "auroc_std": 0.008
+    },
+    "6": {
+      "auroc_mean": 0.8894,
+      "auroc_std": 0.0091
+    },
+    "7": {
+      "auroc_mean": 0.8886,
+      "auroc_std": 0.0091
+    },
+    "8": {
+      "auroc_mean": 0.8863,
+      "auroc_std": 0.0087
+    },
+    "9": {
+      "auroc_mean": 0.8863,
+      "auroc_std": 0.0095
+    },
+    "10": {
+      "auroc_mean": 0.8844,
+      "auroc_std": 0.0093
+    },
+    "11": {
+      "auroc_mean": 0.8867,
+      "auroc_std": 0.009
+    },
+    "12": {
+      "auroc_mean": 0.8855,
+      "auroc_std": 0.0083
+    },
+    "13": {
+      "auroc_mean": 0.8844,
+      "auroc_std": 0.0081
+    },
+    "14": {
+      "auroc_mean": 0.8843,
+      "auroc_std": 0.0093
+    },
+    "15": {
+      "auroc_mean": 0.8858,
+      "auroc_std": 0.0083
+    },
+    "16": {
+      "auroc_mean": 0.8862,
+      "auroc_std": 0.0078
+    },
+    "17": {
+      "auroc_mean": 0.8865,
+      "auroc_std": 0.0087
+    },
+    "18": {
+      "auroc_mean": 0.8869,
+      "auroc_std": 0.009
+    },
+    "19": {
+      "auroc_mean": 0.887,
+      "auroc_std": 0.008
+    },
+    "20": {
+      "auroc_mean": 0.8886,
+      "auroc_std": 0.0081
+    },
+    "21": {
+      "auroc_mean": 0.8879,
+      "auroc_std": 0.008
+    },
+    "22": {
+      "auroc_mean": 0.8883,
+      "auroc_std": 0.0076
+    },
+    "23": {
+      "auroc_mean": 0.8876,
+      "auroc_std": 0.0076
+    },
+    "24": {
+      "auroc_mean": 0.8885,
+      "auroc_std": 0.0075
+    },
+    "25": {
+      "auroc_mean": 0.8892,
+      "auroc_std": 0.0068
+    }
+  },
+  "pronoun_stripped": {
+    "0": {
+      "auroc_mean": 0.7657,
+      "auroc_std": 0.0183
+    },
+    "1": {
+      "auroc_mean": 0.7684,
+      "auroc_std": 0.0171
+    },
+    "2": {
+      "auroc_mean": 0.7682,
+      "auroc_std": 0.0182
+    },
+    "3": {
+      "auroc_mean": 0.7608,
+      "auroc_std": 0.0207
+    },
+    "4": {
+      "auroc_mean": 0.7653,
+      "auroc_std": 0.0181
+    },
+    "5": {
+      "auroc_mean": 0.7584,
+      "auroc_std": 0.0185
+    },
+    "6": {
+      "auroc_mean": 0.7578,
+      "auroc_std": 0.0181
+    },
+    "7": {
+      "auroc_mean": 0.7551,
+      "auroc_std": 0.0188
+    },
+    "8": {
+      "auroc_mean": 0.7522,
+      "auroc_std": 0.0199
+    },
+    "9": {
+      "auroc_mean": 0.7463,
+      "auroc_std": 0.0193
+    },
+    "10": {
+      "auroc_mean": 0.7463,
+      "auroc_std": 0.0168
+    },
+    "11": {
+      "auroc_mean": 0.7461,
+      "auroc_std": 0.0176
+    },
+    "12": {
+      "auroc_mean": 0.7459,
+      "auroc_std": 0.0176
+    },
+    "13": {
+      "auroc_mean": 0.7449,
+      "auroc_std": 0.0168
+    },
+    "14": {
+      "auroc_mean": 0.7444,
+      "auroc_std": 0.0134
+    },
+    "15": {
+      "auroc_mean": 0.7452,
+      "auroc_std": 0.0184
+    },
+    "16": {
+      "auroc_mean": 0.7526,
+      "auroc_std": 0.0216
+    },
+    "17": {
+      "auroc_mean": 0.757,
+      "auroc_std": 0.0179
+    },
+    "18": {
+      "auroc_mean": 0.7578,
+      "auroc_std": 0.0149
+    },
+    "19": {
+      "auroc_mean": 0.7588,
+      "auroc_std": 0.015
+    },
+    "20": {
+      "auroc_mean": 0.7598,
+      "auroc_std": 0.0171
+    },
+    "21": {
+      "auroc_mean": 0.756,
+      "auroc_std": 0.0149
+    },
+    "22": {
+      "auroc_mean": 0.7538,
+      "auroc_std": 0.0122
+    },
+    "23": {
+      "auroc_mean": 0.7548,
+      "auroc_std": 0.0124
+    },
+    "24": {
+      "auroc_mean": 0.7536,
+      "auroc_std": 0.0133
+    },
+    "25": {
+      "auroc_mean": 0.7554,
+      "auroc_std": 0.0153
+    }
+  }
+}
