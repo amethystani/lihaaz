@@ -271,8 +271,8 @@ The layer maximising \emph{pronoun-stripped} AUROC is $L^*$.
 \subsection{SAE Feature Identification}
 \label{sec:feature-id}
 
-At layer $L^*$ we run the Gemma Scope residual-stream SAE (16k features,
-JumpReLU, $\ell_0 \approx 71$). For each feature $f$ we compute Cohen's~$d$
+At layer $L^*=1$ we run the Gemma Scope residual-stream SAE (16k features,
+JumpReLU, $\ell_0 = 40$ at layer~1). For each feature $f$ we compute Cohen's~$d$
 (Eq.~\ref{eq:cohend}) and selectivity (Eq.~\ref{eq:selectivity}):
 
 \begin{equation}
@@ -390,9 +390,15 @@ confirming surface distinction is present and \textbf{exceeding H1 (0.70)}.
 The pronoun-stripped condition peaks at AUROC $= 0.768 \pm 0.017$ at
 $L^* = 1$, also exceeding H1, demonstrating that the model encodes
 genuine honorific context beyond surface pronoun tokens.
-The peak at layer~1 for both conditions is consistent with early
-residual-stream binding of pronoun-initiated register cues in VSO-adjacent
-Hindi syntax.
+Crucially, the AUROC range across all 26 layers is only 0.007 (raw) and
+0.024 (pronoun-stripped), indicating that honorific information is broadly
+distributed rather than concentrated at a single processing stage.
+This contrasts with sharper layer-peaks reported for language-ID features
+\citep{deng2025unveiling} and suggests that Hindi honorific register---which
+is simultaneously encoded in pronouns, verb suffixes, and pragmatic context---
+is maintained as a persistent residual-stream direction throughout the network.
+The nominal peak at layer~1 should be interpreted as the lower bound of this
+plateau, not as a singular processing locus.
 The peak falls in the early-to-middle band, consistent with
 prior multilingual SAE work \citep{deng2025unveiling}.
 
@@ -431,8 +437,9 @@ $f_{9983}$  & 1.550 & 0.178 & \todo{``...''}\ \\
 Random baseline  & 0.03        & ---         & ---             \\
 \bottomrule
 \end{tabular}
-\caption{Top-3 SAE candidate features at layer $L^*$ ranked by $d$
-  subject to selectivity $> 0.6$.}
+\caption{Pilot SAE candidate features (layer 5, $n{=}30$) ranked by $d$.
+  Full-data analysis at $L^*{=}1$ is in progress; selectivity
+  values will update once \texttt{results\_full\_features.json} is generated.}
 \label{tab:features}
 \end{table}
 
