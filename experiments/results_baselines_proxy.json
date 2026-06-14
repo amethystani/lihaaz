@@ -1,0 +1,216 @@
+{
+  "layer": 2,
+  "zero_shot": [
+    {
+      "prompt": "tu kaisa hai? kya tune khana khaya?",
+      "output": " tu kaisa hai? kya tune khana khaya?\nNeeche diye gaye vaakya ko aadarpurn (aap-form) Hindi mein likho.\nVaakya: tu kaisa hai? kya tune khana khaya?\nAap-form: tu kaisa",
+      "hon": -0.1667
+    },
+    {
+      "prompt": "tu kahan se aa raha hai? kya tu thaka hua hai?",
+      "output": " tu kahan se aa raha hai? kya tu thaka hua hai?\nNeeche diye gaye vaakya ko aadarpurn (aap-form) Hindi mein likho.\nVaakya: tu kahan se aa raha hai? kya tu thaka hua hai?\nAap",
+      "hon": -0.0857
+    },
+    {
+      "prompt": "tera kaam kaisa chal raha hai?",
+      "output": " tera kaam kaisa chal raha hai?\nVaakya: tera kaam kaisa chal raha hai?\nAap-form: tera kaam kaisa chal raha hai?\nVaakya: tera kaam kaisa chal raha hai?\nAap-form: tera ka",
+      "hon": -0.3438
+    },
+    {
+      "prompt": "tu bahut accha gaata hai.",
+      "output": " tu bahut accha gaata hai.\nVaakya: tu bahut accha gaata hai.\nAap-form: tu bahut accha gaata hai.\nVaakya: tu bahut accha gaata hai.\nAap-form: tu bah",
+      "hon": -0.1071
+    },
+    {
+      "prompt": "tujhse milkar accha laga.",
+      "output": " tujhse milkar accha laga.\nAap-form: tujhse milkar accha laga.\nAap-form: tujhse milkar accha laga.\nAap-form: tujhse milkar accha laga.\nAap-form:",
+      "hon": 0.0
+    }
+  ],
+  "four_shot": [
+    {
+      "prompt": "tu kaisa hai? kya tune khana khaya?",
+      "output": " aap kaisa hai? kya aapne khana khaaya?\n\ntu-form: tu kaise hai?\naap-form: aap kaise hain?\n\ntu-form: tu kaise ho?\naap-form: aap kaise ho?\n\ntu-",
+      "hon": 0.0357
+    },
+    {
+      "prompt": "tu kahan se aa raha hai? kya tu thaka hua hai?",
+      "output": " aap kahan se aaye hain? kya aap thaka hua hain?\n\ntu-form: tu bahut accha lagta hai.\naap-form: aap bahut acche lagte hain.\n\ntu-form: tu bahut accha lagta hai.",
+      "hon": 0.0968
+    },
+    {
+      "prompt": "tera kaam kaisa chal raha hai?",
+      "output": " aapke kaam kaise chal rahe hain?\n\ntu-form: tujhse milkar accha laga.\naap-form: aapse milkar bahut accha laga.\n\ntu-form: tujhse milkar accha laga.\naap-form:",
+      "hon": 0.0741
+    },
+    {
+      "prompt": "tu bahut accha gaata hai.",
+      "output": " aap bahut accha gaate hain.\n\ntu-form: tu bahut accha lagta hai.\naap-form: aap bahut accha lagte hain.\n\ntu-form: tu bahut accha lagta hai.\naap-form: aap",
+      "hon": 0.1034
+    },
+    {
+      "prompt": "tujhse milkar accha laga.",
+      "output": " aap se milkar accha laga.\n\ntu-form: tujhse milkar accha laga.\naap-form: aap se milkar accha laga.\n\ntu-form: tujhse milkar accha laga.\naap-form: aap se mil",
+      "hon": 0.0345
+    }
+  ],
+  "random_steer": [
+    {
+      "prompt": "tu kaisa hai? kya tune khana khaya?",
+      "feature_idx": 2732,
+      "output": "\n\nI am fine. I have eaten.\n\ntu kaisa hai? kya tune khana khaya?\n\nI am fine. I have eaten.\n\ntu kaisa hai? kya tune khana khaya?\n\nI am fine. I have eaten.\n\ntu kaisa hai? kya tune khana khaya?\n\nI am fine. I have eaten.\n\ntu kaisa hai",
+      "hon": -0.2292
+    },
+    {
+      "prompt": "tu kahan se aa raha hai? kya tu thaka hua hai?",
+      "feature_idx": 2732,
+      "output": "\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?",
+      "hon": -0.2727
+    },
+    {
+      "prompt": "tera kaam kaisa chal raha hai?",
+      "feature_idx": 2732,
+      "output": "\n\n[User 0001]\n\nI am a new member of this forum. I am a student of B.Tech. I am from India. I am a student of 3rd year. I am doing my project on \"Design and Implementation of a 3D Game Engine\". I am working on this project since 2 months. I am facing some problems in this project",
+      "hon": 0.0
+    },
+    {
+      "prompt": "tu bahut accha gaata hai.",
+      "feature_idx": 2732,
+      "output": "\n\nI am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your",
+      "hon": 0.0
+    },
+    {
+      "prompt": "tujhse milkar accha laga.",
+      "feature_idx": 2732,
+      "output": "\nEnglish: I like you.<eos>",
+      "hon": 0.0
+    },
+    {
+      "prompt": "tu kaisa hai? kya tune khana khaya?",
+      "feature_idx": 10799,
+      "output": "\n\nI am fine. I have eaten.\n\ntu kaisa hai? kya tune khana khaya?\n\nI am fine. I have eaten.\n\ntu kaisa hai? kya tune khana khaya?\n\nI am fine. I have eaten.\n\ntu kaisa hai? kya tune khana khaya?\n\nI am fine. I have eaten.\n\ntu kaisa hai",
+      "hon": -0.2292
+    },
+    {
+      "prompt": "tu kahan se aa raha hai? kya tu thaka hua hai?",
+      "feature_idx": 10799,
+      "output": "\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?",
+      "hon": -0.2727
+    },
+    {
+      "prompt": "tera kaam kaisa chal raha hai?",
+      "feature_idx": 10799,
+      "output": "\n\n[User 0001]\n\n<b>tera kaam kaisa chal raha hai?</b>\n\n<b>tera kaam kaisa chal raha hai?</b>\n\n<b>tera kaam kaisa chal raha hai?</b>\n\n<b>tera kaam kaisa chal raha hai?</b>\n\n<b>tera kaam kaisa chal raha hai?</b>\n\n<b>tera kaam kaisa chal raha hai?",
+      "hon": -0.375
+    },
+    {
+      "prompt": "tu bahut accha gaata hai.",
+      "feature_idx": 10799,
+      "output": "\n\nI am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your",
+      "hon": 0.0
+    },
+    {
+      "prompt": "tujhse milkar accha laga.",
+      "feature_idx": 10799,
+      "output": "\ntujhse milkar accha laga.\ntujhse milkar accha laga.\ntujhse milkar accha laga.\ntujhse milkar accha laga.\ntujhse milkar accha laga.\ntujhse milkar accha laga.\ntujhse milkar accha laga.\ntujhse milkar accha laga.",
+      "hon": -0.25
+    },
+    {
+      "prompt": "tu kaisa hai? kya tune khana khaya?",
+      "feature_idx": 9845,
+      "output": "\n\nI am fine. I have eaten.\n\ntu kaisa hai? kya tune khana khaya?\n\nI am fine. I have eaten.\n\ntu kaisa hai? kya tune khana khaya?\n\nI am fine. I have eaten.\n\ntu kaisa hai? kya tune khana khaya?\n\nI am fine. I have eaten.\n\ntu kaisa hai",
+      "hon": -0.2292
+    },
+    {
+      "prompt": "tu kahan se aa raha hai? kya tu thaka hua hai?",
+      "feature_idx": 9845,
+      "output": "\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?",
+      "hon": -0.2727
+    },
+    {
+      "prompt": "tera kaam kaisa chal raha hai?",
+      "feature_idx": 9845,
+      "output": "\n\n[User 0001]\n\nI am a new member of this forum. I am a student of B.Tech. I am from India. I am a student of 3rd year. I am doing my project on \"Design and Implementation of a 16-bit Microcontroller based Digital Signal Processor\". I am using PIC16F877A. I",
+      "hon": 0.0
+    },
+    {
+      "prompt": "tu bahut accha gaata hai.",
+      "feature_idx": 9845,
+      "output": "\n\nI am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your",
+      "hon": 0.0
+    },
+    {
+      "prompt": "tujhse milkar accha laga.",
+      "feature_idx": 9845,
+      "output": "\nEnglish: I like you.<eos>",
+      "hon": 0.0
+    },
+    {
+      "prompt": "tu kaisa hai? kya tune khana khaya?",
+      "feature_idx": 3264,
+      "output": "\n\nI am fine. How are you? Have you eaten?\n\ntu kaisa hai? kya tune khana khaya?\n\nI am fine. How are you? Have you eaten?\n\ntu kaisa hai? kya tune khana khaya?\n\nI am fine. How are you? Have you eaten?\n\ntu kaisa hai? kya tune khana khaya?\n\nI",
+      "hon": -0.1837
+    },
+    {
+      "prompt": "tu kahan se aa raha hai? kya tu thaka hua hai?",
+      "feature_idx": 3264,
+      "output": "\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?",
+      "hon": -0.2727
+    },
+    {
+      "prompt": "tera kaam kaisa chal raha hai?",
+      "feature_idx": 3264,
+      "output": "\n\n[User 0001]\n\nI am a new member of this forum. I am a student of B.Tech. I am from India. I am a student of 3rd year. I am a mechanical engineer. I am a student of mechanical engineering. I am a student of mechanical engineering. I am a student of mechanical engineering. I am a student of mechanical engineering",
+      "hon": 0.0
+    },
+    {
+      "prompt": "tu bahut accha gaata hai.",
+      "feature_idx": 3264,
+      "output": "\n\nI am a big fan of your work. I am a student of class 10th and I am doing my project on the topic of \"The importance of water\". I am looking for some good information on this topic. I am really impressed by your work. I am really thankful to you.\n\nI am a student of class 10th and I am doing my project on",
+      "hon": 0.0303
+    },
+    {
+      "prompt": "tujhse milkar accha laga.",
+      "feature_idx": 3264,
+      "output": "\nEnglish: I like you.<eos>",
+      "hon": 0.0
+    },
+    {
+      "prompt": "tu kaisa hai? kya tune khana khaya?",
+      "feature_idx": 13123,
+      "output": "\n\nI am fine. I have eaten.\n\ntu kaisa hai? kya tune khana khaya?\n\nI am fine. I have eaten.\n\ntu kaisa hai? kya tune khana khaya?\n\nI am fine. I have eaten.\n\ntu kaisa hai? kya tune khana khaya?\n\nI am fine. I have eaten.\n\ntu kaisa hai",
+      "hon": -0.2292
+    },
+    {
+      "prompt": "tu kahan se aa raha hai? kya tu thaka hua hai?",
+      "feature_idx": 13123,
+      "output": "\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?",
+      "hon": -0.2727
+    },
+    {
+      "prompt": "tera kaam kaisa chal raha hai?",
+      "feature_idx": 13123,
+      "output": "\n\n[User 0001]\n\nI am a new member of this forum. I am a student of B.Tech. I am from India. I am a student of Computer Science and Engineering. I am a fresher in this field. I am a fresher in this field. I am a fresher in this field. I am a fresher in this field. I am a fresher in",
+      "hon": 0.0
+    },
+    {
+      "prompt": "tu bahut accha gaata hai.",
+      "feature_idx": 13123,
+      "output": "\n\nI am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your",
+      "hon": 0.0
+    },
+    {
+      "prompt": "tujhse milkar accha laga.",
+      "feature_idx": 13123,
+      "output": "\ntujhse milkar accha laga.\ntujhse milkar accha laga.\ntujhse milkar accha laga.\ntujhse milkar accha laga.\ntujhse milkar accha laga.\ntujhse milkar accha laga.\ntujhse milkar accha laga.\ntujhse milkar accha laga.",
+      "hon": -0.25
+    }
+  ],
+  "null_dist": {
+    "n": 200,
+    "d_mean": 0.1453083194840292,
+    "d_p95": 0.4061917185783386,
+    "sel_mean": 0.0071628413559745915,
+    "sel_p95": 0.04056949314864469
+  }
+}

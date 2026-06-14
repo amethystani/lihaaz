@@ -2,7 +2,7 @@
 from __future__ import annotations
 import numpy as np
 from sklearn.linear_model import LogisticRegression
-from sklearn.model_selection import StratifiedKFold, cross_val_score
+from sklearn.model_selection import StratifiedKFold, StratifiedGroupKFold, cross_val_score
 from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import Pipeline
 
@@ -13,19 +13,38 @@ def train_probe(
     C: float = 1.0,
     n_splits: int = 5,
     random_state: int = 42,
+    groups: np.ndarray | None = None,
 ) -> dict:
+    """Train an L2 logistic-regression honorific probe with cross-validated AUROC.
+
+    When ``groups`` is provided (one group id per row, e.g. the contrastive-pair
+    index), grouped CV keeps both members of a minimal pair on the SAME side of
+    every split. This is REQUIRED here: the two sentences in a pair are
+    near-identical except for the honorific marker, so plain StratifiedKFold
+    leaks shared lexical content across the train/test boundary and inflates
+    AUROC. See review finding C1.
+    """
     pipe = Pipeline([
         ("scaler", StandardScaler()),
         ("clf", LogisticRegression(C=C, max_iter=1000, solver="lbfgs")),
     ])
-    cv = StratifiedKFold(n_splits=n_splits, shuffle=True, random_state=random_state)
-    scores = cross_val_score(pipe, X, y, cv=cv, scoring="roc_auc")
+    if groups is not None:
+        cv = StratifiedGroupKFold(n_splits=n_splits, shuffle=True, random_state=random_state)
+        scores = cross_val_score(pipe, X, y, cv=cv, scoring="roc_auc", groups=groups)
+    else:
+        cv = StratifiedKFold(n_splits=n_splits, shuffle=True, random_state=random_state)
+        scores = cross_val_score(pipe, X, y, cv=cv, scoring="roc_auc")
     pipe.fit(X, y)
     return {"auroc_mean": scores.mean(), "auroc_std": scores.std(), "best_estimator": pipe}
 
 
-def run_layerwise_probes(acts_by_layer: dict[int, np.ndarray], labels: np.ndarray, C: float = 1.0) -> dict[int, dict]:
-    return {layer: train_probe(X, labels, C=C) for layer, X in acts_by_layer.items()}
+def run_layerwise_probes(
+    acts_by_layer: dict[int, np.ndarray],
+    labels: np.ndarray,
+    C: float = 1.0,
+    groups: np.ndarray | None = None,
+) -> dict[int, dict]:
+    return {layer: train_probe(X, labels, C=C, groups=groups) for layer, X in acts_by_layer.items()}
 
 
 def best_layer(results: dict[int, dict]) -> tuple[int, float]:

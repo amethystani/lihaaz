@@ -1,0 +1,125 @@
+{
+  "baseline_mean_hon": -0.17586,
+  "layers": {
+    "2": {
+      "sweep": [
+        {
+          "alpha": 4.0,
+          "mean_hon": -0.15158
+        },
+        {
+          "alpha": 8.0,
+          "mean_hon": -0.17586
+        },
+        {
+          "alpha": 16.0,
+          "mean_hon": -0.22586
+        }
+      ],
+      "best": {
+        "alpha": 4.0,
+        "mean_hon": -0.15158
+      }
+    },
+    "5": {
+      "sweep": [
+        {
+          "alpha": 4.0,
+          "mean_hon": -0.17586
+        },
+        {
+          "alpha": 8.0,
+          "mean_hon": -0.22586
+        },
+        {
+          "alpha": 16.0,
+          "mean_hon": -0.213
+        }
+      ],
+      "best": {
+        "alpha": 4.0,
+        "mean_hon": -0.17586
+      }
+    },
+    "8": {
+      "sweep": [
+        {
+          "alpha": 4.0,
+          "mean_hon": -0.2092
+        },
+        {
+          "alpha": 8.0,
+          "mean_hon": -0.213
+        },
+        {
+          "alpha": 16.0,
+          "mean_hon": -0.12205999999999999
+        }
+      ],
+      "best": {
+        "alpha": 16.0,
+        "mean_hon": -0.12205999999999999
+      }
+    },
+    "12": {
+      "sweep": [
+        {
+          "alpha": 4.0,
+          "mean_hon": -0.10158
+        },
+        {
+          "alpha": 8.0,
+          "mean_hon": -0.17586
+        },
+        {
+          "alpha": 16.0,
+          "mean_hon": -0.17586
+        }
+      ],
+      "best": {
+        "alpha": 4.0,
+        "mean_hon": -0.10158
+      }
+    },
+    "16": {
+      "sweep": [
+        {
+          "alpha": 4.0,
+          "mean_hon": -0.08872
+        },
+        {
+          "alpha": 8.0,
+          "mean_hon": -0.08872
+        },
+        {
+          "alpha": 16.0,
+          "mean_hon": -0.16299999999999998
+        }
+      ],
+      "best": {
+        "alpha": 4.0,
+        "mean_hon": -0.08872
+      }
+    },
+    "20": {
+      "sweep": [
+        {
+          "alpha": 4.0,
+          "mean_hon": -0.16299999999999998
+        },
+        {
+          "alpha": 8.0,
+          "mean_hon": -0.08872
+        },
+        {
+          "alpha": 16.0,
+          "mean_hon": -0.22232
+        }
+      ],
+      "best": {
+        "alpha": 8.0,
+        "mean_hon": -0.08872
+      }
+    }
+  }
+}

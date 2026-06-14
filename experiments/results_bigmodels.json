@@ -1,0 +1,66 @@
+{
+  "qwen3-8b": {
+    "precision": "bf16",
+    "raw": {
+      "max": 0.8933,
+      "min": 0.8915,
+      "spread": 0.0018,
+      "n_layers": 37
+    },
+    "pronoun_stripped": {
+      "max": 0.8163,
+      "min": 0.7974,
+      "spread": 0.019,
+      "n_layers": 37
+    }
+  },
+  "qwen3-4b": {
+    "precision": "bf16",
+    "raw": {
+      "max": 0.8935,
+      "min": 0.8916,
+      "spread": 0.0019,
+      "n_layers": 37
+    },
+    "pronoun_stripped": {
+      "max": 0.8177,
+      "min": 0.7919,
+      "spread": 0.0258,
+      "n_layers": 37
+    }
+  },
+  "llama3.1-8b": {
+    "precision": "bf16",
+    "raw": {
+      "max": 0.8928,
+      "min": 0.8911,
+      "spread": 0.0017,
+      "n_layers": 33
+    },
+    "pronoun_stripped": {
+      "max": 0.8204,
+      "min": 0.8028,
+      "spread": 0.0176,
+      "n_layers": 33
+    }
+  },
+  "nemotron-8b": {
+    "precision": "bf16",
+    "raw": {
+      "max": 0.8934,
+      "min": 0.8916,
+      "spread": 0.0018,
+      "n_layers": 33
+    },
+    "pronoun_stripped": {
+      "max": 0.8188,
+      "min": 0.78,
+      "spread": 0.0388,
+      "n_layers": 33
+    }
+  },
+  "mistral-24b": {
+    "error": "ValueError: Unrecognized configuration class <class 'transformers.models.mistral3.configuration_mistral3.Mistral3Config'> for this kind of AutoModel: AutoModelForCausalLM.\n",
+    "precision": "4bit"
+  }
+}

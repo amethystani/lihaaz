@@ -1,0 +1,94 @@
+{
+  "layer": 2,
+  "single": [
+    {
+      "alpha": 2.0,
+      "mean_hon": -0.08872
+    },
+    {
+      "alpha": 4.0,
+      "mean_hon": -0.08872
+    },
+    {
+      "alpha": 8.0,
+      "mean_hon": -0.07508000000000001
+    },
+    {
+      "alpha": 16.0,
+      "mean_hon": -0.213
+    }
+  ],
+  "topk_5": [
+    {
+      "alpha": 2.0,
+      "mean_hon": -0.10158
+    },
+    {
+      "alpha": 4.0,
+      "mean_hon": -0.10158
+    },
+    {
+      "alpha": 8.0,
+      "mean_hon": -0.10158
+    },
+    {
+      "alpha": 16.0,
+      "mean_hon": -0.018980000000000004
+    }
+  ],
+  "topk_10": [
+    {
+      "alpha": 2.0,
+      "mean_hon": -0.10158
+    },
+    {
+      "alpha": 4.0,
+      "mean_hon": -0.10158
+    },
+    {
+      "alpha": 8.0,
+      "mean_hon": -0.10158
+    },
+    {
+      "alpha": 16.0,
+      "mean_hon": -0.15158
+    }
+  ],
+  "topk_20": [
+    {
+      "alpha": 2.0,
+      "mean_hon": -0.08872
+    },
+    {
+      "alpha": 4.0,
+      "mean_hon": -0.08872
+    },
+    {
+      "alpha": 8.0,
+      "mean_hon": -0.08872
+    },
+    {
+      "alpha": 16.0,
+      "mean_hon": -0.006120000000000003
+    }
+  ],
+  "supervised_diffmeans": [
+    {
+      "alpha": 2.0,
+      "mean_hon": -0.10158
+    },
+    {
+      "alpha": 4.0,
+      "mean_hon": -0.10158
+    },
+    {
+      "alpha": 8.0,
+      "mean_hon": -0.10158
+    },
+    {
+      "alpha": 16.0,
+      "mean_hon": -0.15158
+    }
+  ],
+  "baseline_mean_hon": -0.10158
+}

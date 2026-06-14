@@ -1,0 +1,607 @@
+{
+  "top_features": [
+    {
+      "feature_idx": 646,
+      "cohen_d": 2.2088770866394043,
+      "cohen_d_signed": 2.2088770866394043,
+      "mean_high": 0.7534269690513611,
+      "mean_low": 0.15857920050621033
+    },
+    {
+      "feature_idx": 7832,
+      "cohen_d": 2.1775755882263184,
+      "cohen_d_signed": 2.1775755882263184,
+      "mean_high": 0.3784768581390381,
+      "mean_low": 0.09997712820768356
+    },
+    {
+      "feature_idx": 4358,
+      "cohen_d": 1.9232112169265747,
+      "cohen_d_signed": 1.9232112169265747,
+      "mean_high": 0.2790135145187378,
+      "mean_low": 0.0
+    },
+    {
+      "feature_idx": 11821,
+      "cohen_d": 1.9225624799728394,
+      "cohen_d_signed": 1.9225624799728394,
+      "mean_high": 0.22450760006904602,
+      "mean_low": 0.0003552900452632457
+    },
+    {
+      "feature_idx": 816,
+      "cohen_d": 1.9222779273986816,
+      "cohen_d_signed": 1.9222779273986816,
+      "mean_high": 0.14775164425373077,
+      "mean_low": 0.0
+    },
+    {
+      "feature_idx": 1418,
+      "cohen_d": 1.922277808189392,
+      "cohen_d_signed": 1.922277808189392,
+      "mean_high": 0.21424990892410278,
+      "mean_low": 0.0
+    },
+    {
+      "feature_idx": 5512,
+      "cohen_d": 1.922277808189392,
+      "cohen_d_signed": 1.922277808189392,
+      "mean_high": 0.13724306225776672,
+      "mean_low": 0.0
+    },
+    {
+      "feature_idx": 10431,
+      "cohen_d": 1.9222776889801025,
+      "cohen_d_signed": 1.9222776889801025,
+      "mean_high": 0.1791183203458786,
+      "mean_low": 0.0
+    },
+    {
+      "feature_idx": 13074,
+      "cohen_d": 1.9222776889801025,
+      "cohen_d_signed": 1.9222776889801025,
+      "mean_high": 0.16630928218364716,
+      "mean_low": 0.0
+    },
+    {
+      "feature_idx": 2549,
+      "cohen_d": 1.922277569770813,
+      "cohen_d_signed": 1.922277569770813,
+      "mean_high": 0.14332740008831024,
+      "mean_low": 0.0
+    },
+    {
+      "feature_idx": 5354,
+      "cohen_d": 1.922277569770813,
+      "cohen_d_signed": 1.922277569770813,
+      "mean_high": 0.2362070232629776,
+      "mean_low": 0.0
+    },
+    {
+      "feature_idx": 8258,
+      "cohen_d": 1.922277569770813,
+      "cohen_d_signed": 1.922277569770813,
+      "mean_high": 0.36160776019096375,
+      "mean_low": 0.0
+    },
+    {
+      "feature_idx": 2753,
+      "cohen_d": 1.9222774505615234,
+      "cohen_d_signed": 1.9222774505615234,
+      "mean_high": 0.14278686046600342,
+      "mean_low": 0.0
+    },
+    {
+      "feature_idx": 7120,
+      "cohen_d": 1.9222774505615234,
+      "cohen_d_signed": 1.9222774505615234,
+      "mean_high": 0.20054557919502258,
+      "mean_low": 0.0
+    },
+    {
+      "feature_idx": 7321,
+      "cohen_d": 1.9222774505615234,
+      "cohen_d_signed": 1.9222774505615234,
+      "mean_high": 0.1880018562078476,
+      "mean_low": 0.0
+    },
+    {
+      "feature_idx": 8757,
+      "cohen_d": 1.9222773313522339,
+      "cohen_d_signed": 1.9222773313522339,
+      "mean_high": 0.1659095734357834,
+      "mean_low": 0.0
+    },
+    {
+      "feature_idx": 8665,
+      "cohen_d": 1.918702483177185,
+      "cohen_d_signed": 1.918702483177185,
+      "mean_high": 0.3917037844657898,
+      "mean_low": 0.0
+    },
+    {
+      "feature_idx": 5104,
+      "cohen_d": 1.9165947437286377,
+      "cohen_d_signed": 1.9165947437286377,
+      "mean_high": 0.25669634342193604,
+      "mean_low": 0.0010445874650031328
+    },
+    {
+      "feature_idx": 522,
+      "cohen_d": 1.9118022918701172,
+      "cohen_d_signed": 1.9118022918701172,
+      "mean_high": 0.19222033023834229,
+      "mean_low": 0.0009008089546114206
+    },
+    {
+      "feature_idx": 8880,
+      "cohen_d": 1.9103573560714722,
+      "cohen_d_signed": 1.9103573560714722,
+      "mean_high": 0.5471921563148499,
+      "mean_low": 0.003646757686510682
+    },
+    {
+      "feature_idx": 8049,
+      "cohen_d": 1.9090856313705444,
+      "cohen_d_signed": 1.9090856313705444,
+      "mean_high": 0.3732130825519562,
+      "mean_low": 0.0007107383571565151
+    },
+    {
+      "feature_idx": 7298,
+      "cohen_d": 1.9065978527069092,
+      "cohen_d_signed": 1.9065978527069092,
+      "mean_high": 1.6159932613372803,
+      "mean_low": 0.01447266899049282
+    },
+    {
+      "feature_idx": 12511,
+      "cohen_d": 1.9060851335525513,
+      "cohen_d_signed": 1.9060851335525513,
+      "mean_high": 0.250436007976532,
+      "mean_low": 0.0010057699400931597
+    },
+    {
+      "feature_idx": 13497,
+      "cohen_d": 1.901271104812622,
+      "cohen_d_signed": 1.901271104812622,
+      "mean_high": 0.4763844907283783,
+      "mean_low": 0.004473188892006874
+    },
+    {
+      "feature_idx": 2027,
+      "cohen_d": 1.9008119106292725,
+      "cohen_d_signed": 1.9008119106292725,
+      "mean_high": 0.3464711904525757,
+      "mean_low": 0.004392394796013832
+    },
+    {
+      "feature_idx": 15730,
+      "cohen_d": 1.9001883268356323,
+      "cohen_d_signed": 1.9001883268356323,
+      "mean_high": 0.18647079169750214,
+      "mean_low": 0.0007462044595740736
+    },
+    {
+      "feature_idx": 5100,
+      "cohen_d": 1.8942116498947144,
+      "cohen_d_signed": 1.8942116498947144,
+      "mean_high": 1.2942947149276733,
+      "mean_low": 0.01934075728058815
+    },
+    {
+      "feature_idx": 11027,
+      "cohen_d": 1.892989993095398,
+      "cohen_d_signed": 1.892989993095398,
+      "mean_high": 0.3181758522987366,
+      "mean_low": 0.0017847573617473245
+    },
+    {
+      "feature_idx": 14583,
+      "cohen_d": 1.8840726613998413,
+      "cohen_d_signed": 1.8840726613998413,
+      "mean_high": 0.2712588906288147,
+      "mean_low": 0.001983346650376916
+    },
+    {
+      "feature_idx": 16027,
+      "cohen_d": 1.8829917907714844,
+      "cohen_d_signed": 1.8829917907714844,
+      "mean_high": 0.19258520007133484,
+      "mean_low": 0.001840661745518446
+    },
+    {
+      "feature_idx": 4385,
+      "cohen_d": 1.8812001943588257,
+      "cohen_d_signed": 1.8812001943588257,
+      "mean_high": 0.2196619212627411,
+      "mean_low": 0.0008995403768494725
+    },
+    {
+      "feature_idx": 9250,
+      "cohen_d": 1.866970181465149,
+      "cohen_d_signed": 1.866970181465149,
+      "mean_high": 0.1943987011909485,
+      "mean_low": 0.0023758176248520613
+    },
+    {
+      "feature_idx": 11822,
+      "cohen_d": 1.8662649393081665,
+      "cohen_d_signed": 1.8662649393081665,
+      "mean_high": 0.13715066015720367,
+      "mean_low": 0.0012017800472676754
+    },
+    {
+      "feature_idx": 5752,
+      "cohen_d": 1.8649431467056274,
+      "cohen_d_signed": 1.8649431467056274,
+      "mean_high": 0.14970235526561737,
+      "mean_low": 0.00172294897492975
+    },
+    {
+      "feature_idx": 16155,
+      "cohen_d": 1.8545286655426025,
+      "cohen_d_signed": 1.8545286655426025,
+      "mean_high": 0.2956209182739258,
+      "mean_low": 0.005886728875339031
+    },
+    {
+      "feature_idx": 8902,
+      "cohen_d": 1.8518381118774414,
+      "cohen_d_signed": 1.8518381118774414,
+      "mean_high": 0.2297794073820114,
+      "mean_low": 0.0011493255151435733
+    },
+    {
+      "feature_idx": 8869,
+      "cohen_d": 1.848510980606079,
+      "cohen_d_signed": 1.848510980606079,
+      "mean_high": 0.2555159628391266,
+      "mean_low": 0.00434228265658021
+    },
+    {
+      "feature_idx": 4891,
+      "cohen_d": 1.8482723236083984,
+      "cohen_d_signed": 1.8482723236083984,
+      "mean_high": 0.3422970175743103,
+      "mean_low": 0.007553070317953825
+    },
+    {
+      "feature_idx": 12956,
+      "cohen_d": 1.8427670001983643,
+      "cohen_d_signed": 1.8427670001983643,
+      "mean_high": 0.1798515021800995,
+      "mean_low": 0.0013823338085785508
+    },
+    {
+      "feature_idx": 14665,
+      "cohen_d": 1.8380894660949707,
+      "cohen_d_signed": 1.8380894660949707,
+      "mean_high": 0.2806946933269501,
+      "mean_low": 0.0033421111293137074
+    },
+    {
+      "feature_idx": 8118,
+      "cohen_d": 1.8371626138687134,
+      "cohen_d_signed": 1.8371626138687134,
+      "mean_high": 0.30225566029548645,
+      "mean_low": 0.005596327595412731
+    },
+    {
+      "feature_idx": 10909,
+      "cohen_d": 1.8260748386383057,
+      "cohen_d_signed": 1.8260748386383057,
+      "mean_high": 0.1583000123500824,
+      "mean_low": 0.0017642879392951727
+    },
+    {
+      "feature_idx": 13135,
+      "cohen_d": 1.825027585029602,
+      "cohen_d_signed": 1.825027585029602,
+      "mean_high": 0.213609516620636,
+      "mean_low": 0.0029757600277662277
+    },
+    {
+      "feature_idx": 6572,
+      "cohen_d": 1.8238309621810913,
+      "cohen_d_signed": 1.8238309621810913,
+      "mean_high": 0.19855888187885284,
+      "mean_low": 0.0021953301038593054
+    },
+    {
+      "feature_idx": 5264,
+      "cohen_d": 1.8175486326217651,
+      "cohen_d_signed": 1.8175486326217651,
+      "mean_high": 0.2434183955192566,
+      "mean_low": 0.006735540460795164
+    },
+    {
+      "feature_idx": 14667,
+      "cohen_d": 1.8112016916275024,
+      "cohen_d_signed": 1.8112016916275024,
+      "mean_high": 0.6621866822242737,
+      "mean_low": 0.17685633897781372
+    },
+    {
+      "feature_idx": 2551,
+      "cohen_d": 1.8027554750442505,
+      "cohen_d_signed": 1.8027554750442505,
+      "mean_high": 0.32520177960395813,
+      "mean_low": 0.0148951830342412
+    },
+    {
+      "feature_idx": 901,
+      "cohen_d": 1.8010194301605225,
+      "cohen_d_signed": 1.8010194301605225,
+      "mean_high": 0.15779271721839905,
+      "mean_low": 0.002465000608935952
+    },
+    {
+      "feature_idx": 6550,
+      "cohen_d": 1.7976093292236328,
+      "cohen_d_signed": 1.7976093292236328,
+      "mean_high": 0.13883964717388153,
+      "mean_low": 0.003135040868073702
+    },
+    {
+      "feature_idx": 13592,
+      "cohen_d": 1.7951087951660156,
+      "cohen_d_signed": 1.7951087951660156,
+      "mean_high": 0.21005958318710327,
+      "mean_low": 0.005457374732941389
+    }
+  ],
+  "selectivity": [
+    {
+      "feature_idx": 646,
+      "sel_pronoun_present": 0.36189094494154883,
+      "mean_selectivity": 0.36189094494154883
+    },
+    {
+      "feature_idx": 7832,
+      "sel_pronoun_present": 0.48901863912223575,
+      "mean_selectivity": 0.48901863912223575
+    },
+    {
+      "feature_idx": 4358,
+      "sel_pronoun_present": 0.1909407665505226,
+      "mean_selectivity": 0.1909407665505226
+    },
+    {
+      "feature_idx": 11821,
+      "sel_pronoun_present": 0.19042978672403743,
+      "mean_selectivity": 0.19042978672403743
+    },
+    {
+      "feature_idx": 816,
+      "sel_pronoun_present": 0.1909407665505226,
+      "mean_selectivity": 0.1909407665505226
+    },
+    {
+      "feature_idx": 1418,
+      "sel_pronoun_present": 0.1909407665505226,
+      "mean_selectivity": 0.1909407665505226
+    },
+    {
+      "feature_idx": 5512,
+      "sel_pronoun_present": 0.1909407665505226,
+      "mean_selectivity": 0.1909407665505226
+    },
+    {
+      "feature_idx": 10431,
+      "sel_pronoun_present": 0.1909407665505226,
+      "mean_selectivity": 0.1909407665505226
+    },
+    {
+      "feature_idx": 13074,
+      "sel_pronoun_present": 0.1909407665505226,
+      "mean_selectivity": 0.1909407665505226
+    },
+    {
+      "feature_idx": 2549,
+      "sel_pronoun_present": 0.1909407665505226,
+      "mean_selectivity": 0.1909407665505226
+    },
+    {
+      "feature_idx": 5354,
+      "sel_pronoun_present": 0.1909407665505226,
+      "mean_selectivity": 0.1909407665505226
+    },
+    {
+      "feature_idx": 8258,
+      "sel_pronoun_present": 0.1909407665505226,
+      "mean_selectivity": 0.1909407665505226
+    },
+    {
+      "feature_idx": 2753,
+      "sel_pronoun_present": 0.1909407665505226,
+      "mean_selectivity": 0.1909407665505226
+    },
+    {
+      "feature_idx": 7120,
+      "sel_pronoun_present": 0.1909407665505226,
+      "mean_selectivity": 0.1909407665505226
+    },
+    {
+      "feature_idx": 7321,
+      "sel_pronoun_present": 0.1909407665505226,
+      "mean_selectivity": 0.1909407665505226
+    },
+    {
+      "feature_idx": 8757,
+      "sel_pronoun_present": 0.1909407665505226,
+      "mean_selectivity": 0.1909407665505226
+    },
+    {
+      "feature_idx": 8665,
+      "sel_pronoun_present": 0.1909407665505226,
+      "mean_selectivity": 0.1909407665505226
+    },
+    {
+      "feature_idx": 5104,
+      "sel_pronoun_present": 0.1897252709234305,
+      "mean_selectivity": 0.1897252709234305
+    },
+    {
+      "feature_idx": 522,
+      "sel_pronoun_present": 0.1888150228670188,
+      "mean_selectivity": 0.1888150228670188
+    },
+    {
+      "feature_idx": 8880,
+      "sel_pronoun_present": 0.18466083615539985,
+      "mean_selectivity": 0.18466083615539985
+    },
+    {
+      "feature_idx": 8049,
+      "sel_pronoun_present": 0.18935504041021534,
+      "mean_selectivity": 0.18935504041021534
+    },
+    {
+      "feature_idx": 7298,
+      "sel_pronoun_present": 0.19589924058489738,
+      "mean_selectivity": 0.19589924058489738
+    },
+    {
+      "feature_idx": 12511,
+      "sel_pronoun_present": 0.18914948791215425,
+      "mean_selectivity": 0.18914948791215425
+    },
+    {
+      "feature_idx": 13497,
+      "sel_pronoun_present": 0.18581198827569256,
+      "mean_selectivity": 0.18581198827569256
+    },
+    {
+      "feature_idx": 2027,
+      "sel_pronoun_present": 0.18414584004216383,
+      "mean_selectivity": 0.18414584004216383
+    },
+    {
+      "feature_idx": 15730,
+      "sel_pronoun_present": 0.18914948791215425,
+      "mean_selectivity": 0.18914948791215425
+    },
+    {
+      "feature_idx": 5100,
+      "sel_pronoun_present": 0.18414771054486112,
+      "mean_selectivity": 0.18414771054486112
+    },
+    {
+      "feature_idx": 11027,
+      "sel_pronoun_present": 0.1872576315206712,
+      "mean_selectivity": 0.1872576315206712
+    },
+    {
+      "feature_idx": 14583,
+      "sel_pronoun_present": 0.1873847580630683,
+      "mean_selectivity": 0.1873847580630683
+    },
+    {
+      "feature_idx": 16027,
+      "sel_pronoun_present": 0.1856495638945549,
+      "mean_selectivity": 0.1856495638945549
+    },
+    {
+      "feature_idx": 4385,
+      "sel_pronoun_present": 0.18941758190869173,
+      "mean_selectivity": 0.18941758190869173
+    },
+    {
+      "feature_idx": 9250,
+      "sel_pronoun_present": 0.2006696179770615,
+      "mean_selectivity": 0.2006696179770615
+    },
+    {
+      "feature_idx": 11822,
+      "sel_pronoun_present": 0.18718609068556036,
+      "mean_selectivity": 0.18718609068556036
+    },
+    {
+      "feature_idx": 5752,
+      "sel_pronoun_present": 0.18409617459332495,
+      "mean_selectivity": 0.18409617459332495
+    },
+    {
+      "feature_idx": 16155,
+      "sel_pronoun_present": 0.1803757895692899,
+      "mean_selectivity": 0.1803757895692899
+    },
+    {
+      "feature_idx": 8902,
+      "sel_pronoun_present": 0.2051256434241,
+      "mean_selectivity": 0.2051256434241
+    },
+    {
+      "feature_idx": 8869,
+      "sel_pronoun_present": 0.181476748867622,
+      "mean_selectivity": 0.181476748867622
+    },
+    {
+      "feature_idx": 4891,
+      "sel_pronoun_present": 0.17799710105576094,
+      "mean_selectivity": 0.17799710105576094
+    },
+    {
+      "feature_idx": 12956,
+      "sel_pronoun_present": 0.21507498702692252,
+      "mean_selectivity": 0.21507498702692252
+    },
+    {
+      "feature_idx": 14665,
+      "sel_pronoun_present": 0.18536655869690488,
+      "mean_selectivity": 0.18536655869690488
+    },
+    {
+      "feature_idx": 8118,
+      "sel_pronoun_present": 0.18164327009341696,
+      "mean_selectivity": 0.18164327009341696
+    },
+    {
+      "feature_idx": 10909,
+      "sel_pronoun_present": 0.1852846920294584,
+      "mean_selectivity": 0.1852846920294584
+    },
+    {
+      "feature_idx": 13135,
+      "sel_pronoun_present": 0.18342813704601335,
+      "mean_selectivity": 0.18342813704601335
+    },
+    {
+      "feature_idx": 6572,
+      "sel_pronoun_present": 0.18567702903918393,
+      "mean_selectivity": 0.18567702903918393
+    },
+    {
+      "feature_idx": 5264,
+      "sel_pronoun_present": 0.17900464452121267,
+      "mean_selectivity": 0.17900464452121267
+    },
+    {
+      "feature_idx": 14667,
+      "sel_pronoun_present": 0.30789020280316826,
+      "mean_selectivity": 0.30789020280316826
+    },
+    {
+      "feature_idx": 2551,
+      "sel_pronoun_present": 0.1680082770011645,
+      "mean_selectivity": 0.1680082770011645
+    },
+    {
+      "feature_idx": 901,
+      "sel_pronoun_present": 0.1825524518336369,
+      "mean_selectivity": 0.1825524518336369
+    },
+    {
+      "feature_idx": 6550,
+      "sel_pronoun_present": 0.22996419088647435,
+      "mean_selectivity": 0.22996419088647435
+    },
+    {
+      "feature_idx": 13592,
+      "sel_pronoun_present": 0.19461467867384097,
+      "mean_selectivity": 0.19461467867384097
+    }
+  ],
+  "best_layer": 2
+}

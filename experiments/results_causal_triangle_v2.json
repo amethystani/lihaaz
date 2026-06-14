@@ -1,0 +1,207 @@
+{
+  "layer": 2,
+  "feature_idx": 646,
+  "baseline": [
+    {
+      "prompt": "tu kaisa hai? kya tune khana khaya?",
+      "output": "\n\nI am fine. I have eaten.\n\ntu kaisa hai? kya tune khana khaya?\n\nI am fine. I have eaten.\n\ntu kaisa hai? kya tune khana khaya?\n\nI am fine. I have eaten.\n\ntu kaisa hai? kya tune khana khaya?\n\nI am fine. I have eaten.\n\ntu kaisa hai",
+      "hon": -0.2292
+    },
+    {
+      "prompt": "tu kahan se aa raha hai? kya tu thaka hua hai?",
+      "output": "\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?",
+      "hon": -0.2727
+    },
+    {
+      "prompt": "tera kaam kaisa chal raha hai?",
+      "output": "\n\n[User 0001]\n\nI am a new member of this forum. I am a student of B.Tech. I am from India. I am a student of 3rd year. I am a student of Computer Science and Engineering. I am a student of Computer Science and Engineering. I am a student of Computer Science and Engineering. I am a student of Computer Science",
+      "hon": 0.0
+    },
+    {
+      "prompt": "tu bahut accha gaata hai.",
+      "output": "\n\nI am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your",
+      "hon": 0.0
+    },
+    {
+      "prompt": "tujhse milkar accha laga.",
+      "output": "\nEnglish: I like you.<eos>",
+      "hon": 0.0
+    }
+  ],
+  "steering_sweep": [
+    {
+      "prompt": "tu kaisa hai? kya tune khana khaya?",
+      "alpha": 2.0,
+      "output": "\n\nI am fine. How are you? Have you eaten?\n\ntu kaisa hai? kya tune khana khaya?\n\nI am fine. How are you? Have you eaten?\n\ntu kaisa hai? kya tune khana khaya?\n\nI am fine. How are you? Have you eaten?\n\ntu kaisa hai? kya tune khana khaya?\n\nI",
+      "hon": -0.1837
+    },
+    {
+      "prompt": "tu kahan se aa raha hai? kya tu thaka hua hai?",
+      "alpha": 2.0,
+      "output": "\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?",
+      "hon": -0.2727
+    },
+    {
+      "prompt": "tera kaam kaisa chal raha hai?",
+      "alpha": 2.0,
+      "output": "\n\n[User 0001]\n\nI am a new member of this forum. I am a student of B.Tech. I am from India. I am a student of computer science. I am a student of 3rd year. I am a student of 3rd year. I am a student of 3rd year. I am a student of 3rd year",
+      "hon": 0.0
+    },
+    {
+      "prompt": "tu bahut accha gaata hai.",
+      "alpha": 2.0,
+      "output": "\n\nI am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your",
+      "hon": 0.0
+    },
+    {
+      "prompt": "tujhse milkar accha laga.",
+      "alpha": 2.0,
+      "output": "\nEnglish: I like you.<eos>",
+      "hon": 0.0
+    },
+    {
+      "prompt": "tu kaisa hai? kya tune khana khaya?",
+      "alpha": 4.0,
+      "output": "\n\nI am fine. How are you? Have you eaten?\n\ntu kaisa hai? kya tune khana khaya?\n\nI am fine. How are you? Have you eaten?\n\ntu kaisa hai? kya tune khana khaya?\n\nI am fine. How are you? Have you eaten?\n\ntu kaisa hai? kya tune khana khaya?\n\nI",
+      "hon": -0.1837
+    },
+    {
+      "prompt": "tu kahan se aa raha hai? kya tu thaka hua hai?",
+      "alpha": 4.0,
+      "output": "\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?",
+      "hon": -0.2727
+    },
+    {
+      "prompt": "tera kaam kaisa chal raha hai?",
+      "alpha": 4.0,
+      "output": "\n\n[User 0001]\n\nI am a new member of this forum. I am a student of B.Tech. I am from India. I am a student of computer science. I am a student of 3rd year. I am a student of 3rd year. I am a student of 3rd year. I am a student of 3rd year",
+      "hon": 0.0
+    },
+    {
+      "prompt": "tu bahut accha gaata hai.",
+      "alpha": 4.0,
+      "output": "\n\nI am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your work. I am a big fan of your",
+      "hon": 0.0
+    },
+    {
+      "prompt": "tujhse milkar accha laga.",
+      "alpha": 4.0,
+      "output": "\nEnglish: I like you.<eos>",
+      "hon": 0.0
+    },
+    {
+      "prompt": "tu kaisa hai? kya tune khana khaya?",
+      "alpha": 8.0,
+      "output": "\n\nI am fine. How are you? Have you eaten?\n\ntu kaisa hai? kya tune khana khaya?\n\nI am fine. How are you? Have you eaten?\n\ntu kaisa hai? kya tune khana khaya?\n\nI am fine. How are you? Have you eaten?\n\ntu kaisa hai? kya tune khana khaya?\n\nI",
+      "hon": -0.1837
+    },
+    {
+      "prompt": "tu kahan se aa raha hai? kya tu thaka hua hai?",
+      "alpha": 8.0,
+      "output": "\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?",
+      "hon": -0.2727
+    },
+    {
+      "prompt": "tera kaam kaisa chal raha hai?",
+      "alpha": 8.0,
+      "output": "\n\n[User 0001]\n\nI am a new member here. I am a software engineer and I am working in a company in India. I am working in a team of 10 people. I am the only one who is working on the project. I am the only one who is doing the coding. I am the only one who is doing the testing. I am",
+      "hon": 0.0968
+    },
+    {
+      "prompt": "tu bahut accha gaata hai.",
+      "alpha": 8.0,
+      "output": "\n\nI love this song.\n\nI love this song.\n\nI love this song.\n\nI love this song.\n\nI love this song.\n\nI love this song.\n\nI love this song.\n\nI love this song.\n\nI love this song.\n\nI love this song.\n\nI love this song.\n\nI love this song.\n\nI love this song.\n\nI",
+      "hon": 0.0
+    },
+    {
+      "prompt": "tujhse milkar accha laga.",
+      "alpha": 8.0,
+      "output": "\nEnglish: I like you.<eos>",
+      "hon": 0.0
+    },
+    {
+      "prompt": "tu kaisa hai? kya tune khana khaya?",
+      "alpha": 16.0,
+      "output": "\n\nI am fine. How are you? Have you eaten?\n\ntu kaisa hai? kya tune khana khaya?\n\nI am fine. How are you? Have you eaten?\n\ntu kaisa hai? kya tune khana khaya?\n\nI am fine. How are you? Have you eaten?\n\ntu kaisa hai? kya tune khana khaya?\n\nI",
+      "hon": -0.1837
+    },
+    {
+      "prompt": "tu kahan se aa raha hai? kya tu thaka hua hai?",
+      "alpha": 16.0,
+      "output": "\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?\n\ntu kahan se aa raha hai? kya tu thaka hua hai?",
+      "hon": -0.2727
+    },
+    {
+      "prompt": "tera kaam kaisa chal raha hai?",
+      "alpha": 16.0,
+      "output": "\n\n[User 0001]\n\n<b>tera kaam kaisa chal raha hai?</b>\n\n<b>tera kaam kaisa chal raha hai?</b>\n\n<b>tera kaam kaisa chal raha hai?</b>\n\n<b>tera kaam kaisa chal raha hai?</b>\n\n<b>tera kaam kaisa chal raha hai?</b>\n\n<b>tera kaam kaisa chal raha hai?",
+      "hon": -0.375
+    },
+    {
+      "prompt": "tu bahut accha gaata hai.",
+      "alpha": 16.0,
+      "output": "\n\nI love this song.\n\nI love this song.\n\nI love this song.\n\nI love this song.\n\nI love this song.\n\nI love this song.\n\nI love this song.\n\nI love this song.\n\nI love this song.\n\nI love this song.\n\nI love this song.\n\nI love this song.\n\nI love this song.\n\nI",
+      "hon": 0.0
+    },
+    {
+      "prompt": "tujhse milkar accha laga.",
+      "alpha": 16.0,
+      "output": "\ntujhse milkar accha laga.\ntujhse milkar accha laga.\ntujhse milkar accha laga.\ntujhse milkar accha laga.\ntujhse milkar accha laga.\ntujhse milkar accha laga.\ntujhse milkar accha laga.\ntujhse milkar accha laga.",
+      "hon": -0.25
+    }
+  ],
+  "ablation_neg": [
+    {
+      "prompt": "aap kaise hain? kya aapne khana kha liya?",
+      "output": "\n\naap kaise hain? kya aapne khana kha liya?\n\naap kaise hain? kya aapne khana kha liya?\n\naap kaise hain? kya aapne khana kha liya?\n\naap kaise hain? kya aapne khana kha liya?\n\naap kaise hain? kya aapne khana kha liya?",
+      "hon": 0.375
+    },
+    {
+      "prompt": "aap kahan se aa rahe hain? kya aap thake hue hain?",
+      "output": "\n\naap kahan se aa rahe hain? kya aap thake hue hain?\n\naap kahan se aa rahe hain? kya aap thake hue hain?\n\naap kahan se aa rahe hain? kya aap thake hue hain?\n\naap kahan se aa rahe hain? kya aap thake hue hain?\n\naap kahan se aa rahe",
+      "hon": 0.449
+    },
+    {
+      "prompt": "aapka kaam kaisa chal raha hai?",
+      "output": "\n\n[User 0001]\n\naapka kaam kaisa chal raha hai?\n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n ",
+      "hon": -0.1429
+    },
+    {
+      "prompt": "aap bahut acche gaate hain.",
+      "output": "\n\naap bahut acche gaate hain.\n\naap bahut acche gaate hain.\n\naap bahut acche gaate hain.\n\naap bahut acche gaate hain.\n\naap bahut acche gaate hain.\n\naap bahut acche gaate hain.\n\naap bahut acche gaate hain.\n\naap bahut acche gaate hain.",
+      "hon": 0.4
+    },
+    {
+      "prompt": "aapse milkar bahut accha laga.",
+      "output": "\nI am very happy to see your work.\nI am a student of class 10th.\nI am a student of class 10th.\nI am a student of class 10th.\nI am a student of class 10th.\nI am a student of class 10th.\nI am a student of class 10",
+      "hon": 0.0
+    }
+  ],
+  "ablation_zero": [
+    {
+      "prompt": "aap kaise hain? kya aapne khana kha liya?",
+      "output": "\n\naap kaise hain? kya aapne khana kha liya?\n\naap kaise hain? kya aapne khana kha liya?\n\naap kaise hain? kya aapne khana kha liya?\n\naap kaise hain? kya aapne khana kha liya?\n\naap kaise hain? kya aapne khana kha liya?",
+      "hon": 0.375
+    },
+    {
+      "prompt": "aap kahan se aa rahe hain? kya aap thake hue hain?",
+      "output": "\n\naap kahan se aa rahe hain? kya aap thake hue hain?\n\naap kahan se aa rahe hain? kya aap thake hue hain?\n\naap kahan se aa rahe hain? kya aap thake hue hain?\n\naap kahan se aa rahe hain? kya aap thake hue hain?\n\naap kahan se aa rahe",
+      "hon": 0.449
+    },
+    {
+      "prompt": "aapka kaam kaisa chal raha hai?",
+      "output": "\n\n[User 0001]\n\naapka kaam kaisa chal raha hai?\n\n \n\nI am trying to translate this into English. I am not sure if I am using the right word.\n\n \n\nI am trying to say \"How is your work going?\"\n\n \n\nI am thinking of using \"How is your work going?\"\n\n \n\nIs this correct",
+      "hon": 0.0
+    },
+    {
+      "prompt": "aap bahut acche gaate hain.",
+      "output": "\n\naap bahut acche gaate hain.\n\naap bahut acche gaate hain.\n\naap bahut acche gaate hain.\n\naap bahut acche gaate hain.\n\naap bahut acche gaate hain.\n\naap bahut acche gaate hain.\n\naap bahut acche gaate hain.\n\naap bahut acche gaate hain.",
+      "hon": 0.4
+    },
+    {
+      "prompt": "aapse milkar bahut accha laga.",
+      "output": "\nI am very happy to see your work.\nI am a student of class 10th.\nI am a student of class 10th.\nI am a student of class 10th.\nI am a student of class 10th.\nI am a student of class 10th.\nI am a student of class 10",
+      "hon": 0.0
+    }
+  ]
+}

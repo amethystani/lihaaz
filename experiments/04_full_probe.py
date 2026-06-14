@@ -24,8 +24,8 @@ def run_model(model_name: str, n_layers: int, tag: str) -> None:
         if condition in all_results:
             print(f"[{tag}/{condition}] already done, skipping")
             continue
-        sentences, labels = [], []
-        for p in pairs:
+        sentences, labels, groups = [], [], []
+        for pair_idx, p in enumerate(pairs):
             conds = get_all_conditions(p)
             if condition not in conds:
                 continue
@@ -34,14 +34,18 @@ def run_model(model_name: str, n_layers: int, tag: str) -> None:
                 continue
             sentences.extend([h, lo])
             labels.extend([1, 0])
+            # Both members of a contrastive pair share a group id so grouped CV
+            # never splits them across train/test (prevents leakage; finding C1).
+            groups.extend([pair_idx, pair_idx])
 
         if not sentences:
             print(f"[{tag}/{condition}] no sentences — skipping")
             continue
 
         labels_arr = np.array(labels)
+        groups_arr = np.array(groups)
         acts = extract_residuals(model, sentences, layers=layers, device=device)
-        results = run_layerwise_probes(acts, labels_arr)
+        results = run_layerwise_probes(acts, labels_arr, groups=groups_arr)
         print_probe_report(results, condition=f"{tag}/{condition}")
         all_results[condition] = {
             str(lay): {"auroc_mean": v["auroc_mean"], "auroc_std": v["auroc_std"]}

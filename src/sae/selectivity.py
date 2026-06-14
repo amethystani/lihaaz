@@ -7,7 +7,10 @@ from sklearn.preprocessing import StandardScaler
 
 
 def _auroc_single(col: np.ndarray, labels: np.ndarray) -> float:
-    if col.std() == 0:
+    # A single-class confound (e.g. a control absent from this dataset) carries
+    # no information to factor out; treat it as chance rather than crashing the
+    # solver, and let score_top_features drop it from the mean.
+    if col.std() == 0 or len(np.unique(labels)) < 2:
         return 0.5
     col_s = StandardScaler().fit_transform(col.reshape(-1, 1))
     clf = LogisticRegression(max_iter=200).fit(col_s, labels)
@@ -24,12 +27,17 @@ def score_top_features(
     feature_acts: np.ndarray, honorific_labels: np.ndarray,
     confound_labels_dict: dict[str, np.ndarray], top_feature_indices: list[int],
 ) -> list[dict]:
+    # Only confounds with >=2 classes present in this dataset are informative;
+    # a control that is absent (all-zero labels) cannot be factored out and is
+    # dropped rather than diluting mean selectivity with a spurious score.
+    usable = {n: c for n, c in confound_labels_dict.items() if len(np.unique(c)) >= 2}
     results = []
     for f_idx in top_feature_indices:
         col = feature_acts[:, f_idx]
         row: dict = {"feature_idx": f_idx}
-        for name, conf_labels in confound_labels_dict.items():
+        for name, conf_labels in usable.items():
             row[f"sel_{name}"] = float(compute_selectivity(col, honorific_labels, conf_labels))
-        row["mean_selectivity"] = float(np.mean([v for k, v in row.items() if k.startswith("sel_")]))
+        sel_vals = [v for k, v in row.items() if k.startswith("sel_")]
+        row["mean_selectivity"] = float(np.mean(sel_vals)) if sel_vals else 0.0
         results.append(row)
     return results

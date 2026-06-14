@@ -8,15 +8,42 @@ if TYPE_CHECKING:
 
 
 def steer_generate(
-    model: HookedTransformer, sae: SAE,
+    model: "HookedTransformer", sae: "SAE",
     prompt: str, feature_idx: int, alpha: float, layer: int,
     max_new_tokens: int = 80, device: str = "cuda",
+    normalize: bool = True,
 ) -> str:
-    import torch
-    steering_vec = (alpha * sae.W_dec[feature_idx]).to(device)
+    """Additive feature steering applied to generated positions only.
+
+    Two corrections over a naive implementation (review findings C5/C6):
+
+    1. The decoder direction is unit-normalised when ``normalize`` is True, so
+       ``alpha`` is the magnitude (in residual-norm units) actually injected and
+       is comparable across features and layers. Raw ``W_dec`` rows have very
+       different norms; multiplying a raw row by ``alpha=20`` pushes the residual
+       far off-manifold and collapses generation into degenerate loops.
+    2. The vector is added to the last prefill position and to each newly
+       generated token, never to the interior prompt tokens. Steering the whole
+       prompt corrupts the context the model conditions on.
+
+    Recommended sweep with ``normalize=True``: ``alpha in {2, 4, 8, 16}``.
+    """
+    import torch  # noqa: F401  (kept local so importing this module needs no torch)
+
+    direction = sae.W_dec[feature_idx].to(device)
+    if normalize:
+        direction = direction / (direction.norm() + 1e-8)
+    steering_vec = alpha * direction
 
     def hook_fn(value, hook):
-        return value + steering_vec.unsqueeze(0).unsqueeze(0)
+        # Cached generation step: a single new token -> steer it.
+        if value.shape[1] == 1:
+            return value + steering_vec
+        # Prefill: steer only the final prompt position (sets up the first
+        # generated token); leave the rest of the prompt untouched.
+        out = value.clone()
+        out[:, -1, :] = out[:, -1, :] + steering_vec
+        return out
 
     tokens = model.to_tokens(prompt).to(device)
     with model.hooks(fwd_hooks=[(f"blocks.{layer}.hook_resid_post", hook_fn)]):

@@ -1,0 +1,59 @@
+{
+  "gemma2-2b": {
+    "n_layers": 26,
+    "raw": {
+      "max": 0.8943,
+      "min": 0.8918,
+      "spread": 0.0025,
+      "argmax_layer": 20,
+      "n_layers": 26
+    },
+    "pronoun_stripped": {
+      "max": 0.8166,
+      "min": 0.7965,
+      "spread": 0.0202,
+      "argmax_layer": 2,
+      "n_layers": 26
+    }
+  },
+  "qwen2.5-1.5b": {
+    "n_layers": 28,
+    "raw": {
+      "max": 0.8951,
+      "min": 0.8919,
+      "spread": 0.0032,
+      "argmax_layer": 14,
+      "n_layers": 28
+    },
+    "pronoun_stripped": {
+      "max": 0.8163,
+      "min": 0.7955,
+      "spread": 0.0208,
+      "argmax_layer": 0,
+      "n_layers": 28
+    }
+  },
+  "qwen2.5-3b": {
+    "n_layers": 36,
+    "raw": {
+      "max": 0.8937,
+      "min": 0.8921,
+      "spread": 0.0016,
+      "argmax_layer": 4,
+      "n_layers": 36
+    },
+    "pronoun_stripped": {
+      "max": 0.8174,
+      "min": 0.7969,
+      "spread": 0.0205,
+      "argmax_layer": 3,
+      "n_layers": 36
+    }
+  },
+  "qwen2.5-7b": {
+    "error": "RuntimeError: Cannot send a request, as the client has been closed."
+  },
+  "llama3.2-3b": {
+    "error": "RuntimeError: Cannot send a request, as the client has been closed."
+  }
+}
