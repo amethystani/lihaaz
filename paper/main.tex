@@ -47,15 +47,15 @@ A Mechanistic Case Study of Honorific Encoding in Gemma Scope SAEs}
 
 \maketitle
 
-% -----------------------------------------------------------------------
+% ------------------------------------------------
 \begin{abstract}
-% -----------------------------------------------------------------------
+% ------------------------------------------------
 Sparse autoencoders (SAEs) have recently revealed that multilingual language
 models encode language identity as causally manipulable residual-stream
 directions. We ask a narrower, sociolinguistically grounded question: within
-Hindi---whose honorific system encodes register \emph{pronominally}
+Hindi--whose honorific system encodes register \emph{pronominally}
 (\aap{}/\tum{}/\tu{} plus verb-agreement) rather than via verb-suffix
-morphology---do publicly released SAEs (Gemma Scope) contain features that
+morphology--do publicly released SAEs (Gemma Scope) contain features that
 selectively represent honorific level, and can those features causally steer
 generation?
 
@@ -69,17 +69,17 @@ already linearly present in the token embeddings and the network does not build
 a more localized representation downstream. Consistent with this,
 \emph{no single Gemma Scope SAE feature} clears our pre-registered selectivity
 threshold against the pronoun-token confound (best selectivity $0.49 < 0.6$),
-and \emph{no} additive residual-stream direction---single feature, up to 20
-combined features, or even the supervised difference-in-means direction---moves
+and \emph{no} additive residual-stream direction--single feature, up to 20
+combined features, or even the supervised difference-in-means direction--moves
 generation out of the informal register, whereas 4-shot prompting on the same
 prompts flips it to \aap{} ($\Delta = +0.169$). The information is linearly
 present yet not additively controllable: decodability and steerability come
 apart.
 
 We diagnose the failure mechanistically: 18 of the top-20 features have
-statistically indistinguishable effect sizes ($d = 1.922 \pm 0.012$)---the
+statistically indistinguishable effect sizes ($d = 1.922 \pm 0.012$)--the
 signature of one pronoun-token direction split across many redundant dictionary
-entries rather than an abstracted register feature---and injecting a detector
+entries rather than an abstracted register feature--and injecting a detector
 direction cannot execute the coordinated pronoun${+}$agreement program that
 honorific Hindi requires. The result is a \textbf{decodability--steerability
 dissociation} with direct consequences for Indic NLP: linear decodability of a
@@ -90,17 +90,17 @@ probe and per-feature selectivity results, and a reproducible pipeline for a
 single 24\,GB GPU.
 \end{abstract}
 
-% -----------------------------------------------------------------------
+% ------------------------------------------------
 \section{Introduction}
 \label{sec:intro}
-% -----------------------------------------------------------------------
+% ------------------------------------------------
 
 Modern multilingual LLMs deployed in Indian-language settings routinely
 misjudge honorific register. A model addressing an elderly Hindi speaker
 with \tu{} instead of \aap{}, or using a singular verb form
 (\textit{karta hai}) where the plural-respectful (\textit{karte hain}) is
 obligatory, commits a social and grammatical error that competent native
-speakers never make---and one that matters materially in customer service,
+speakers never make--and one that matters materially in customer service,
 healthcare, and voice-assistant deployments across India.
 
 The standard remedies are insufficient: zero-shot prompting is inconsistent
@@ -111,10 +111,10 @@ structured internal representation. Without that knowledge, every intervention
 is surface-level.
 
 \paragraph{This paper.} We address three research questions:
-\textbf{RQ1}---Does a linear probe on Gemma-2 residual streams reliably
+\textbf{RQ1}--Does a linear probe on Gemma-2 residual streams reliably
 distinguish Hindi honorific level \emph{after controlling for pronoun-token
-presence}? \textbf{RQ2}---Do Gemma Scope SAE features at the identified layer
-encode honorific level beyond surface confounds? \textbf{RQ3}---Does the top
+presence}? \textbf{RQ2}--Do Gemma Scope SAE features at the identified layer
+encode honorific level beyond surface confounds? \textbf{RQ3}--Does the top
 feature satisfy the full causal triangle: correlation, steering sufficiency,
 and ablation necessity? A lighter comparison with Japanese keigo addresses
 \textbf{RQ4--5} (Section~\ref{sec:japanese}).
@@ -126,7 +126,7 @@ every Gemma-2 layer, eliminating weeks of SAE training.
 (2)~A wave of 2025 multilingual mech-interp papers
 \citep{schut2025lost,deng2025unveiling,liu2025causal} shows language identity
 is causally encoded in middle-layer residual streams; what \emph{else} lives
-there---register, honorifics, dialect---is open.
+there--register, honorifics, dialect--is open.
 (3)~Indic NLP has matured (IndicXTREME, IndicGenBench, Sarvam-1) but has had
 essentially zero intersection with mechanistic interpretability.
 
@@ -159,10 +159,10 @@ essentially zero intersection with mechanistic interpretability.
         single 24\,GB consumer GPU.
 \end{enumerate}
 
-% -----------------------------------------------------------------------
+% ------------------------------------------------
 \section{Background}
 \label{sec:background}
-% -----------------------------------------------------------------------
+% ------------------------------------------------
 
 \subsection{Hindi Honorifics}
 
@@ -173,7 +173,7 @@ dismissive). Second, \emph{verb agreement}: plural forms (\textit{karte hain},
 \textit{gaye the}) obligatorily co-occur with \aap{}; singular forms
 (\textit{karta hai}) with \tu{} and typically \tum. A single utterance's
 honorific level is jointly encoded by pronoun \emph{and} verb
-agreement---a \emph{grammatically distributed} structure.
+agreement--a \emph{grammatically distributed} structure.
 
 This contrasts with Japanese, where verb-suffix alone (\textit{-masu} vs.\
 plain form) carries the bulk of the marking. This typological difference
@@ -210,10 +210,10 @@ subtracts it (ablation), causally biasing generation without retraining. Gemma
 Scope \citep{lieberum2024gemmascope} releases pretrained JumpReLU SAEs at all
 layers of Gemma-2-2B and Gemma-2-9B.
 
-% -----------------------------------------------------------------------
+% ------------------------------------------------
 \section{Related Work}
 \label{sec:related}
-% -----------------------------------------------------------------------
+% ------------------------------------------------
 
 \begin{table}[t]
 \centering
@@ -248,10 +248,10 @@ monolithic label. Honorific-aware NLP work
 operate at the evaluation or model-release level without examining internal
 representations.
 
-% -----------------------------------------------------------------------
+% ------------------------------------------------
 \section{Methodology}
 \label{sec:method}
-% -----------------------------------------------------------------------
+% ------------------------------------------------
 
 \begin{figure*}[t]
 \centering
@@ -303,7 +303,7 @@ family, public service, medical, and customer service. Each item includes:
 \begin{itemize}\itemsep0pt
   \item \textbf{Pronoun-stripped condition}: every sentence has a variant with
         all second-person pronoun tokens removed, leaving verb agreement and
-        context intact---the probe set that isolates honorific signal from
+        context intact--the probe set that isolates honorific signal from
         pronoun-token identity.
   \item \textbf{Length matching by construction}: the two members of a pair
         differ only in the honorific marker, so length and content are matched
@@ -443,12 +443,12 @@ Verb-agreement suffix & Retained in the stripped condition \emph{by design} and
 \label{tab:confounds}
 \end{table}
 
-% -----------------------------------------------------------------------
+% ------------------------------------------------
 \section{Results}
 \label{sec:results}
-% -----------------------------------------------------------------------
+% ------------------------------------------------
 
-\subsection{RQ1: Honorific Level Is Decodable Everywhere---and Nowhere in
+\subsection{RQ1: Honorific Level Is Decodable Everywhere--and Nowhere in
 Particular}
 \label{sec:probe-results}
 
@@ -471,15 +471,15 @@ The decisive observation is that AUROC is \emph{essentially flat across all 26
 layers}. In the raw condition the total spread is $0.002$, only $0.27\times$
 the mean cross-validation standard deviation ($0.009$); a linear regression of
 AUROC on layer depth yields a slope of $6{\times}10^{-5}$ per layer, i.e.\
-$+0.0016$ over the entire network---an order of magnitude below noise. In the
+$+0.0016$ over the entire network--an order of magnitude below noise. In the
 pronoun-stripped condition the spread is $0.021$ with \emph{no significant
 layer trend} (slope $p = 0.33$, $R^2 = 0.04$); the curve shows only a shallow
 dip around layer~12 before recovering. The signal is already fully present at
 layer~0 (the token embeddings) and the network does not refine it into a more
 localized representation downstream. We therefore read the result not as
 ``honorifics live at layer~$L^*$'' but as evidence that the decodable signal is
-carried by \emph{surface morphology}---the pronoun together with its agreeing
-verb form, which the pronoun-stripped condition does not remove---rather than by
+carried by \emph{surface morphology}--the pronoun together with its agreeing
+verb form, which the pronoun-stripped condition does not remove--rather than by
 a computed, layer-localized honorific representation. The argmax layer is not
 meaningful at this spread and we do not interpret it.
 
@@ -530,19 +530,19 @@ Several features show very large honorific separation (top $d = 2.21$), but
 $0.489 < 0.6$, and most candidates sit near $0.19$. We calibrate both quantities
 against a null of 200 randomly drawn SAE features: random features have
 $d_{95} = 0.41$ and selectivity$_{95} = 0.04$. The candidate effect sizes
-($d = 2.2$) are thus far above chance---the separation is real---and their
+($d = 2.2$) are thus far above chance--the separation is real--and their
 selectivity ($0.49$) is also well above the random null, so the features carry
 \emph{some} honorific signal beyond the pronoun. But $0.49$ still falls short of
 the $0.6$ bar required for a feature whose honorific discrimination is mostly
 confound-free: roughly half of each candidate's discriminative power is still
 attributable to the pronoun token. \textbf{H2 is not satisfied}: honorific level,
 though strongly present, is not cleanly isolated by any single SAE feature in
-this release---each remains substantially entangled with the pronoun-token
+this release--each remains substantially entangled with the pronoun-token
 direction.
 
 \paragraph{The top features are near-duplicates.}
 A striking structural signature: \textbf{18 of the top-20} features have
-effect sizes within $\pm 0.012$ of $d = 1.922$---statistically
+effect sizes within $\pm 0.012$ of $d = 1.922$--statistically
 indistinguishable. A diverse set of honorific abstractions (pragmatic context,
 agreement morphology, addressee status) would not produce twenty features with
 identical class separation; a single underlying pronoun direction split across
@@ -595,8 +595,8 @@ SAE steer $+\alpha{=}16$         & $-0.216$ \,($\Delta{-}0.116$) \\
 \paragraph{The causal arm fails at calibrated strength.}
 With the corrected steering (unit-normalised direction, residual-norm-scaled
 $\alpha$, injection on generated positions only), generation stays coherent
-Hindi---ruling out the off-manifold collapse seen with naive large-$\alpha$
-injection---but the top feature does not controllably move honorific marking.
+Hindi--ruling out the off-manifold collapse seen with naive large-$\alpha$
+injection--but the top feature does not controllably move honorific marking.
 On \tum/\tu-form prompts the honorific proxy rises by at most $0.028$ (at
 $\alpha{=}8$) and then \emph{reverses} at $\alpha{=}16$ as fluency degrades
 (Table~\ref{tab:causal}); on \aap-form prompts, suppressing the feature does not
@@ -641,7 +641,7 @@ $+\alpha{=}16$ & \texttt{tujhse milkar accha laga.} repeated verbatim until
 \caption{Steering the top feature on the \tu-form prompt \textit{``tujhse
   milkar accha laga.''} (`nice to meet you', intimate register). At the best
   operating strength the output is \emph{byte-identical} to the unsteered
-  baseline---the intervention changes nothing. Doubling the strength produces
+  baseline--the intervention changes nothing. Doubling the strength produces
   degenerate repetition with \emph{lower} honorificity. At no strength does
   \aap-marking appear.}
 \label{tab:examples}
@@ -653,22 +653,22 @@ or trivially perturbed; above it, they degenerate. The feature behaves as a
 \emph{descriptive correlate} of the pronoun, not a \emph{control handle} for
 register.
 
-\paragraph{No additive direction controls register---but prompting does.}
+\paragraph{No additive direction controls register--but prompting does.}
 We test whether the failure is specific to a single feature or general to
 additive steering, and whether the task is achievable at all
 (Table~\ref{tab:baselines}). Combining features helps only marginally: the
 top-20 combined direction reaches $\Delta = +0.095$, under four times the single
 feature yet still inside the \tu-region (proxy $-0.006$, never flipping to
-\aap). The \textbf{supervised difference-in-means direction}---the standard
+\aap). The \textbf{supervised difference-in-means direction}--the standard
 activation-addition handle, computed directly from \aap{} vs.\ \tum/\tu{}
-residuals---moves the proxy by \emph{exactly} $0.000$. By contrast, 4-shot
+residuals--moves the proxy by \emph{exactly} $0.000$. By contrast, 4-shot
 prompting flips the proxy to $+0.069$ ($\Delta = +0.169$, producing genuine
 \aap-form output such as \textit{``aap kahan se aaye hain?''}), and steering a
 \emph{random} feature does nothing ($-0.032$, like the candidate). Two
 conclusions follow. First, the negative result is \emph{not} a weak-model or
 broken-proxy artefact: Gemma-2-2B can be driven to honorific Hindi and our
 metric registers it. Second, the failure is \emph{general to additive
-residual-stream steering at this layer}---no linear direction we construct,
+residual-stream steering at this layer}--no linear direction we construct,
 supervised or unsupervised, single or multi-feature, yields control. Control
 that works (prompting) operates through the model's computation, not an injected
 vector.
@@ -680,7 +680,7 @@ vector.
 \toprule
 \textbf{Method} & \textbf{Proxy} & \textbf{$\Delta$ vs.\ base} \\
 \midrule
-Baseline (\tu-form prompts)            & $-0.100$ & --- \\
+Baseline (\tu-form prompts)            & $-0.100$ & -- \\
 Zero-shot instruction                  & $-0.141$ & $-0.041$ \\
 Random-feature steering (null)         & $-0.132$ & $-0.032$ \\
 \midrule
@@ -694,21 +694,21 @@ Random-feature steering (null)         & $-0.132$ & $-0.032$ \\
 \bottomrule
 \end{tabular}
 \caption{Honorific proxy by control method, same prompts and proxy throughout.
-  \emph{No} additive residual-stream direction---single feature, up to 20
-  combined features, or the supervised difference-in-means direction---moves the
+  \emph{No} additive residual-stream direction--single feature, up to 20
+  combined features, or the supervised difference-in-means direction--moves the
   proxy out of the \tu-region. Only in-context prompting, which acts through the
   model's own computation, flips it to \aap. The task is solvable; additive
   steering at this layer does not solve it.}
 \label{tab:baselines}
 \end{table}
 
-% -----------------------------------------------------------------------
+% ------------------------------------------------
 \section{Discussion: Why Single-Feature Steering Fails Here}
 \label{sec:failure}
-% -----------------------------------------------------------------------
+% ------------------------------------------------
 
-Three independent measurements---the flat probe curve, the sub-threshold
-selectivities, and the null dose-response---triangulate a single mechanistic
+Three independent measurements--the flat probe curve, the sub-threshold
+selectivities, and the null dose-response--triangulate a single mechanistic
 account.
 
 \paragraph{The representation is input-anchored, not consolidated.}
@@ -717,7 +717,7 @@ If the network computed an abstract register variable, probe accuracy would
 language identity \citep{deng2025unveiling}. Instead the signal is at full
 strength in the embeddings and never improves (Section~\ref{sec:probe-results}):
 the model carries honorific information in the same form the input provides
-it---as surface morphology---throughout the forward pass.
+it--as surface morphology--throughout the forward pass.
 
 \paragraph{The SAE tiles the pronoun, it does not abstract register.}
 The near-duplicate cluster (18 of the top-20 features within $d = 1.922 \pm
@@ -729,14 +729,14 @@ into a register abstraction.
 
 \paragraph{Why no additive direction works on such a representation.}
 Producing honorific Hindi is not a one-dimensional act: it requires a
-\emph{coordinated grammatical program}---selecting \aap{}, switching the verb
+\emph{coordinated grammatical program}--selecting \aap{}, switching the verb
 to plural-respectful agreement, and maintaining both across clauses. Adding a
 direction to the residual stream asserts a static fact (``honorific context'');
 it does not execute that program. This is why the effect does not improve as we
 enrich the direction (Table~\ref{tab:baselines}): combining 20 features barely
-beats one, and the supervised difference-in-means direction---which by
+beats one, and the supervised difference-in-means direction--which by
 construction captures \emph{all} the linear \aap-vs-\tu{} signal the probe
-uses---produces no shift at all. The information the probe reads is genuinely
+uses--produces no shift at all. The information the probe reads is genuinely
 present, but it sits at an input-anchored layer as a description of the prompt,
 not as a lever on the forward computation. In-context prompting succeeds
 precisely because it re-enters that computation rather than perturbing its
@@ -745,13 +745,13 @@ is a property of the computation, and the two come apart here.}
 
 \paragraph{What this predicts.}
 The account yields testable predictions. (i)~Control should require acting on
-the computation, not the representation---borne out by prompting's success and
+the computation, not the representation--borne out by prompting's success and
 the failure of every additive direction we tried (Table~\ref{tab:baselines}).
 (ii)~Steering at later layers should help, since the early layer carries the
 signal only as a surface description. We confirm a partial version of this: a
 supervised difference-in-means steering sweep across layers
 (Table~\ref{tab:layersweep}) shows the effect growing monotonically with depth,
-from $\Delta = +0.024$ at layer~2 to $+0.087$ at layers~16--20---yet it plateaus
+from $\Delta = +0.024$ at layer~2 to $+0.087$ at layers~16--20--yet it plateaus
 there, still inside the informal register and only half of prompting's $+0.169$.
 Depth helps but additive steering does not reach control even at its best layer;
 attention-pattern-level intervention, where agreement is enforced, is the
@@ -773,15 +773,15 @@ $\Delta$ proxy & $+0.024$ & $0.000$ & $+0.054$ & $+0.074$ & $+0.087$ & $+0.087$ 
 \end{tabular}}
 \caption{Supervised difference-in-means steering swept across layers
   (Gemma-2-2B). The honorific shift grows with depth but plateaus at
-  $+0.087$---half of prompting's $+0.169$ and never out of the informal
+  $+0.087$--half of prompting's $+0.169$ and never out of the informal
   register. Later-layer additive steering helps, yet does not achieve control.}
 \label{tab:layersweep}
 \end{table}
 
-% -----------------------------------------------------------------------
+% ------------------------------------------------
 \section{Japanese Comparison}
 \label{sec:japanese}
-% -----------------------------------------------------------------------
+% ------------------------------------------------
 
 \begin{table}[t]
 \centering
@@ -803,19 +803,19 @@ Layer-localized?           & No (flat) & No (flat) \\
 \end{table}
 
 Table~\ref{tab:japanese} gives the comparison (RQ4--5). Japanese keigo is
-decodable at AUROC ${\approx}0.999$---near ceiling---and, like Hindi, the curve
+decodable at AUROC ${\approx}0.999$--near ceiling--and, like Hindi, the curve
 is \emph{flat across all 26 layers} (spread $0.001$). Rather than Japanese
 peaking at an ``earlier'' layer, both languages show the same pattern: honorific
 level is a surface-decodable property present throughout the network, more
 saturated for Japanese because its verb-suffix marking is an even stronger and
 more regular surface cue than Hindi's distributed pronoun${+}$agreement system.
-This reinforces the main finding---surface decodability without layer
-localization---rather than revealing a depth difference between the two systems.
+This reinforces the main finding--surface decodability without layer
+localization--rather than revealing a depth difference between the two systems.
 
-% -----------------------------------------------------------------------
+% ------------------------------------------------
 \section{Generalization Across Model Families}
 \label{sec:multimodel}
-% -----------------------------------------------------------------------
+% ------------------------------------------------
 
 Is the decodable-but-flat signature specific to Gemma-2-2B? We replicate the
 probe (raw and pronoun-stripped, grouped CV) across seven model series and nine
@@ -826,8 +826,8 @@ and in \emph{every} case the raw curve is flat (raw spread $\le 0.004$).
 Stripped spread is similarly flat ($\le 0.026$) for base pretrained models;
 Nemotron-8B, an RLHF fine-tune of Llama-3.1, shows higher stripped spread
 (0.039) while its raw spread remains 0.002. Gemma-2, Qwen2.5, Qwen3,
-Llama-3.1, Nemotron, Phi, and Mistral---from 1.5B to 22B parameters and 26--57
-layers---all produce high raw AUROC at every layer. The dissociation is a
+Llama-3.1, Nemotron, Phi, and Mistral--from 1.5B to 22B parameters and 26--57
+layers--all produce high raw AUROC at every layer. The dissociation is a
 property of how contemporary multilingual transformers encode Hindi
 pronoun${+}$agreement morphology, not an artefact of a single network or
 architectural family.
@@ -864,10 +864,10 @@ Mistral-22B   & Mistral   & 0.892 & 0.002 & 0.816 & 0.009 \\
 \label{tab:multimodel}
 \end{table*}
 
-% -----------------------------------------------------------------------
+% ------------------------------------------------
 \section{Conclusion}
 \label{sec:conclusion}
-% -----------------------------------------------------------------------
+% ------------------------------------------------
 
 We present the first mechanistic interpretability study of an Indic-language
 sociolinguistic phenomenon. Using Gemma Scope SAEs on a contrastive Hindi
@@ -905,8 +905,8 @@ results on other families await comparable open SAEs. Attention-pattern-level
 intervention and instruction-tuned variants are untested, as is generalisation
 to other Indic languages.
 
-% -----------------------------------------------------------------------
+% ------------------------------------------------
 \bibliography{references}
-% -----------------------------------------------------------------------
+% ------------------------------------------------
 
 \end{document}
