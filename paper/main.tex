@@ -151,8 +151,8 @@ essentially zero intersection with mechanistic interpretability.
         analogue, and a 6-axis honorific rubric with its automatic
         addressee-honorificity proxy.
   \item Evidence that the dissociation is \textbf{not model-specific}: the
-        decodable-but-flat probe signature replicates across five model series
-        (Gemma-2, Qwen2.5, Qwen3, Llama-3.1, Nemotron) in seven models at 1.5B--8B, and a
+        decodable-but-flat probe signature replicates across seven model series
+        (Gemma-2, Qwen2.5, Qwen3, Llama-3.1, Nemotron, Phi, Mistral) in nine models at 1.5B--22B, and a
         layer-swept supervised steering test shows additive control fails at
         every layer (2--20), not just the early one.
   \item A reproducible probe ${+}$ SAE ${+}$ steering pipeline that runs on a
@@ -818,20 +818,19 @@ localization---rather than revealing a depth difference between the two systems.
 % -----------------------------------------------------------------------
 
 Is the decodable-but-flat signature specific to Gemma-2-2B? We replicate the
-probe (raw and pronoun-stripped, grouped CV) across five model series and seven
-models at five distinct parameter scales (Table~\ref{tab:multimodel}). The
+probe (raw and pronoun-stripped, grouped CV) across seven model series and nine
+models spanning six parameter scales (Table~\ref{tab:multimodel}). The
 result is strikingly uniform: \emph{every} model decodes honorific level at raw
 AUROC $\approx 0.893$--$0.895$ and pronoun-stripped AUROC $\approx 0.816$--$0.820$,
-and in \emph{every} case the raw curve is flat (raw spread $\le 0.003$).
+and in \emph{every} case the raw curve is flat (raw spread $\le 0.004$).
 Stripped spread is similarly flat ($\le 0.026$) for base pretrained models;
 Nemotron-8B, an RLHF fine-tune of Llama-3.1, shows higher stripped spread
-(0.039) while its raw spread remains 0.002, suggesting alignment training can
-redistribute subword-level pronoun signal across depth without affecting the
-aggregate decodability. Gemma-2, Qwen2.5, Qwen3, Llama-3.1, and
-Nemotron---from 1.5B to 8B parameters and 26--37 layers---all produce
-high raw AUROC at every layer. The dissociation is a property of how
-contemporary multilingual transformers encode Hindi pronoun${+}$agreement
-morphology, not an artefact of a single network or architectural family.
+(0.039) while its raw spread remains 0.002. Gemma-2, Qwen2.5, Qwen3,
+Llama-3.1, Nemotron, Phi, and Mistral---from 1.5B to 22B parameters and 26--57
+layers---all produce high raw AUROC at every layer. The dissociation is a
+property of how contemporary multilingual transformers encode Hindi
+pronoun${+}$agreement morphology, not an artefact of a single network or
+architectural family.
 
 \begin{table*}[t]
 \centering
@@ -850,12 +849,14 @@ Qwen3-4B      & Qwen3     & 0.894 & 0.002 & 0.818 & 0.026 \\
 Qwen3-8B      & Qwen3     & 0.893 & 0.002 & 0.816 & 0.019 \\
 Llama-3.1-8B  & Llama-3   & 0.893 & 0.002 & 0.820 & 0.018 \\
 Nemotron-8B$^\dagger$  & Nemotron  & 0.893 & 0.002 & 0.819 & 0.039 \\
+Phi-4-14B     & Phi       & 0.893 & 0.004 & 0.816 & 0.023 \\
+Mistral-22B   & Mistral   & 0.892 & 0.002 & 0.816 & 0.009 \\
 \bottomrule
 \end{tabular}
-\caption{The decodable-but-flat signature replicates across five model series
-  (Gemma-2, Qwen2.5, Qwen3, Llama-3.1, Nemotron) in seven models spanning five
-  parameter scales (1.5B--8B). ``Spread'' is the AUROC range over all layers;
-  near-zero raw spread ($\le 0.003$) everywhere means the signal is
+\caption{The decodable-but-flat signature replicates across seven model series
+  (Gemma-2, Qwen2.5, Qwen3, Llama-3.1, Nemotron, Phi, Mistral) in nine models spanning
+  six parameter scales (1.5B--22B). ``Spread'' is the AUROC range over all
+  layers; near-zero raw spread ($\le 0.004$) everywhere means the signal is
   layer-independent in every architecture tested.
   $^\dagger$Nemotron-8B is an RLHF fine-tune of Llama-3.1-8B; its higher
   stripped spread (0.039 vs.\ $\le 0.026$ for base models) does not affect
@@ -896,7 +897,7 @@ decodability numbers should be read as upper bounds on minimal-pair
 separability rather than estimates over open-domain Hindi. Generations are
 scored by an automatic morphological proxy that captures pronoun and
 verb-agreement marking but not pragmatic appropriateness. The probe finding is
-replicated across five model series and seven models at 1.5B--8B
+replicated across seven model series and nine models at 1.5B--22B
 (Section~\ref{sec:multimodel}) and steering is swept across layers~2--20
 (Section~\ref{sec:failure}), but the SAE feature and intervention analyses use
 the single public SAE release available for these models (Gemma Scope); SAE-level
