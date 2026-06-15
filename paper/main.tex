@@ -390,6 +390,12 @@ and directly operationalises the addressee-honorificity axis of the rubric
 \subsection{Honorific Rubric}
 \label{sec:rubric}
 
+Table~\ref{tab:rubric} shows our rubric. Decoupling addressee honorificity from
+verb-agreement consistency makes visible the LLM failure mode of correct pronoun
++ wrong agreement. In this study we operationalise the addressee-honorificity
+axis with an automatic marker-based proxy (Section~\ref{sec:causal-method}),
+which scores every generation in each condition.
+
 \begin{table}[t]
 \centering
 \small
@@ -411,14 +417,11 @@ Content preserv. & Prompt faithfulness (control) & 0--3 \\
 \label{tab:rubric}
 \end{table}
 
-Table~\ref{tab:rubric} shows our rubric. Decoupling addressee honorificity from
-verb-agreement consistency makes visible the LLM failure mode of correct pronoun
-+ wrong agreement. In this study we operationalise the addressee-honorificity
-axis with an automatic marker-based proxy (Section~\ref{sec:causal-method}),
-which scores every generation in each condition.
-
 \subsection{Confound Controls}
 \label{sec:confounds}
+
+Table~\ref{tab:confounds} summarises the controls applied to isolate honorific
+signal from surface confounds.
 
 \begin{table}[t]
 \centering
