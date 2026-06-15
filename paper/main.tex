@@ -123,10 +123,9 @@ and ablation necessity? A lighter comparison with Japanese keigo addresses
 Three developments converge.
 (1)~Gemma Scope \citep{lieberum2024gemmascope} provides pretrained SAEs at
 every Gemma-2 layer, eliminating weeks of SAE training.
-(2)~A wave of 2025 multilingual mech-interp papers
-\citep{schut2025lost,deng2025unveiling,liu2025causal} shows language identity
-is causally encoded in middle-layer residual streams; what \emph{else} lives
-there--register, honorifics, dialect--is open.
+(2)~Multilingual probing work \citep{pires2019multilingual,hewitt2019structural}
+shows that language identity and grammatical structure are encoded in residual
+streams; what \emph{else} lives there--register, honorifics, dialect--is open.
 (3)~Indic NLP has matured (IndicXTREME, IndicGenBench, Sarvam-1) but has had
 essentially zero intersection with mechanistic interpretability.
 
@@ -215,38 +214,20 @@ layers of Gemma-2-2B and Gemma-2-9B.
 \label{sec:related}
 % ------------------------------------------------
 
-\begin{table}[t]
-\centering
-\small
-\setlength\tabcolsep{3pt}
-\begin{tabular}{p{2.2cm}p{4.6cm}}
-\toprule
-\textbf{Prior work} & \textbf{Gap} \\
-\midrule
-\citet{deng2025unveiling} & Treats each language as one label; no sub-language
-  register axes; no Indic \\
-\citet{liu2025causal} & Cross-language switching only; no within-language
-  axes; no honorifics; no Indic \\
-\citet{park2025saes} & Language-ID only; no register \\
-\citet{schut2025lost} & Factual inconsistency; no honorifics \\
-IndicXTREME, IndicGenBench & Evaluation only; no internal analysis \\
-\citet{yoo2024korean} & Behavioral probing only; no SAEs; not Indic \\
-Korean SemEval 2025 & MT taxonomy; no representation level \\
-\bottomrule
-\end{tabular}
-\caption{Closest prior work and the gap this paper fills. No published work
-  uses mechanistic interpretability on honorifics in any Indic language.}
-\label{tab:gap}
-\end{table}
-
-Table~\ref{tab:gap} summarises the gap. No prior work applies SAE-based or
-steering-based mechanistic interpretability to honorific or register phenomena
-in any Indic language. The closest multilingual mech-interp work
-\citep{deng2025unveiling,liu2025causal,park2025saes} treats each language as a
-monolithic label. Honorific-aware NLP work
-\citep{yoo2024korean} is behavioural only. Indic-NLP benchmarks and models
-operate at the evaluation or model-release level without examining internal
-representations.
+Mechanistic interpretability studies specific knowledge types through linear
+probing \citep{alain2017understanding,hewitt2019structural}, causal abstraction
+\citep{geiger2022causalmedianalysis}, circuit discovery \citep{conmy2023automated},
+and representation editing \citep{meng2022locating,yang2021fudge}. This body of
+work focuses primarily on monolingual, often English-only, settings. Multilingual
+probing \citep{pires2019multilingual} shows that pre-trained models encode
+language identity and grammatical structure across layers, but treats each
+language as a monolithic label: within-language sociolinguistic axes such as
+honorific register are left unexamined. Politeness-aware NLP addresses register
+control at the MT output level \citep{sennrich2016controlling} without examining
+internal representations. Indic-language benchmarks and models operate at the
+evaluation or model-release level. No prior work applies SAE-based or
+steering-based mechanistic interpretability to honorific phenomena in any
+Indic language.
 
 % ------------------------------------------------
 \section{Methodology}
@@ -609,52 +590,10 @@ absent. Combined with the failed selectivity test (RQ2), this is a coherent
 neither sufficient nor necessary for honorific generation. Single-feature
 steering does not yield honorific control in this SAE.
 
-\begin{figure}[t]
-  \centering
-  \includegraphics[width=\linewidth]{figures/fig_alpha.pdf}
-  \caption{Dose--response of the honorific proxy under additive steering of the
-    top feature. The proxy rises by at most $0.028$ (at $\alpha{=}8$) and then
-    reverses sharply at $\alpha{=}16$ as the residual leaves the manifold. There
-    is no strength at which steering produces a clean honorific shift.}
-  \label{fig:alpha}
-\end{figure}
 
-\paragraph{Alpha sweep.}
-The dose-response in Table~\ref{tab:causal} shows the honorific proxy barely
-responding to steering: a maximum shift of $+0.028$ at $\alpha{=}8$, then a
-reversal at $\alpha{=}16$ as the residual moves off-manifold (Figure~\ref{fig:alpha}).
-There is no operating range in which steering this feature gives a clean
-honorific shift without degradation: the proxy ceiling of $+0.028$ is small
-relative to the baseline spread and vanishes once fluency drops.
-
-\begin{table}[t]
-\centering
-\small
-\setlength\tabcolsep{4pt}
-\begin{tabular}{lp{4.2cm}c}
-\toprule
-\textbf{Condition} & \textbf{Generation (verbatim)} & \textbf{hon} \\
-\midrule
-Baseline & \texttt{English: I like you.} & $0.00$ \\
-$+\alpha{=}8$ & \texttt{English: I like you.} \emph{(identical to baseline)} & $0.00$ \\
-$+\alpha{=}16$ & \texttt{tujhse milkar accha laga.} repeated verbatim until
-  the token budget & $-0.25$ \\
-\bottomrule
-\end{tabular}
-\caption{Steering the top feature on the \tu-form prompt \textit{``tujhse
-  milkar accha laga.''} (`nice to meet you', intimate register). At the best
-  operating strength the output is \emph{byte-identical} to the unsteered
-  baseline--the intervention changes nothing. Doubling the strength produces
-  degenerate repetition with \emph{lower} honorificity. At no strength does
-  \aap-marking appear.}
-\label{tab:examples}
-\end{table}
-
-Table~\ref{tab:examples} makes the failure concrete. The pattern generalises
-across prompts: below the collapse threshold, steered generations are unchanged
-or trivially perturbed; above it, they degenerate. The feature behaves as a
-\emph{descriptive correlate} of the pronoun, not a \emph{control handle} for
-register.
+Across prompts, below the collapse threshold steered generations are unchanged;
+above it they degenerate. The feature behaves as a \emph{descriptive correlate}
+of the pronoun, not a \emph{control handle} for register.
 
 \paragraph{No additive direction controls register--but prompting does.}
 We test whether the failure is specific to a single feature or general to
@@ -716,8 +655,8 @@ account.
 
 \paragraph{The representation is input-anchored, not consolidated.}
 If the network computed an abstract register variable, probe accuracy would
-\emph{rise} at the layers where that variable is assembled, as reported for
-language identity \citep{deng2025unveiling}. Instead the signal is at full
+\emph{rise} at the layers where that variable is assembled
+\citep{pires2019multilingual,hewitt2019structural}. Instead the signal is at full
 strength in the embeddings and never improves (Section~\ref{sec:probe-results}):
 the model carries honorific information in the same form the input provides
 it--as surface morphology--throughout the forward pass.
@@ -747,39 +686,17 @@ state. \emph{Decodability is a property of the representation; controllability
 is a property of the computation, and the two come apart here.}
 
 \paragraph{What this predicts.}
-The account yields testable predictions. (i)~Control should require acting on
-the computation, not the representation--borne out by prompting's success and
-the failure of every additive direction we tried (Table~\ref{tab:baselines}).
-(ii)~Steering at later layers should help, since the early layer carries the
-signal only as a surface description. We confirm a partial version of this: a
-supervised difference-in-means steering sweep across layers
-(Table~\ref{tab:layersweep}) shows the effect growing monotonically with depth,
-from $\Delta = +0.024$ at layer~2 to $+0.087$ at layers~16--20--yet it plateaus
-there, still inside the informal register and only half of prompting's $+0.169$.
-Depth helps but additive steering does not reach control even at its best layer;
-attention-pattern-level intervention, where agreement is enforced, is the
-natural next handle. (iii)~Languages whose honorific marking is
-a single regular suffix (Japanese \textit{desu/masu}) should show the same
-decodability saturation we observe (Section~\ref{sec:japanese}) yet may steer
-more easily, since the grammatical program is one-dimensional. Each is directly
+The account yields testable predictions. (i)~Control requires acting on the
+computation, not the representation--borne out by prompting's success and the
+failure of every additive direction (Table~\ref{tab:baselines}). A layer sweep of supervised difference-in-means steering confirms depth helps
+($\Delta$ grows from $+0.024$ at layer~2 to $+0.087$ at layers~16--20) but
+additive steering never reaches control even at the best layer (half of prompting's
+$+0.169$, still inside the informal register).
+(ii)~Languages with a single regular politeness suffix (Japanese \textit{desu/masu},
+Section~\ref{sec:japanese}) should show the same decodability saturation yet may
+steer more easily, since the grammatical program is one-dimensional--directly
 checkable with our released pipeline.
 
-\begin{table}[h]
-\centering
-\resizebox{\columnwidth}{!}{%
-\begin{tabular}{ccccccc}
-\toprule
-\textbf{Layer} & 2 & 5 & 8 & 12 & 16 & 20 \\
-\midrule
-$\Delta$ proxy & $+0.024$ & $0.000$ & $+0.054$ & $+0.074$ & $+0.087$ & $+0.087$ \\
-\bottomrule
-\end{tabular}}
-\caption{Supervised difference-in-means steering swept across layers
-  (Gemma-2-2B). The honorific shift grows with depth but plateaus at
-  $+0.087$--half of prompting's $+0.169$ and never out of the informal
-  register. Later-layer additive steering helps, yet does not achieve control.}
-\label{tab:layersweep}
-\end{table}
 
 % ------------------------------------------------
 \section{Japanese Comparison}
