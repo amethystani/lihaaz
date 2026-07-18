@@ -62,5 +62,35 @@
   "mistral-24b": {
     "error": "ValueError: Unrecognized configuration class <class 'transformers.models.mistral3.configuration_mistral3.Mistral3Config'> for this kind of AutoModel: AutoModelForCausalLM.\n",
     "precision": "4bit"
+  },
+  "phi4-14b": {
+    "precision": "4bit",
+    "raw": {
+      "max": 0.8928,
+      "min": 0.8887,
+      "spread": 0.004,
+      "n_layers": 41
+    },
+    "pronoun_stripped": {
+      "max": 0.816,
+      "min": 0.7931,
+      "spread": 0.0229,
+      "n_layers": 41
+    }
+  },
+  "mistral-22b": {
+    "precision": "4bit",
+    "raw": {
+      "max": 0.8924,
+      "min": 0.8901,
+      "spread": 0.0023,
+      "n_layers": 57
+    },
+    "pronoun_stripped": {
+      "max": 0.816,
+      "min": 0.8073,
+      "spread": 0.0087,
+      "n_layers": 57
+    }
   }
 }
