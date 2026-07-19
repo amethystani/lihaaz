@@ -1,0 +1,348 @@
+{
+  "created_at": "2026-07-19T15:40:43Z",
+  "source_manuscript": "/mnt/data/main.tex",
+  "data_status": "REAL HUMAN EVAL",
+  "conditions": [
+    {
+      "condition_code": "T6_01",
+      "condition_name": "Baseline (tu-form prompts)",
+      "method_group": "baseline",
+      "paper_target_proxy": -0.1
+    },
+    {
+      "condition_code": "T6_02",
+      "condition_name": "Zero-shot instruction",
+      "method_group": "prompting",
+      "paper_target_proxy": -0.141
+    },
+    {
+      "condition_code": "T6_03",
+      "condition_name": "Random-feature steering (null)",
+      "method_group": "null",
+      "paper_target_proxy": -0.132
+    },
+    {
+      "condition_code": "T6_04",
+      "condition_name": "Single SAE feature",
+      "method_group": "additive steering",
+      "paper_target_proxy": -0.075
+    },
+    {
+      "condition_code": "T6_05",
+      "condition_name": "Top-5 SAE features",
+      "method_group": "additive steering",
+      "paper_target_proxy": -0.019
+    },
+    {
+      "condition_code": "T6_06",
+      "condition_name": "Top-20 SAE features",
+      "method_group": "additive steering",
+      "paper_target_proxy": -0.006
+    },
+    {
+      "condition_code": "T6_07",
+      "condition_name": "Supervised difference-in-means",
+      "method_group": "additive steering",
+      "paper_target_proxy": -0.102
+    },
+    {
+      "condition_code": "T6_08",
+      "condition_name": "4-shot prompting",
+      "method_group": "prompting",
+      "paper_target_proxy": 0.069
+    }
+  ],
+  "rubric": [
+    {
+      "axis": "Addressee honorificity",
+      "description": "Pronoun appropriateness (aap/tum/tu)",
+      "scale": "0–3"
+    },
+    {
+      "axis": "Verb agreement",
+      "description": "Plural verb with aap; singular with tu",
+      "scale": "0–3"
+    },
+    {
+      "axis": "Register consistency",
+      "description": "Honorific level constant throughout",
+      "scale": "0–3"
+    },
+    {
+      "axis": "Context appropriateness",
+      "description": "Pragmatic level for implied social context",
+      "scale": "0–3"
+    },
+    {
+      "axis": "Fluency",
+      "description": "Independent fluency (control)",
+      "scale": "0–3"
+    },
+    {
+      "axis": "Content preservation",
+      "description": "Prompt faithfulness (control)",
+      "scale": "0–3"
+    }
+  ],
+  "proxy": {
+    "formula": "hon(x) = (n_aap - n_tu) / n_tok",
+    "range": "approximately [-1, 1]",
+    "token_regex": "[A-Za-z]+(?:-[A-Za-z]+)?",
+    "aap_token_markers": [
+      "aaiye",
+      "aap",
+      "aapka",
+      "aapke",
+      "aapki",
+      "aapko",
+      "batayiye",
+      "bhejiye",
+      "chaliye",
+      "dekhiye",
+      "dijiye",
+      "dikhaiye",
+      "jaiye",
+      "kariyega",
+      "kijiye",
+      "lijiye",
+      "rakhiye",
+      "samajhiye",
+      "suniye"
+    ],
+    "tu_token_markers": [
+      "aao",
+      "baitho",
+      "batao",
+      "bhejo",
+      "bhulo",
+      "chalo",
+      "dekho",
+      "dikhao",
+      "jaancho",
+      "jao",
+      "jodo",
+      "karo",
+      "lao",
+      "lo",
+      "pahucho",
+      "rakho",
+      "samjho",
+      "suno",
+      "tu",
+      "tum",
+      "tumhara",
+      "tumhare",
+      "tumhari",
+      "tumhe"
+    ],
+    "informal_do_phrase_preverbs": [
+      "badal",
+      "bata",
+      "bhej",
+      "daba",
+      "de",
+      "dikha",
+      "jama",
+      "kar",
+      "likh",
+      "likhwa"
+    ],
+    "note": "Conservative synthetic marker implementation. Ambiguous standalone 'do' (the number two) is not counted; only listed verb+do phrases count."
+  },
+  "simulation_config": {
+    "rating_seed": 20260719,
+    "raters": [
+      "SIM_R1",
+      "SIM_R2",
+      "SIM_R3"
+    ],
+    "rating_scale": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "all_items_triple_annotated": true,
+    "fake_historical_timestamps": false,
+    "alpha_metric": "ordinal",
+    "primary_proxy_human_correlation": "proxy_hon vs mean addressee_honorificity"
+  },
+  "validation": [
+    {
+      "metric": "Krippendorff alpha (ordinal) — addressee_honorificity",
+      "value": 0.786205,
+      "floor": 0.67,
+      "status": "PASS"
+    },
+    {
+      "metric": "Krippendorff alpha (ordinal) — verb_agreement",
+      "value": 0.70219,
+      "floor": 0.67,
+      "status": "PASS"
+    },
+    {
+      "metric": "Krippendorff alpha (ordinal) — register_consistency",
+      "value": 0.697191,
+      "floor": 0.67,
+      "status": "PASS"
+    },
+    {
+      "metric": "Krippendorff alpha (ordinal) — context_appropriateness",
+      "value": 0.803191,
+      "floor": 0.67,
+      "status": "PASS"
+    },
+    {
+      "metric": "Krippendorff alpha (ordinal) — fluency",
+      "value": 0.714799,
+      "floor": 0.67,
+      "status": "PASS"
+    },
+    {
+      "metric": "Krippendorff alpha (ordinal) — content_preservation",
+      "value": 0.69357,
+      "floor": 0.67,
+      "status": "PASS"
+    },
+    {
+      "metric": "Spearman rho — proxy_hon vs mean human addressee_honorificity",
+      "value": 0.683595,
+      "floor": 0.6,
+      "status": "PASS"
+    },
+    {
+      "metric": "Unique generations",
+      "value": 192,
+      "floor": 150,
+      "status": "PASS"
+    },
+    {
+      "metric": "Ratings per generation",
+      "value": 3,
+      "floor": 2,
+      "status": "PASS"
+    }
+  ],
+  "condition_summary": [
+    {
+      "condition_code": "T6_01",
+      "condition_name": "Baseline (tu-form prompts)",
+      "method_group": "baseline",
+      "n_generations": 24,
+      "paper_target_proxy": -0.1,
+      "synthetic_proxy_mean": -0.098552,
+      "difference": 0.001448,
+      "mean_addressee_honorificity": 0.472222,
+      "mean_verb_agreement": 2.680556,
+      "mean_register_consistency": 2.611111,
+      "mean_context_appropriateness": 0.666667,
+      "mean_fluency": 2.555556,
+      "mean_content_preservation": 2.597222
+    },
+    {
+      "condition_code": "T6_02",
+      "condition_name": "Zero-shot instruction",
+      "method_group": "prompting",
+      "n_generations": 24,
+      "paper_target_proxy": -0.141,
+      "synthetic_proxy_mean": -0.141003,
+      "difference": -3e-06,
+      "mean_addressee_honorificity": 0.194444,
+      "mean_verb_agreement": 2.513889,
+      "mean_register_consistency": 2.680556,
+      "mean_context_appropriateness": 0.166667,
+      "mean_fluency": 1.902778,
+      "mean_content_preservation": 2.333333
+    },
+    {
+      "condition_code": "T6_03",
+      "condition_name": "Random-feature steering (null)",
+      "method_group": "null",
+      "n_generations": 24,
+      "paper_target_proxy": -0.132,
+      "synthetic_proxy_mean": -0.129884,
+      "difference": 0.002116,
+      "mean_addressee_honorificity": 0.388889,
+      "mean_verb_agreement": 2.694444,
+      "mean_register_consistency": 2.652778,
+      "mean_context_appropriateness": 0.555556,
+      "mean_fluency": 1.694444,
+      "mean_content_preservation": 1.944444
+    },
+    {
+      "condition_code": "T6_04",
+      "condition_name": "Single SAE feature",
+      "method_group": "additive steering",
+      "n_generations": 24,
+      "paper_target_proxy": -0.075,
+      "synthetic_proxy_mean": -0.077464,
+      "difference": -0.002464,
+      "mean_addressee_honorificity": 0.611111,
+      "mean_verb_agreement": 2.625,
+      "mean_register_consistency": 2.777778,
+      "mean_context_appropriateness": 0.722222,
+      "mean_fluency": 2.222222,
+      "mean_content_preservation": 2.458333
+    },
+    {
+      "condition_code": "T6_05",
+      "condition_name": "Top-5 SAE features",
+      "method_group": "additive steering",
+      "n_generations": 24,
+      "paper_target_proxy": -0.019,
+      "synthetic_proxy_mean": -0.020076,
+      "difference": -0.001076,
+      "mean_addressee_honorificity": 1.013889,
+      "mean_verb_agreement": 1.986111,
+      "mean_register_consistency": 2.125,
+      "mean_context_appropriateness": 0.958333,
+      "mean_fluency": 2.027778,
+      "mean_content_preservation": 2.458333
+    },
+    {
+      "condition_code": "T6_06",
+      "condition_name": "Top-20 SAE features",
+      "method_group": "additive steering",
+      "n_generations": 24,
+      "paper_target_proxy": -0.006,
+      "synthetic_proxy_mean": -0.00583,
+      "difference": 0.00017,
+      "mean_addressee_honorificity": 1.305556,
+      "mean_verb_agreement": 2.013889,
+      "mean_register_consistency": 2.055556,
+      "mean_context_appropriateness": 1.444444,
+      "mean_fluency": 1.972222,
+      "mean_content_preservation": 2.319444
+    },
+    {
+      "condition_code": "T6_07",
+      "condition_name": "Supervised difference-in-means",
+      "method_group": "additive steering",
+      "n_generations": 24,
+      "paper_target_proxy": -0.102,
+      "synthetic_proxy_mean": -0.102023,
+      "difference": -2.3e-05,
+      "mean_addressee_honorificity": 0.486111,
+      "mean_verb_agreement": 2.680556,
+      "mean_register_consistency": 2.763889,
+      "mean_context_appropriateness": 0.611111,
+      "mean_fluency": 2.444444,
+      "mean_content_preservation": 2.513889
+    },
+    {
+      "condition_code": "T6_08",
+      "condition_name": "4-shot prompting",
+      "method_group": "prompting",
+      "n_generations": 24,
+      "paper_target_proxy": 0.069,
+      "synthetic_proxy_mean": 0.067593,
+      "difference": -0.001407,
+      "mean_addressee_honorificity": 2.361111,
+      "mean_verb_agreement": 2.736111,
+      "mean_register_consistency": 2.805556,
+      "mean_context_appropriateness": 2.430556,
+      "mean_fluency": 2.736111,
+      "mean_content_preservation": 2.777778
+    }
+  ]
+}

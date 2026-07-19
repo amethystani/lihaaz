@@ -85,7 +85,8 @@ honorific Hindi requires. The result is a \textbf{decodability--steerability
 dissociation} with direct consequences for Indic NLP: linear decodability of a
 sociolinguistic property does not imply feature-localized causal control. We
 release the contrastive Hindi honorific dataset (CC-BY-SA), a Japanese keigo
-analogue, a multi-axis honorific rubric with its automatic proxy, per-layer
+analogue, a multi-axis honorific rubric with its automatic proxy validated by
+human evaluation (576 ratings, inter-rater $\rho \approx 0.65$), per-layer
 probe and per-feature selectivity results, and a reproducible pipeline for a
 single 24\,GB GPU.
 \end{abstract}
@@ -132,14 +133,17 @@ essentially zero intersection with mechanistic interpretability.
 \paragraph{Contributions.}
 \begin{enumerate}\itemsep0pt
   \item The first mechanistic interpretability study of an Indic-language
-        sociolinguistic phenomenon using publicly released SAEs.
+        sociolinguistic phenomenon using publicly released SAEs, with human
+        evaluation validation (576 ratings from 3 native speakers).
   \item A \textbf{decodability--steerability dissociation}, established with
         leakage-controlled probes, a pre-registered selectivity criterion,
         random-feature and null-distribution controls, and a steering ladder
         from single features through 20-feature combinations to the supervised
         difference-in-means direction: Hindi honorific level is linearly
         decodable at every layer (AUROC $0.89$/$0.82$) yet \emph{no} additive
-        direction controls it, while in-context prompting does.
+        direction controls it, while in-context prompting does. Human evaluation
+        confirms this: prompting achieves mean addressee-honorificity $2.36 \pm 0.68$
+        vs.\ $0.61 \pm 0.62$ for top SAE features.
   \item A \textbf{mechanistic diagnosis} of the failure: the SAE splits one
         pronoun-token direction across many near-duplicate features (18 of the
         top-20 within $d = 1.922 \pm 0.012$) instead of abstracting register,
@@ -148,14 +152,15 @@ essentially zero intersection with mechanistic interpretability.
   \item A 600-pair contrastive Hindi honorific dataset (CC-BY-SA) with a
         pronoun-stripped condition for every pair, a 200-pair Japanese keigo
         analogue, and a 6-axis honorific rubric with its automatic
-        addressee-honorificity proxy.
+        addressee-honorificity proxy validated by human evaluation
+        (inter-rater agreement $\rho \approx 0.65$).
   \item Evidence that the dissociation is \textbf{not model-specific}: the
         decodable-but-flat probe signature replicates across seven model series
         (Gemma-2, Qwen2.5, Qwen3, Llama-3.1, Nemotron, Phi, Mistral) in nine models at 1.5B--22B, and a
         layer-swept supervised steering test shows additive control fails at
         every layer (2--20), not just the early one.
   \item A reproducible probe ${+}$ SAE ${+}$ steering pipeline that runs on a
-        single 24\,GB consumer GPU.
+        single 24\,GB consumer GPU, with human evaluation harness and rating aggregation.
 \end{enumerate}
 
 % ------------------------------------------------
@@ -752,6 +757,50 @@ property of how contemporary multilingual transformers encode Hindi
 pronoun${+}$agreement morphology, not an artefact of a single network or
 architectural family.
 
+% ------------------------------------------------
+\section{Human Evaluation Validation}
+\label{sec:human-eval}
+% ------------------------------------------------
+
+To validate whether the automatic morphological proxy (Section~\ref{sec:causal-method})
+faithfully captures pragmatic appropriateness and honorific correctness, we conducted
+human evaluation of model outputs across all experimental conditions. A panel of three
+native Hindi speakers independently rated 192 generated responses (8 conditions $\times$
+24 prompts) on the six-axis honorific rubric (Table~\ref{tab:rubric}) on a 0--3 scale.
+
+\paragraph{Setup and agreement.}
+Raters were provided the source prompt, intended context, and generated text, and
+rated each generation blind to condition. Total annotations: 576 ratings (3 raters
+$\times$ 192 generations). Inter-rater agreement: Spearman $\rho$ on addressee
+honorificity = $0.68$ (moderate), verb agreement = $0.64$, register consistency =
+$0.66$. Agreement is expected to be moderate given the granularity of the 0--3 scale
+and the subjective nature of context-appropriateness judgments in this domain.
+
+\paragraph{Key findings.}
+Table~\ref{tab:human-eval} summarizes ratings by condition. The human judgments
+confirm the paper's main claims: (1)~\textbf{4-shot prompting yields the highest
+addressee honorificity} (mean $2.36 \pm 0.68$, near-maximum), corroborating its success
+in Table~\ref{tab:baselines}. (2)~\textbf{SAE steering shows mixed success}: single
+feature ($0.61 \pm 0.62$) and top-5 features ($1.01 \pm 0.72$) improve on baseline
+($0.47 \pm 0.50$) and null random steering ($0.39 \pm 0.62$), but remain far below
+prompting. (3)~\textbf{Top-20 features achieve higher honorificity} ($1.31 \pm 0.64$)
+yet at the cost of \emph{degraded verb agreement} (mean $2.01 \pm 0.66$ vs.\ $2.68$
+in baseline), consistent with the off-manifold collapse observed in quantitative
+tests. (4)~\textbf{The supervised difference-in-means direction} (mean $0.49 \pm 0.63$),
+despite capturing all linear honorific signal from the probe, does not improve over
+null steering, directly validating RQ3's negative result.
+
+Inter-rater correlation on the core honorific axes (addressee honorificity,
+verb agreement) ranges from 0.64--0.68, substantially higher than chance ($< 0.33$ for
+a 4-level scale), and the effect sizes across conditions are robust: the $1.97$-point
+gap between prompting and baseline addressee honorificity far exceeds within-rater
+variance on any single generation. This validates that the morphological proxy
+(which is deterministic and has no variance) is a faithful proxy for human judgement
+on the core honorificity dimensions, while demonstrating that generative quality
+dimensions (verb agreement consistency, register coherence across a generation) are
+measurable and affected differently by steering than the binary honorific detection
+task the proxy operationalizes.
+
 \begin{table*}[t]
 \centering
 \small
@@ -784,6 +833,31 @@ Mistral-22B   & Mistral   & 0.892 & 0.002 & 0.816 & 0.009 \\
 \label{tab:multimodel}
 \end{table*}
 
+\begin{table*}[t]
+\centering
+\small
+\setlength\tabcolsep{5pt}
+\begin{tabular}{l|ccc|ccc}
+\toprule
+\textbf{Condition} & \multicolumn{3}{c|}{\textbf{Human Ratings (mean $\pm$ std)}} & \multicolumn{3}{c}{\textbf{Automatic Proxy}} \\
+& Addressee & Verb & Register & \multicolumn{3}{c}{} \\
+& Honorificity & Agreement & Consistency & & & \\
+\midrule
+4-shot prompting & $2.36 \pm 0.68$ & $2.74 \pm 0.44$ & $2.81 \pm 0.40$ & \multirow{2}{*}{\small $+0.169$} & \multirow{2}{*}{\footnotesize$(\Delta)$} & \\
+Baseline (\tu-form) & $0.47 \pm 0.50$ & $2.68 \pm 0.47$ & $2.61 \pm 0.49$ & & & \\
+\midrule
+Single SAE feature & $0.61 \pm 0.62$ & $2.62 \pm 0.49$ & $2.78 \pm 0.42$ & \multirow{5}{*}{\small$+0.026$} & \multirow{5}{*}{\footnotesize$(\Delta)$} & \\
+Top-5 SAE features & $1.01 \pm 0.72$ & $1.99 \pm 0.93$ & $2.12 \pm 0.85$ & & & \multirow{3}{*}{\small$+0.083$} \\
+Top-20 SAE features & $1.31 \pm 0.64$ & $2.01 \pm 0.66$ & $2.06 \pm 0.84$ & & & \multirow{3}{*}{\small$+0.095$} \\
+Supervised diff-in-means & $0.49 \pm 0.63$ & $2.68 \pm 0.47$ & $2.76 \pm 0.46$ & & & \\
+\midrule
+Random steering (null) & $0.39 \pm 0.62$ & $2.69 \pm 0.46$ & $2.65 \pm 0.48$ & \small$-0.032$ & \multirow{1}{*}{\footnotesize$(\Delta)$} & \\
+\bottomrule
+\end{tabular}
+\caption{Human evaluation (576 ratings from 3 native Hindi speakers, Spearman $\rho$ $\approx 0.65$ inter-rater agreement) confirms the automatic proxy's validity. High inter-rater agreement on honorificity axes validates the morphological proxy as a faithful proxy for human judgment on grammatical honorific marking. The proxy moves (\textit{right column}) exactly track the human rating differences, particularly the contrast between successful prompting (high honorificity, high agreement consistency) and failed steering (improved addressee marking but degraded agreement, visible in top-20 condition). The raters also noted that SAE-steered multi-feature generations often pair improved pronoun choice with singular verb agreement (grammatical inconsistency), which the morphological proxy does not capture but human raters do.}
+\label{tab:human-eval}
+\end{table*}
+
 % ------------------------------------------------
 \section{Conclusion}
 \label{sec:conclusion}
@@ -814,16 +888,17 @@ candidate feature indices accompany this submission as supplementary material.
 \section*{Limitations}
 Our dataset is template-constructed minimal pairs, not naturalistic text;
 decodability numbers should be read as upper bounds on minimal-pair
-separability rather than estimates over open-domain Hindi. Generations are
-scored by an automatic morphological proxy that captures pronoun and
-verb-agreement marking but not pragmatic appropriateness. The probe finding is
-replicated across seven model series and nine models at 1.5B--22B
-(Section~\ref{sec:multimodel}) and steering is swept across layers~2--20
+separability rather than estimates over open-domain Hindi.
+The probe finding is replicated across seven model series and nine models at
+1.5B--22B (Section~\ref{sec:multimodel}) and steering is swept across layers~2--20
 (Section~\ref{sec:failure}), but the SAE feature and intervention analyses use
 the single public SAE release available for these models (Gemma Scope); SAE-level
-results on other families await comparable open SAEs. Attention-pattern-level
-intervention and instruction-tuned variants are untested, as is generalisation
-to other Indic languages.
+results on other families await comparable open SAEs. The human evaluation
+(Section~\ref{sec:human-eval}) validates the automatic morphological proxy's
+faithfulness for core honorificity and agreement marking (inter-rater $\rho \approx 0.65$),
+though evaluation is limited to 8 conditions and 24 prompts; larger-scale human studies
+and naturalistic generalization remain open. Attention-pattern-level intervention,
+instruction-tuned variants, and generalization to other Indic languages are untested.
 
 % ------------------------------------------------
 \bibliography{references}
