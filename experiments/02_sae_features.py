@@ -31,16 +31,24 @@ def main():
 
     top20 = rank_features_by_effect_size(feature_acts, labels, top_k=20)
     top_indices = [f["feature_idx"] for f in top20]
-    sel_scores  = score_top_features(feature_acts, labels, confound_labels, top_indices)
+    audit_scores = score_top_features(feature_acts, labels, confound_labels, top_indices)
 
     print("\n=== Top-20 features ===")
-    for f, s in zip(top20, sel_scores):
-        print(f"  Feat {f['feature_idx']:6d}: d={f['cohen_d']:.3f}, sel={s['mean_selectivity']:.3f}")
+    for f, audit in zip(top20, audit_scores):
+        print(
+            f"  Feat {f['feature_idx']:6d}: d={f['cohen_d']:.3f}, "
+            f"A_hon={audit['auc_honorific']:.3f}, "
+            f"A_pron={audit.get('auc_pronoun_present', float('nan')):.3f}, "
+            f"pass={audit['passes_specificity']}"
+        )
 
-    g2_pass = any(f["cohen_d"] > 0.5 and s["mean_selectivity"] > 0.6 for f, s in zip(top20, sel_scores))
+    g2_pass = any(
+        f["cohen_d"] > 0.5 and audit["passes_specificity"]
+        for f, audit in zip(top20, audit_scores)
+    )
     print(f"\nG2: {'PASS' if g2_pass else 'FAIL'}")
 
-    json.dump({"top_features": top20, "selectivity": sel_scores, "best_layer": best_layer_idx},
+    json.dump({"top_features": top20, "specificity_audit": audit_scores, "best_layer": best_layer_idx},
               open("experiments/results_sae_features.json", "w"), indent=2)
 
 if __name__ == "__main__":

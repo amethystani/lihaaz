@@ -37,16 +37,18 @@ def main():
     feature_acts = get_feature_activations(model, sae, sentences, layer=best_layer_idx, device=device)
 
     top50 = rank_features_by_effect_size(feature_acts, labels, top_k=50)
-    sel   = score_top_features(feature_acts, labels, confound_labels, [f["feature_idx"] for f in top50])
+    audit = score_top_features(feature_acts, labels, confound_labels, [f["feature_idx"] for f in top50])
 
     print("\n=== Top-20 features ===")
-    for f, s in zip(top50[:20], sel[:20]):
-        print(f"  Feat {f['feature_idx']:6d}: d={f['cohen_d']:.3f} "
-              f"sel_pronoun={s.get('sel_pronoun_present',0):.3f} "
-              f"sel_roman={s.get('sel_is_roman_script',0):.3f} "
-              f"mean_sel={s['mean_selectivity']:.3f}")
+    for f, row in zip(top50[:20], audit[:20]):
+        print(
+            f"  Feat {f['feature_idx']:6d}: d={f['cohen_d']:.3f} "
+            f"A_hon={row['auc_honorific']:.3f} "
+            f"A_pron={row.get('auc_pronoun_present', float('nan')):.3f} "
+            f"pass={row['passes_specificity']}"
+        )
 
-    json.dump({"top_features": top50, "selectivity": sel, "best_layer": best_layer_idx},
+    json.dump({"top_features": top50, "specificity_audit": audit, "best_layer": best_layer_idx},
               open("experiments/results_full_features.json", "w"), indent=2)
     print("Saved results_full_features.json")
     print("\n[MANUAL] Read top-20 highest-activating examples for each feature. Record in feature_validation_notes.md")

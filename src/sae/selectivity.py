@@ -17,10 +17,35 @@ def _auroc_single(col: np.ndarray, labels: np.ndarray) -> float:
     return roc_auc_score(labels, clf.predict_proba(col_s)[:, 1])
 
 
-def compute_selectivity(feature_col: np.ndarray, honorific_labels: np.ndarray, confound_labels: np.ndarray) -> float:
-    auroc_h = _auroc_single(feature_col, honorific_labels)
-    auroc_c = _auroc_single(feature_col, confound_labels)
-    return max(0.0, 1.0 - auroc_c / auroc_h) if auroc_h > 0.5 else 0.0
+def orientation_invariant_auc(feature_col: np.ndarray, labels: np.ndarray) -> float:
+    """Return single-feature AUROC with direction removed.
+
+    A value below 0.5 is still predictive in the opposite direction, so a
+    confound audit must use ``max(AUC, 1 - AUC)`` rather than treating it as
+    weak prediction.
+    """
+    auc = _auroc_single(feature_col, labels)
+    return float(max(auc, 1.0 - auc))
+
+
+def compute_auc_pair(
+    feature_col: np.ndarray,
+    honorific_labels: np.ndarray,
+    confound_labels: np.ndarray,
+    *,
+    honorific_threshold: float = 0.80,
+    confound_ceiling: float = 0.55,
+) -> dict:
+    """Report honorific and confound discrimination separately."""
+    auc_honorific = orientation_invariant_auc(feature_col, honorific_labels)
+    auc_confound = orientation_invariant_auc(feature_col, confound_labels)
+    return {
+        "auc_honorific": auc_honorific,
+        "auc_confound": auc_confound,
+        "passes_specificity": bool(
+            auc_honorific >= honorific_threshold and auc_confound <= confound_ceiling
+        ),
+    }
 
 
 def score_top_features(
@@ -34,10 +59,19 @@ def score_top_features(
     results = []
     for f_idx in top_feature_indices:
         col = feature_acts[:, f_idx]
-        row: dict = {"feature_idx": f_idx}
+        row: dict = {
+            "feature_idx": f_idx,
+            "auc_honorific": orientation_invariant_auc(col, honorific_labels),
+        }
+        confound_passes = []
         for name, conf_labels in usable.items():
-            row[f"sel_{name}"] = float(compute_selectivity(col, honorific_labels, conf_labels))
-        sel_vals = [v for k, v in row.items() if k.startswith("sel_")]
-        row["mean_selectivity"] = float(np.mean(sel_vals)) if sel_vals else 0.0
+            auc_confound = orientation_invariant_auc(col, conf_labels)
+            row[f"auc_{name}"] = auc_confound
+            confound_passes.append(auc_confound <= 0.55)
+        row["passes_specificity"] = bool(
+            row["auc_honorific"] >= 0.80
+            and confound_passes
+            and all(confound_passes)
+        )
         results.append(row)
     return results

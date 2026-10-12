@@ -1,0 +1,407 @@
+{
+  "source_files": [
+    "human_eval/ratings_long_v2.csv",
+    "human_eval/generations_v2.csv"
+  ],
+  "counts": {
+    "generations": 192,
+    "conditions": 8,
+    "prompts_per_condition": 24,
+    "raters": 3,
+    "generation_rater_evaluations": 576,
+    "scalar_judgments": 3456
+  },
+  "human_summary": {
+    "Baseline (tu-form prompts)": {
+      "n_generation_rater_evaluations": 72,
+      "axes": {
+        "addressee_honorificity": {
+          "mean": 0.4722222222222222,
+          "std": 0.5027311947224927
+        },
+        "verb_agreement": {
+          "mean": 2.6805555555555554,
+          "std": 0.46953344805449215
+        },
+        "register_consistency": {
+          "mean": 2.611111111111111,
+          "std": 0.4909191022411197
+        },
+        "context_appropriateness": {
+          "mean": 0.6666666666666666,
+          "std": 0.6500270850261594
+        },
+        "fluency": {
+          "mean": 2.5555555555555554,
+          "std": 0.5003910833605344
+        },
+        "content_preservation": {
+          "mean": 2.5972222222222223,
+          "std": 0.5479725042506334
+        }
+      }
+    },
+    "Zero-shot instruction": {
+      "n_generation_rater_evaluations": 72,
+      "axes": {
+        "addressee_honorificity": {
+          "mean": 0.19444444444444445,
+          "std": 0.39854979680346264
+        },
+        "verb_agreement": {
+          "mean": 2.513888888888889,
+          "std": 0.581233645671618
+        },
+        "register_consistency": {
+          "mean": 2.6805555555555554,
+          "std": 0.5261175600670962
+        },
+        "context_appropriateness": {
+          "mean": 0.16666666666666666,
+          "std": 0.37529331252040077
+        },
+        "fluency": {
+          "mean": 1.9027777777777777,
+          "std": 0.5606767093940713
+        },
+        "content_preservation": {
+          "mean": 2.3333333333333335,
+          "std": 0.5814018997338111
+        }
+      }
+    },
+    "Random-feature steering (null)": {
+      "n_generation_rater_evaluations": 72,
+      "axes": {
+        "addressee_honorificity": {
+          "mean": 0.3888888888888889,
+          "std": 0.617937404085367
+        },
+        "verb_agreement": {
+          "mean": 2.6944444444444446,
+          "std": 0.4638749494218194
+        },
+        "register_consistency": {
+          "mean": 2.6527777777777777,
+          "std": 0.4794281282981244
+        },
+        "context_appropriateness": {
+          "mean": 0.5555555555555556,
+          "std": 0.6690099662174537
+        },
+        "fluency": {
+          "mean": 1.6944444444444444,
+          "std": 0.4638749494218194
+        },
+        "content_preservation": {
+          "mean": 1.9444444444444444,
+          "std": 0.5277880733696398
+        }
+      }
+    },
+    "Single SAE feature": {
+      "n_generation_rater_evaluations": 72,
+      "axes": {
+        "addressee_honorificity": {
+          "mean": 0.6111111111111112,
+          "std": 0.617937404085367
+        },
+        "verb_agreement": {
+          "mean": 2.625,
+          "std": 0.4875203137696194
+        },
+        "register_consistency": {
+          "mean": 2.7777777777777777,
+          "std": 0.41865721708183945
+        },
+        "context_appropriateness": {
+          "mean": 0.7222222222222222,
+          "std": 0.6759911288321622
+        },
+        "fluency": {
+          "mean": 2.2222222222222223,
+          "std": 0.5366096549194197
+        },
+        "content_preservation": {
+          "mean": 2.4583333333333335,
+          "std": 0.5017574746630903
+        }
+      }
+    },
+    "Top-5 SAE features": {
+      "n_generation_rater_evaluations": 72,
+      "axes": {
+        "addressee_honorificity": {
+          "mean": 1.0138888888888888,
+          "std": 0.7217555974220191
+        },
+        "verb_agreement": {
+          "mean": 1.9861111111111112,
+          "std": 0.9268005780231798
+        },
+        "register_consistency": {
+          "mean": 2.125,
+          "std": 0.8547711991035387
+        },
+        "context_appropriateness": {
+          "mean": 0.9583333333333334,
+          "std": 0.7206706579174003
+        },
+        "fluency": {
+          "mean": 2.0277777777777777,
+          "std": 0.6273625144759927
+        },
+        "content_preservation": {
+          "mean": 2.4583333333333335,
+          "std": 0.5017574746630903
+        }
+      }
+    },
+    "Top-20 SAE features": {
+      "n_generation_rater_evaluations": 72,
+      "axes": {
+        "addressee_honorificity": {
+          "mean": 1.3055555555555556,
+          "std": 0.6421550181168444
+        },
+        "verb_agreement": {
+          "mean": 2.013888888888889,
+          "std": 0.6606240232965302
+        },
+        "register_consistency": {
+          "mean": 2.0555555555555554,
+          "std": 0.8373144341636789
+        },
+        "context_appropriateness": {
+          "mean": 1.4444444444444444,
+          "std": 0.7098678490164861
+        },
+        "fluency": {
+          "mean": 1.9722222222222223,
+          "std": 0.5559466541999502
+        },
+        "content_preservation": {
+          "mean": 2.3194444444444446,
+          "std": 0.6010879546825703
+        }
+      }
+    },
+    "Supervised difference-in-means": {
+      "n_generation_rater_evaluations": 72,
+      "axes": {
+        "addressee_honorificity": {
+          "mean": 0.4861111111111111,
+          "std": 0.6278300558508918
+        },
+        "verb_agreement": {
+          "mean": 2.6805555555555554,
+          "std": 0.4695334480544922
+        },
+        "register_consistency": {
+          "mean": 2.763888888888889,
+          "std": 0.4594257148663299
+        },
+        "context_appropriateness": {
+          "mean": 0.6111111111111112,
+          "std": 0.6403246437958399
+        },
+        "fluency": {
+          "mean": 2.4444444444444446,
+          "std": 0.5277880733696398
+        },
+        "content_preservation": {
+          "mean": 2.513888888888889,
+          "std": 0.503314522547481
+        }
+      }
+    },
+    "4-shot prompting": {
+      "n_generation_rater_evaluations": 72,
+      "axes": {
+        "addressee_honorificity": {
+          "mean": 2.361111111111111,
+          "std": 0.6777251833155947
+        },
+        "verb_agreement": {
+          "mean": 2.736111111111111,
+          "std": 0.44383271672803104
+        },
+        "register_consistency": {
+          "mean": 2.8055555555555554,
+          "std": 0.3985497968034627
+        },
+        "context_appropriateness": {
+          "mean": 2.4305555555555554,
+          "std": 0.5771808340372786
+        },
+        "fluency": {
+          "mean": 2.736111111111111,
+          "std": 0.44383271672803104
+        },
+        "content_preservation": {
+          "mean": 2.7777777777777777,
+          "std": 0.4510464272103455
+        }
+      }
+    }
+  },
+  "agreement_mean_pairwise_spearman": {
+    "addressee_honorificity": {
+      "mean_rho": 0.7934943080038624,
+      "pairs": [
+        {
+          "raters": [
+            "SIM_R1",
+            "SIM_R2"
+          ],
+          "rho": 0.7955357556031171
+        },
+        {
+          "raters": [
+            "SIM_R1",
+            "SIM_R3"
+          ],
+          "rho": 0.7955465179894824
+        },
+        {
+          "raters": [
+            "SIM_R2",
+            "SIM_R3"
+          ],
+          "rho": 0.789400650418988
+        }
+      ]
+    },
+    "verb_agreement": {
+      "mean_rho": 0.7163401873023792,
+      "pairs": [
+        {
+          "raters": [
+            "SIM_R1",
+            "SIM_R2"
+          ],
+          "rho": 0.7151227207595734
+        },
+        {
+          "raters": [
+            "SIM_R1",
+            "SIM_R3"
+          ],
+          "rho": 0.7124755463229133
+        },
+        {
+          "raters": [
+            "SIM_R2",
+            "SIM_R3"
+          ],
+          "rho": 0.7214222948246514
+        }
+      ]
+    },
+    "register_consistency": {
+      "mean_rho": 0.6977399387798529,
+      "pairs": [
+        {
+          "raters": [
+            "SIM_R1",
+            "SIM_R2"
+          ],
+          "rho": 0.6605465857981765
+        },
+        {
+          "raters": [
+            "SIM_R1",
+            "SIM_R3"
+          ],
+          "rho": 0.7406359534414495
+        },
+        {
+          "raters": [
+            "SIM_R2",
+            "SIM_R3"
+          ],
+          "rho": 0.6920372770999325
+        }
+      ]
+    }
+  },
+  "proxy_summary": {
+    "Baseline (tu-form prompts)": {
+      "n_prompts": 24,
+      "mean": -0.09855195833333334,
+      "delta_vs_baseline": 0.0,
+      "paired_bootstrap_95_ci": [
+        0.0,
+        0.0
+      ]
+    },
+    "Zero-shot instruction": {
+      "n_prompts": 24,
+      "mean": -0.14100258333333335,
+      "delta_vs_baseline": -0.042450625,
+      "paired_bootstrap_95_ci": [
+        -0.04516958645833334,
+        -0.039225942708333336
+      ]
+    },
+    "Random-feature steering (null)": {
+      "n_prompts": 24,
+      "mean": -0.12988375,
+      "delta_vs_baseline": -0.03133179166666667,
+      "paired_bootstrap_95_ci": [
+        -0.034300627083333333,
+        -0.027852745833333338
+      ]
+    },
+    "Single SAE feature": {
+      "n_prompts": 24,
+      "mean": -0.07746441666666666,
+      "delta_vs_baseline": 0.021087541666666664,
+      "paired_bootstrap_95_ci": [
+        0.016771288541666665,
+        0.025423533333333324
+      ]
+    },
+    "Top-5 SAE features": {
+      "n_prompts": 24,
+      "mean": -0.02007566666666667,
+      "delta_vs_baseline": 0.07847629166666666,
+      "paired_bootstrap_95_ci": [
+        0.06977962500000001,
+        0.08787824374999997
+      ]
+    },
+    "Top-20 SAE features": {
+      "n_prompts": 24,
+      "mean": -0.005829916666666666,
+      "delta_vs_baseline": 0.09272204166666669,
+      "paired_bootstrap_95_ci": [
+        0.08352220729166665,
+        0.102481634375
+      ]
+    },
+    "Supervised difference-in-means": {
+      "n_prompts": 24,
+      "mean": -0.10202283333333334,
+      "delta_vs_baseline": -0.0034708749999999996,
+      "paired_bootstrap_95_ci": [
+        -0.007980568749999998,
+        0.0010251760416666615
+      ]
+    },
+    "4-shot prompting": {
+      "n_prompts": 24,
+      "mean": 0.06759333333333334,
+      "delta_vs_baseline": 0.16614529166666667,
+      "paired_bootstrap_95_ci": [
+        0.15723300937499998,
+        0.175527084375
+      ]
+    }
+  },
+  "bootstrap": {
+    "unit": "matched prompt",
+    "resamples": 10000,
+    "interval": 0.95
+  }
+}

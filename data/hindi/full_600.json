@@ -9,7 +9,8 @@
     "confounds": {
       "pronoun_stripped_high": "kaise hain?",
       "pronoun_stripped_low": "kaise ho?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:001"
     },
     "notes": ""
   },
@@ -23,7 +24,8 @@
     "confounds": {
       "pronoun_stripped_high": "kaise hain?",
       "pronoun_stripped_low": "kaisa hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:001"
     },
     "notes": ""
   },
@@ -37,7 +39,8 @@
     "confounds": {
       "pronoun_stripped_high": "kaise ho?",
       "pronoun_stripped_low": "kaisa hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:001"
     },
     "notes": ""
   },
@@ -51,7 +54,8 @@
     "confounds": {
       "pronoun_stripped_high": "kahan ja rahe hain?",
       "pronoun_stripped_low": "kahan ja rahe ho?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:002"
     },
     "notes": ""
   },
@@ -65,7 +69,8 @@
     "confounds": {
       "pronoun_stripped_high": "kahan ja rahe hain?",
       "pronoun_stripped_low": "kahan ja raha hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:002"
     },
     "notes": ""
   },
@@ -79,7 +84,8 @@
     "confounds": {
       "pronoun_stripped_high": "kahan ja rahe ho?",
       "pronoun_stripped_low": "kahan ja raha hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:002"
     },
     "notes": ""
   },
@@ -93,7 +99,8 @@
     "confounds": {
       "pronoun_stripped_high": "baithiye, chai lenge?",
       "pronoun_stripped_low": "baitho, chai loge?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:003"
     },
     "notes": ""
   },
@@ -107,7 +114,8 @@
     "confounds": {
       "pronoun_stripped_high": "baithiye, chai lenge?",
       "pronoun_stripped_low": "baith, chai lega?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:003"
     },
     "notes": ""
   },
@@ -121,7 +129,8 @@
     "confounds": {
       "pronoun_stripped_high": "baitho, chai loge?",
       "pronoun_stripped_low": "baith, chai lega?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:003"
     },
     "notes": ""
   },
@@ -135,7 +144,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka naam kya hai?",
       "pronoun_stripped_low": "naam kya hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "social:004"
     },
     "notes": ""
   },
@@ -149,7 +159,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka naam kya hai?",
       "pronoun_stripped_low": "naam kya hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "social:004"
     },
     "notes": ""
   },
@@ -163,7 +174,8 @@
     "confounds": {
       "pronoun_stripped_high": "naam kya hai?",
       "pronoun_stripped_low": "naam kya hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:004"
     },
     "notes": ""
   },
@@ -177,7 +189,8 @@
     "confounds": {
       "pronoun_stripped_high": "kab aaye?",
       "pronoun_stripped_low": "kab aaye?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:005"
     },
     "notes": ""
   },
@@ -191,7 +204,8 @@
     "confounds": {
       "pronoun_stripped_high": "kab aaye?",
       "pronoun_stripped_low": "kab aaya?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:005"
     },
     "notes": ""
   },
@@ -205,7 +219,8 @@
     "confounds": {
       "pronoun_stripped_high": "kab aaye?",
       "pronoun_stripped_low": "kab aaya?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:005"
     },
     "notes": ""
   },
@@ -219,7 +234,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne khana kha liya?",
       "pronoun_stripped_low": "tumne khana kha liya?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "social:006"
     },
     "notes": ""
   },
@@ -233,7 +249,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne khana kha liya?",
       "pronoun_stripped_low": "khana khaya?",
-      "length_ratio": 1.67
+      "length_ratio": 1.67,
+      "template_family": "social:006"
     },
     "notes": ""
   },
@@ -247,7 +264,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne khana kha liya?",
       "pronoun_stripped_low": "khana khaya?",
-      "length_ratio": 1.33
+      "length_ratio": 1.33,
+      "template_family": "social:006"
     },
     "notes": ""
   },
@@ -261,7 +279,8 @@
     "confounds": {
       "pronoun_stripped_high": "theek hain?",
       "pronoun_stripped_low": "theek ho?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:007"
     },
     "notes": ""
   },
@@ -275,7 +294,8 @@
     "confounds": {
       "pronoun_stripped_high": "theek hain?",
       "pronoun_stripped_low": "theek hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:007"
     },
     "notes": ""
   },
@@ -289,7 +309,8 @@
     "confounds": {
       "pronoun_stripped_high": "theek ho?",
       "pronoun_stripped_low": "theek hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:007"
     },
     "notes": ""
   },
@@ -303,7 +324,8 @@
     "confounds": {
       "pronoun_stripped_high": "yahan tak kaise pahunche?",
       "pronoun_stripped_low": "yahan tak kaise pahunche?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:008"
     },
     "notes": ""
   },
@@ -317,7 +339,8 @@
     "confounds": {
       "pronoun_stripped_high": "yahan tak kaise pahunche?",
       "pronoun_stripped_low": "yahan kaise pahuncha?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "social:008"
     },
     "notes": ""
   },
@@ -331,7 +354,8 @@
     "confounds": {
       "pronoun_stripped_high": "yahan tak kaise pahunche?",
       "pronoun_stripped_low": "yahan kaise pahuncha?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "social:008"
     },
     "notes": ""
   },
@@ -345,7 +369,8 @@
     "confounds": {
       "pronoun_stripped_high": "se milke bahut accha laga.",
       "pronoun_stripped_low": "milke accha laga.",
-      "length_ratio": 1.5
+      "length_ratio": 1.5,
+      "template_family": "social:009"
     },
     "notes": ""
   },
@@ -359,7 +384,8 @@
     "confounds": {
       "pronoun_stripped_high": "se milke bahut accha laga.",
       "pronoun_stripped_low": "milke accha laga.",
-      "length_ratio": 1.5
+      "length_ratio": 1.5,
+      "template_family": "social:009"
     },
     "notes": ""
   },
@@ -373,7 +399,8 @@
     "confounds": {
       "pronoun_stripped_high": "milke accha laga.",
       "pronoun_stripped_low": "milke accha laga.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:009"
     },
     "notes": ""
   },
@@ -387,7 +414,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki family kaisi hai?",
       "pronoun_stripped_low": "family kaisi hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "social:010"
     },
     "notes": ""
   },
@@ -401,7 +429,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki family kaisi hai?",
       "pronoun_stripped_low": "family kaisi hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "social:010"
     },
     "notes": ""
   },
@@ -415,7 +444,8 @@
     "confounds": {
       "pronoun_stripped_high": "family kaisi hai?",
       "pronoun_stripped_low": "family kaisi hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:010"
     },
     "notes": ""
   },
@@ -429,7 +459,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka din kaisa raha?",
       "pronoun_stripped_low": "din kaisa raha?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "social:011"
     },
     "notes": ""
   },
@@ -443,7 +474,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka din kaisa raha?",
       "pronoun_stripped_low": "din kaisa raha?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "social:011"
     },
     "notes": ""
   },
@@ -457,7 +489,8 @@
     "confounds": {
       "pronoun_stripped_high": "din kaisa raha?",
       "pronoun_stripped_low": "din kaisa raha?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:011"
     },
     "notes": ""
   },
@@ -471,7 +504,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko koi madad chahiye?",
       "pronoun_stripped_low": "koi madad chahiye?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "social:012"
     },
     "notes": ""
   },
@@ -485,7 +519,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko koi madad chahiye?",
       "pronoun_stripped_low": "koi madad chahiye?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "social:012"
     },
     "notes": ""
   },
@@ -499,7 +534,8 @@
     "confounds": {
       "pronoun_stripped_high": "koi madad chahiye?",
       "pronoun_stripped_low": "koi madad chahiye?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:012"
     },
     "notes": ""
   },
@@ -513,7 +549,8 @@
     "confounds": {
       "pronoun_stripped_high": "ke ghar mein kitne log hain?",
       "pronoun_stripped_low": "tumhare ghar mein kitne log hain?",
-      "length_ratio": 1.17
+      "length_ratio": 1.17,
+      "template_family": "social:013"
     },
     "notes": ""
   },
@@ -527,7 +564,8 @@
     "confounds": {
       "pronoun_stripped_high": "ke ghar mein kitne log hain?",
       "pronoun_stripped_low": "tere ghar mein kitne log hain?",
-      "length_ratio": 1.17
+      "length_ratio": 1.17,
+      "template_family": "social:013"
     },
     "notes": ""
   },
@@ -541,7 +579,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumhare ghar mein kitne log hain?",
       "pronoun_stripped_low": "tere ghar mein kitne log hain?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:013"
     },
     "notes": ""
   },
@@ -555,7 +594,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki tabiyat kaisi hai?",
       "pronoun_stripped_low": "tabiyat kaisi hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "social:014"
     },
     "notes": ""
   },
@@ -569,7 +609,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki tabiyat kaisi hai?",
       "pronoun_stripped_low": "tabiyat kaisi hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "social:014"
     },
     "notes": ""
   },
@@ -583,7 +624,8 @@
     "confounds": {
       "pronoun_stripped_high": "tabiyat kaisi hai?",
       "pronoun_stripped_low": "tabiyat kaisi hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:014"
     },
     "notes": ""
   },
@@ -597,7 +639,8 @@
     "confounds": {
       "pronoun_stripped_high": "kab wapas aaenge?",
       "pronoun_stripped_low": "kab wapas aaoge?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:015"
     },
     "notes": ""
   },
@@ -611,7 +654,8 @@
     "confounds": {
       "pronoun_stripped_high": "kab wapas aaenge?",
       "pronoun_stripped_low": "kab wapas aayega?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:015"
     },
     "notes": ""
   },
@@ -625,7 +669,8 @@
     "confounds": {
       "pronoun_stripped_high": "kab wapas aaoge?",
       "pronoun_stripped_low": "kab wapas aayega?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:015"
     },
     "notes": ""
   },
@@ -639,7 +684,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne yeh film dekhi?",
       "pronoun_stripped_low": "tumne yeh film dekhi?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "social:016"
     },
     "notes": ""
   },
@@ -653,7 +699,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne yeh film dekhi?",
       "pronoun_stripped_low": "yeh film dekhi?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "social:016"
     },
     "notes": ""
   },
@@ -667,7 +714,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne yeh film dekhi?",
       "pronoun_stripped_low": "yeh film dekhi?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:016"
     },
     "notes": ""
   },
@@ -681,7 +729,8 @@
     "confounds": {
       "pronoun_stripped_high": "ke saath kaun hai?",
       "pronoun_stripped_low": "tumhare saath kaun hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "social:017"
     },
     "notes": ""
   },
@@ -695,7 +744,8 @@
     "confounds": {
       "pronoun_stripped_high": "ke saath kaun hai?",
       "pronoun_stripped_low": "tere saath kaun hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "social:017"
     },
     "notes": ""
   },
@@ -709,7 +759,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumhare saath kaun hai?",
       "pronoun_stripped_low": "tere saath kaun hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:017"
     },
     "notes": ""
   },
@@ -723,7 +774,8 @@
     "confounds": {
       "pronoun_stripped_high": "khush hain?",
       "pronoun_stripped_low": "khush ho?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:018"
     },
     "notes": ""
   },
@@ -737,7 +789,8 @@
     "confounds": {
       "pronoun_stripped_high": "khush hain?",
       "pronoun_stripped_low": "khush hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:018"
     },
     "notes": ""
   },
@@ -751,7 +804,8 @@
     "confounds": {
       "pronoun_stripped_high": "khush ho?",
       "pronoun_stripped_low": "khush hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:018"
     },
     "notes": ""
   },
@@ -765,7 +819,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko hindi achhi lagti hai?",
       "pronoun_stripped_low": "hindi achhi lagti hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "social:019"
     },
     "notes": ""
   },
@@ -779,7 +834,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko hindi achhi lagti hai?",
       "pronoun_stripped_low": "hindi achhi lagti hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "social:019"
     },
     "notes": ""
   },
@@ -793,7 +849,8 @@
     "confounds": {
       "pronoun_stripped_high": "hindi achhi lagti hai?",
       "pronoun_stripped_low": "hindi achhi lagti hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:019"
     },
     "notes": ""
   },
@@ -807,7 +864,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka safar kaisa raha?",
       "pronoun_stripped_low": "safar kaisa raha?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "social:020"
     },
     "notes": ""
   },
@@ -821,7 +879,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka safar kaisa raha?",
       "pronoun_stripped_low": "safar kaisa raha?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "social:020"
     },
     "notes": ""
   },
@@ -835,7 +894,8 @@
     "confounds": {
       "pronoun_stripped_high": "safar kaisa raha?",
       "pronoun_stripped_low": "safar kaisa raha?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:020"
     },
     "notes": ""
   },
@@ -849,7 +909,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne kya socha is bare mein?",
       "pronoun_stripped_low": "tumne kya socha is bare mein?",
-      "length_ratio": 1.17
+      "length_ratio": 1.17,
+      "template_family": "social:021"
     },
     "notes": ""
   },
@@ -863,7 +924,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne kya socha is bare mein?",
       "pronoun_stripped_low": "kya socha is bare mein?",
-      "length_ratio": 1.17
+      "length_ratio": 1.17,
+      "template_family": "social:021"
     },
     "notes": ""
   },
@@ -877,7 +939,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne kya socha is bare mein?",
       "pronoun_stripped_low": "kya socha is bare mein?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:021"
     },
     "notes": ""
   },
@@ -891,7 +954,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki raye kya hai?",
       "pronoun_stripped_low": "raye kya hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "social:022"
     },
     "notes": ""
   },
@@ -905,7 +969,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki raye kya hai?",
       "pronoun_stripped_low": "raye kya hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "social:022"
     },
     "notes": ""
   },
@@ -919,7 +984,8 @@
     "confounds": {
       "pronoun_stripped_high": "raye kya hai?",
       "pronoun_stripped_low": "raye kya hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:022"
     },
     "notes": ""
   },
@@ -933,7 +999,8 @@
     "confounds": {
       "pronoun_stripped_high": "kya kar rahe the?",
       "pronoun_stripped_low": "kya kar rahe the?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:023"
     },
     "notes": ""
   },
@@ -947,7 +1014,8 @@
     "confounds": {
       "pronoun_stripped_high": "kya kar rahe the?",
       "pronoun_stripped_low": "kya kar raha tha?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:023"
     },
     "notes": ""
   },
@@ -961,7 +1029,8 @@
     "confounds": {
       "pronoun_stripped_high": "kya kar rahe the?",
       "pronoun_stripped_low": "kya kar raha tha?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:023"
     },
     "notes": ""
   },
@@ -975,7 +1044,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka intezaar kar raha tha.",
       "pronoun_stripped_low": "intezaar kar raha tha.",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "social:024"
     },
     "notes": ""
   },
@@ -989,7 +1059,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka intezaar kar raha tha.",
       "pronoun_stripped_low": "intezaar kar raha tha.",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "social:024"
     },
     "notes": ""
   },
@@ -1003,7 +1074,8 @@
     "confounds": {
       "pronoun_stripped_high": "intezaar kar raha tha.",
       "pronoun_stripped_low": "intezaar kar raha tha.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:024"
     },
     "notes": ""
   },
@@ -1017,7 +1089,8 @@
     "confounds": {
       "pronoun_stripped_high": "kya khana pasand karte hain?",
       "pronoun_stripped_low": "kya khana pasand hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "social:025"
     },
     "notes": ""
   },
@@ -1031,7 +1104,8 @@
     "confounds": {
       "pronoun_stripped_high": "kya khana pasand karte hain?",
       "pronoun_stripped_low": "kya khana pasand hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "social:025"
     },
     "notes": ""
   },
@@ -1045,7 +1119,8 @@
     "confounds": {
       "pronoun_stripped_high": "kya khana pasand hai?",
       "pronoun_stripped_low": "kya khana pasand hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:025"
     },
     "notes": ""
   },
@@ -1059,7 +1134,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki umra kya hai?",
       "pronoun_stripped_low": "umra kya hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "social:026"
     },
     "notes": ""
   },
@@ -1073,7 +1149,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki umra kya hai?",
       "pronoun_stripped_low": "umra kya hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "social:026"
     },
     "notes": ""
   },
@@ -1087,7 +1164,8 @@
     "confounds": {
       "pronoun_stripped_high": "umra kya hai?",
       "pronoun_stripped_low": "umra kya hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:026"
     },
     "notes": ""
   },
@@ -1101,7 +1179,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka ghar kahan hai?",
       "pronoun_stripped_low": "ghar kahan hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "social:027"
     },
     "notes": ""
   },
@@ -1115,7 +1194,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka ghar kahan hai?",
       "pronoun_stripped_low": "ghar kahan hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "social:027"
     },
     "notes": ""
   },
@@ -1129,7 +1209,8 @@
     "confounds": {
       "pronoun_stripped_high": "ghar kahan hai?",
       "pronoun_stripped_low": "ghar kahan hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:027"
     },
     "notes": ""
   },
@@ -1143,7 +1224,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne yeh kab seekha?",
       "pronoun_stripped_low": "tumne yeh kab seekha?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "social:028"
     },
     "notes": ""
   },
@@ -1157,7 +1239,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne yeh kab seekha?",
       "pronoun_stripped_low": "yeh kab seekha?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "social:028"
     },
     "notes": ""
   },
@@ -1171,7 +1254,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne yeh kab seekha?",
       "pronoun_stripped_low": "yeh kab seekha?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:028"
     },
     "notes": ""
   },
@@ -1185,7 +1269,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki pasand kya hai?",
       "pronoun_stripped_low": "pasand kya hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "social:029"
     },
     "notes": ""
   },
@@ -1199,7 +1284,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki pasand kya hai?",
       "pronoun_stripped_low": "pasand kya hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "social:029"
     },
     "notes": ""
   },
@@ -1213,7 +1299,8 @@
     "confounds": {
       "pronoun_stripped_high": "pasand kya hai?",
       "pronoun_stripped_low": "pasand kya hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:029"
     },
     "notes": ""
   },
@@ -1227,7 +1314,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko chai ya coffee?",
       "pronoun_stripped_low": "chai ya coffee?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "social:030"
     },
     "notes": ""
   },
@@ -1241,7 +1329,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko chai ya coffee?",
       "pronoun_stripped_low": "chai ya coffee?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "social:030"
     },
     "notes": ""
   },
@@ -1255,7 +1344,8 @@
     "confounds": {
       "pronoun_stripped_high": "chai ya coffee?",
       "pronoun_stripped_low": "chai ya coffee?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:030"
     },
     "notes": ""
   },
@@ -1269,7 +1359,8 @@
     "confounds": {
       "pronoun_stripped_high": "thak gaye hain kya?",
       "pronoun_stripped_low": "thak gaye kya?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "social:031"
     },
     "notes": ""
   },
@@ -1283,7 +1374,8 @@
     "confounds": {
       "pronoun_stripped_high": "thak gaye hain kya?",
       "pronoun_stripped_low": "thak gaya kya?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "social:031"
     },
     "notes": ""
   },
@@ -1297,7 +1389,8 @@
     "confounds": {
       "pronoun_stripped_high": "thak gaye kya?",
       "pronoun_stripped_low": "thak gaya kya?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:031"
     },
     "notes": ""
   },
@@ -1311,7 +1404,8 @@
     "confounds": {
       "pronoun_stripped_high": "ke kya plans hain?",
       "pronoun_stripped_low": "tumhare kya plans hain?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "social:032"
     },
     "notes": ""
   },
@@ -1325,7 +1419,8 @@
     "confounds": {
       "pronoun_stripped_high": "ke kya plans hain?",
       "pronoun_stripped_low": "tere kya plans hain?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "social:032"
     },
     "notes": ""
   },
@@ -1339,7 +1434,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumhare kya plans hain?",
       "pronoun_stripped_low": "tere kya plans hain?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:032"
     },
     "notes": ""
   },
@@ -1353,7 +1449,8 @@
     "confounds": {
       "pronoun_stripped_high": "kitne baje aate hain?",
       "pronoun_stripped_low": "kitne baje aate ho?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:033"
     },
     "notes": ""
   },
@@ -1367,7 +1464,8 @@
     "confounds": {
       "pronoun_stripped_high": "kitne baje aate hain?",
       "pronoun_stripped_low": "kitne baje aata hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:033"
     },
     "notes": ""
   },
@@ -1381,7 +1479,8 @@
     "confounds": {
       "pronoun_stripped_high": "kitne baje aate ho?",
       "pronoun_stripped_low": "kitne baje aata hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:033"
     },
     "notes": ""
   },
@@ -1395,7 +1494,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko neend aayi raat?",
       "pronoun_stripped_low": "neend aayi raat?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "social:034"
     },
     "notes": ""
   },
@@ -1409,7 +1509,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko neend aayi raat?",
       "pronoun_stripped_low": "neend aayi raat?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "social:034"
     },
     "notes": ""
   },
@@ -1423,7 +1524,8 @@
     "confounds": {
       "pronoun_stripped_high": "neend aayi raat?",
       "pronoun_stripped_low": "neend aayi raat?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "social:034"
     },
     "notes": ""
   },
@@ -1437,7 +1539,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka project kab complete hoga?",
       "pronoun_stripped_low": "project kab complete hoga?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "professional:001"
     },
     "notes": ""
   },
@@ -1451,7 +1554,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka project kab complete hoga?",
       "pronoun_stripped_low": "project kab complete hoga?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "professional:001"
     },
     "notes": ""
   },
@@ -1465,7 +1569,8 @@
     "confounds": {
       "pronoun_stripped_high": "project kab complete hoga?",
       "pronoun_stripped_low": "project kab complete hoga?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:001"
     },
     "notes": ""
   },
@@ -1479,7 +1584,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne report submit ki kya?",
       "pronoun_stripped_low": "tumne report submit ki kya?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "professional:002"
     },
     "notes": ""
   },
@@ -1493,7 +1599,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne report submit ki kya?",
       "pronoun_stripped_low": "report submit ki?",
-      "length_ratio": 1.5
+      "length_ratio": 1.5,
+      "template_family": "professional:002"
     },
     "notes": ""
   },
@@ -1507,7 +1614,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne report submit ki kya?",
       "pronoun_stripped_low": "report submit ki?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "professional:002"
     },
     "notes": ""
   },
@@ -1521,7 +1629,8 @@
     "confounds": {
       "pronoun_stripped_high": "meeting mein honge?",
       "pronoun_stripped_low": "meeting mein hoge?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:003"
     },
     "notes": ""
   },
@@ -1535,7 +1644,8 @@
     "confounds": {
       "pronoun_stripped_high": "meeting mein honge?",
       "pronoun_stripped_low": "meeting mein hoga?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:003"
     },
     "notes": ""
   },
@@ -1549,7 +1659,8 @@
     "confounds": {
       "pronoun_stripped_high": "meeting mein hoge?",
       "pronoun_stripped_low": "meeting mein hoga?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:003"
     },
     "notes": ""
   },
@@ -1563,7 +1674,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka designation kya hai?",
       "pronoun_stripped_low": "designation kya hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "professional:004"
     },
     "notes": ""
   },
@@ -1577,7 +1689,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka designation kya hai?",
       "pronoun_stripped_low": "designation kya hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "professional:004"
     },
     "notes": ""
   },
@@ -1591,7 +1704,8 @@
     "confounds": {
       "pronoun_stripped_high": "designation kya hai?",
       "pronoun_stripped_low": "designation kya hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:004"
     },
     "notes": ""
   },
@@ -1605,7 +1719,8 @@
     "confounds": {
       "pronoun_stripped_high": "se ek kaam tha.",
       "pronoun_stripped_low": "ek kaam tha.",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "professional:005"
     },
     "notes": ""
   },
@@ -1619,7 +1734,8 @@
     "confounds": {
       "pronoun_stripped_high": "se ek kaam tha.",
       "pronoun_stripped_low": "ek kaam tha.",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "professional:005"
     },
     "notes": ""
   },
@@ -1633,7 +1749,8 @@
     "confounds": {
       "pronoun_stripped_high": "ek kaam tha.",
       "pronoun_stripped_low": "ek kaam tha.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:005"
     },
     "notes": ""
   },
@@ -1647,7 +1764,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne email padhi kya?",
       "pronoun_stripped_low": "tumne email padhi kya?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "professional:006"
     },
     "notes": ""
   },
@@ -1661,7 +1779,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne email padhi kya?",
       "pronoun_stripped_low": "email padhi kya?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "professional:006"
     },
     "notes": ""
   },
@@ -1675,7 +1794,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne email padhi kya?",
       "pronoun_stripped_low": "email padhi kya?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:006"
     },
     "notes": ""
   },
@@ -1689,7 +1809,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki team kaisi perform kar rahi hai?",
       "pronoun_stripped_low": "team kaisi hai?",
-      "length_ratio": 2.0
+      "length_ratio": 2.0,
+      "template_family": "professional:007"
     },
     "notes": ""
   },
@@ -1703,7 +1824,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki team kaisi perform kar rahi hai?",
       "pronoun_stripped_low": "team kaisi hai?",
-      "length_ratio": 2.0
+      "length_ratio": 2.0,
+      "template_family": "professional:007"
     },
     "notes": ""
   },
@@ -1717,7 +1839,8 @@
     "confounds": {
       "pronoun_stripped_high": "team kaisi hai?",
       "pronoun_stripped_low": "team kaisi hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:007"
     },
     "notes": ""
   },
@@ -1731,7 +1854,8 @@
     "confounds": {
       "pronoun_stripped_high": "deadline puri kar lenge?",
       "pronoun_stripped_low": "deadline puri kar loge?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:008"
     },
     "notes": ""
   },
@@ -1745,7 +1869,8 @@
     "confounds": {
       "pronoun_stripped_high": "deadline puri kar lenge?",
       "pronoun_stripped_low": "deadline pura kar lega?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:008"
     },
     "notes": ""
   },
@@ -1759,7 +1884,8 @@
     "confounds": {
       "pronoun_stripped_high": "deadline puri kar loge?",
       "pronoun_stripped_low": "deadline pura kar lega?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:008"
     },
     "notes": ""
   },
@@ -1773,7 +1899,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka feedback kya hai?",
       "pronoun_stripped_low": "feedback kya hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "professional:009"
     },
     "notes": ""
   },
@@ -1787,7 +1914,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka feedback kya hai?",
       "pronoun_stripped_low": "feedback kya hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "professional:009"
     },
     "notes": ""
   },
@@ -1801,7 +1929,8 @@
     "confounds": {
       "pronoun_stripped_high": "feedback kya hai?",
       "pronoun_stripped_low": "feedback kya hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:009"
     },
     "notes": ""
   },
@@ -1815,7 +1944,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne presentation dekhi?",
       "pronoun_stripped_low": "tumne presentation dekhi?",
-      "length_ratio": 1.33
+      "length_ratio": 1.33,
+      "template_family": "professional:010"
     },
     "notes": ""
   },
@@ -1829,7 +1959,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne presentation dekhi?",
       "pronoun_stripped_low": "presentation dekhi?",
-      "length_ratio": 1.33
+      "length_ratio": 1.33,
+      "template_family": "professional:010"
     },
     "notes": ""
   },
@@ -1843,7 +1974,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne presentation dekhi?",
       "pronoun_stripped_low": "presentation dekhi?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:010"
     },
     "notes": ""
   },
@@ -1857,7 +1989,8 @@
     "confounds": {
       "pronoun_stripped_high": "kab free hain?",
       "pronoun_stripped_low": "kab free ho?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:011"
     },
     "notes": ""
   },
@@ -1871,7 +2004,8 @@
     "confounds": {
       "pronoun_stripped_high": "kab free hain?",
       "pronoun_stripped_low": "kab free hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:011"
     },
     "notes": ""
   },
@@ -1885,7 +2019,8 @@
     "confounds": {
       "pronoun_stripped_high": "kab free ho?",
       "pronoun_stripped_low": "kab free hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:011"
     },
     "notes": ""
   },
@@ -1899,7 +2034,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka resign ka irada to nahi?",
       "pronoun_stripped_low": "resign ka irada to nahi?",
-      "length_ratio": 1.17
+      "length_ratio": 1.17,
+      "template_family": "professional:012"
     },
     "notes": ""
   },
@@ -1913,7 +2049,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka resign ka irada to nahi?",
       "pronoun_stripped_low": "resign ka irada to nahi?",
-      "length_ratio": 1.17
+      "length_ratio": 1.17,
+      "template_family": "professional:012"
     },
     "notes": ""
   },
@@ -1927,7 +2064,8 @@
     "confounds": {
       "pronoun_stripped_high": "resign ka irada to nahi?",
       "pronoun_stripped_low": "resign ka irada to nahi?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:012"
     },
     "notes": ""
   },
@@ -1941,7 +2079,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne training complete ki?",
       "pronoun_stripped_low": "tumne training complete ki?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "professional:013"
     },
     "notes": ""
   },
@@ -1955,7 +2094,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne training complete ki?",
       "pronoun_stripped_low": "training complete ki?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "professional:013"
     },
     "notes": ""
   },
@@ -1969,7 +2109,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne training complete ki?",
       "pronoun_stripped_low": "training complete ki?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:013"
     },
     "notes": ""
   },
@@ -1983,7 +2124,8 @@
     "confounds": {
       "pronoun_stripped_high": "ke suggestions kya hain?",
       "pronoun_stripped_low": "tumhare suggestions kya hain?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "professional:014"
     },
     "notes": ""
   },
@@ -1997,7 +2139,8 @@
     "confounds": {
       "pronoun_stripped_high": "ke suggestions kya hain?",
       "pronoun_stripped_low": "tere suggestions kya hain?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "professional:014"
     },
     "notes": ""
   },
@@ -2011,7 +2154,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumhare suggestions kya hain?",
       "pronoun_stripped_low": "tere suggestions kya hain?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:014"
     },
     "notes": ""
   },
@@ -2025,7 +2169,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka appraisal kab hai?",
       "pronoun_stripped_low": "appraisal kab hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "professional:015"
     },
     "notes": ""
   },
@@ -2039,7 +2184,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka appraisal kab hai?",
       "pronoun_stripped_low": "appraisal kab hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "professional:015"
     },
     "notes": ""
   },
@@ -2053,7 +2199,8 @@
     "confounds": {
       "pronoun_stripped_high": "appraisal kab hai?",
       "pronoun_stripped_low": "appraisal kab hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:015"
     },
     "notes": ""
   },
@@ -2067,7 +2214,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne documents sign kiye?",
       "pronoun_stripped_low": "tumne documents sign kiye?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "professional:016"
     },
     "notes": ""
   },
@@ -2081,7 +2229,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne documents sign kiye?",
       "pronoun_stripped_low": "documents sign kiye?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "professional:016"
     },
     "notes": ""
   },
@@ -2095,7 +2244,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne documents sign kiye?",
       "pronoun_stripped_low": "documents sign kiye?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:016"
     },
     "notes": ""
   },
@@ -2109,7 +2259,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka kaam kaisa chal raha hai?",
       "pronoun_stripped_low": "kaam kaisa chal raha hai?",
-      "length_ratio": 1.17
+      "length_ratio": 1.17,
+      "template_family": "professional:017"
     },
     "notes": ""
   },
@@ -2123,7 +2274,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka kaam kaisa chal raha hai?",
       "pronoun_stripped_low": "kaam kaisa chal raha hai?",
-      "length_ratio": 1.17
+      "length_ratio": 1.17,
+      "template_family": "professional:017"
     },
     "notes": ""
   },
@@ -2137,7 +2289,8 @@
     "confounds": {
       "pronoun_stripped_high": "kaam kaisa chal raha hai?",
       "pronoun_stripped_low": "kaam kaisa chal raha hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:017"
     },
     "notes": ""
   },
@@ -2151,7 +2304,8 @@
     "confounds": {
       "pronoun_stripped_high": "office kab aate hain?",
       "pronoun_stripped_low": "office kab aate ho?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:018"
     },
     "notes": ""
   },
@@ -2165,7 +2319,8 @@
     "confounds": {
       "pronoun_stripped_high": "office kab aate hain?",
       "pronoun_stripped_low": "office kab aata hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:018"
     },
     "notes": ""
   },
@@ -2179,7 +2334,8 @@
     "confounds": {
       "pronoun_stripped_high": "office kab aate ho?",
       "pronoun_stripped_low": "office kab aata hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:018"
     },
     "notes": ""
   },
@@ -2193,7 +2349,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki salary pakad mein aa gayi?",
       "pronoun_stripped_low": "salary aa gayi?",
-      "length_ratio": 1.75
+      "length_ratio": 1.75,
+      "template_family": "professional:019"
     },
     "notes": ""
   },
@@ -2207,7 +2364,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki salary pakad mein aa gayi?",
       "pronoun_stripped_low": "salary aa gayi?",
-      "length_ratio": 1.75
+      "length_ratio": 1.75,
+      "template_family": "professional:019"
     },
     "notes": ""
   },
@@ -2221,7 +2379,8 @@
     "confounds": {
       "pronoun_stripped_high": "salary aa gayi?",
       "pronoun_stripped_low": "salary aa gayi?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:019"
     },
     "notes": ""
   },
@@ -2235,7 +2394,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne budget approve karaya?",
       "pronoun_stripped_low": "tumne budget approve karaya?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "professional:020"
     },
     "notes": ""
   },
@@ -2249,7 +2409,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne budget approve karaya?",
       "pronoun_stripped_low": "budget approve karaya?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "professional:020"
     },
     "notes": ""
   },
@@ -2263,7 +2424,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne budget approve karaya?",
       "pronoun_stripped_low": "budget approve karaya?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:020"
     },
     "notes": ""
   },
@@ -2277,7 +2439,8 @@
     "confounds": {
       "pronoun_stripped_high": "kisi client se mile kya?",
       "pronoun_stripped_low": "kisi client se mile kya?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:021"
     },
     "notes": ""
   },
@@ -2291,7 +2454,8 @@
     "confounds": {
       "pronoun_stripped_high": "kisi client se mile kya?",
       "pronoun_stripped_low": "kisi client se mila?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "professional:021"
     },
     "notes": ""
   },
@@ -2305,7 +2469,8 @@
     "confounds": {
       "pronoun_stripped_high": "kisi client se mile kya?",
       "pronoun_stripped_low": "kisi client se mila?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "professional:021"
     },
     "notes": ""
   },
@@ -2319,7 +2484,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne target achieve kiya?",
       "pronoun_stripped_low": "tumne target achieve kiya?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "professional:022"
     },
     "notes": ""
   },
@@ -2333,7 +2499,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne target achieve kiya?",
       "pronoun_stripped_low": "target achieve kiya?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "professional:022"
     },
     "notes": ""
   },
@@ -2347,7 +2514,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne target achieve kiya?",
       "pronoun_stripped_low": "target achieve kiya?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:022"
     },
     "notes": ""
   },
@@ -2361,7 +2529,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka analysis ready hai?",
       "pronoun_stripped_low": "analysis ready hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "professional:023"
     },
     "notes": ""
   },
@@ -2375,7 +2544,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka analysis ready hai?",
       "pronoun_stripped_low": "analysis ready hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "professional:023"
     },
     "notes": ""
   },
@@ -2389,7 +2559,8 @@
     "confounds": {
       "pronoun_stripped_high": "analysis ready hai?",
       "pronoun_stripped_low": "analysis ready hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:023"
     },
     "notes": ""
   },
@@ -2403,7 +2574,8 @@
     "confounds": {
       "pronoun_stripped_high": "se ek important baat karni thi.",
       "pronoun_stripped_low": "ek important baat karni thi.",
-      "length_ratio": 1.17
+      "length_ratio": 1.17,
+      "template_family": "professional:024"
     },
     "notes": ""
   },
@@ -2417,7 +2589,8 @@
     "confounds": {
       "pronoun_stripped_high": "se ek important baat karni thi.",
       "pronoun_stripped_low": "ek important baat karni thi.",
-      "length_ratio": 1.17
+      "length_ratio": 1.17,
+      "template_family": "professional:024"
     },
     "notes": ""
   },
@@ -2431,7 +2604,8 @@
     "confounds": {
       "pronoun_stripped_high": "ek important baat karni thi.",
       "pronoun_stripped_low": "ek important baat karni thi.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:024"
     },
     "notes": ""
   },
@@ -2445,7 +2619,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki performance kaisi rahi?",
       "pronoun_stripped_low": "performance kaisi rahi?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "professional:025"
     },
     "notes": ""
   },
@@ -2459,7 +2634,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki performance kaisi rahi?",
       "pronoun_stripped_low": "performance kaisi rahi?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "professional:025"
     },
     "notes": ""
   },
@@ -2473,7 +2649,8 @@
     "confounds": {
       "pronoun_stripped_high": "performance kaisi rahi?",
       "pronoun_stripped_low": "performance kaisi rahi?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:025"
     },
     "notes": ""
   },
@@ -2487,7 +2664,8 @@
     "confounds": {
       "pronoun_stripped_high": "kab tak yahan rahenge?",
       "pronoun_stripped_low": "kab tak yahan rahoge?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:026"
     },
     "notes": ""
   },
@@ -2501,7 +2679,8 @@
     "confounds": {
       "pronoun_stripped_high": "kab tak yahan rahenge?",
       "pronoun_stripped_low": "kab tak yahan rahega?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:026"
     },
     "notes": ""
   },
@@ -2515,7 +2694,8 @@
     "confounds": {
       "pronoun_stripped_high": "kab tak yahan rahoge?",
       "pronoun_stripped_low": "kab tak yahan rahega?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:026"
     },
     "notes": ""
   },
@@ -2529,7 +2709,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne issue resolve kiya?",
       "pronoun_stripped_low": "tumne issue resolve kiya?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "professional:027"
     },
     "notes": ""
   },
@@ -2543,7 +2724,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne issue resolve kiya?",
       "pronoun_stripped_low": "issue resolve kiya?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "professional:027"
     },
     "notes": ""
   },
@@ -2557,7 +2739,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne issue resolve kiya?",
       "pronoun_stripped_low": "issue resolve kiya?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:027"
     },
     "notes": ""
   },
@@ -2571,7 +2754,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka new project kaisa hai?",
       "pronoun_stripped_low": "new project kaisa hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "professional:028"
     },
     "notes": ""
   },
@@ -2585,7 +2769,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka new project kaisa hai?",
       "pronoun_stripped_low": "new project kaisa hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "professional:028"
     },
     "notes": ""
   },
@@ -2599,7 +2784,8 @@
     "confounds": {
       "pronoun_stripped_high": "new project kaisa hai?",
       "pronoun_stripped_low": "new project kaisa hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:028"
     },
     "notes": ""
   },
@@ -2613,7 +2799,8 @@
     "confounds": {
       "pronoun_stripped_high": "team ko lead kar rahe hain?",
       "pronoun_stripped_low": "team ko lead kar rahe ho?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:029"
     },
     "notes": ""
   },
@@ -2627,7 +2814,8 @@
     "confounds": {
       "pronoun_stripped_high": "team ko lead kar rahe hain?",
       "pronoun_stripped_low": "team ko lead kar raha hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:029"
     },
     "notes": ""
   },
@@ -2641,7 +2829,8 @@
     "confounds": {
       "pronoun_stripped_high": "team ko lead kar rahe ho?",
       "pronoun_stripped_low": "team ko lead kar raha hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:029"
     },
     "notes": ""
   },
@@ -2655,7 +2844,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne interview diya?",
       "pronoun_stripped_low": "tumne interview diya?",
-      "length_ratio": 1.33
+      "length_ratio": 1.33,
+      "template_family": "professional:030"
     },
     "notes": ""
   },
@@ -2669,7 +2859,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne interview diya?",
       "pronoun_stripped_low": "interview diya?",
-      "length_ratio": 1.33
+      "length_ratio": 1.33,
+      "template_family": "professional:030"
     },
     "notes": ""
   },
@@ -2683,7 +2874,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne interview diya?",
       "pronoun_stripped_low": "interview diya?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:030"
     },
     "notes": ""
   },
@@ -2697,7 +2889,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki joining kab hai?",
       "pronoun_stripped_low": "joining kab hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "professional:031"
     },
     "notes": ""
   },
@@ -2711,7 +2904,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki joining kab hai?",
       "pronoun_stripped_low": "joining kab hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "professional:031"
     },
     "notes": ""
   },
@@ -2725,7 +2919,8 @@
     "confounds": {
       "pronoun_stripped_high": "joining kab hai?",
       "pronoun_stripped_low": "joining kab hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:031"
     },
     "notes": ""
   },
@@ -2739,7 +2934,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne code review ki?",
       "pronoun_stripped_low": "tumne code review ki?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "professional:032"
     },
     "notes": ""
   },
@@ -2753,7 +2949,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne code review ki?",
       "pronoun_stripped_low": "code review ki?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "professional:032"
     },
     "notes": ""
   },
@@ -2767,7 +2964,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne code review ki?",
       "pronoun_stripped_low": "code review ki?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:032"
     },
     "notes": ""
   },
@@ -2781,7 +2979,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka module test ho gaya?",
       "pronoun_stripped_low": "module test ho gaya?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "professional:033"
     },
     "notes": ""
   },
@@ -2795,7 +2994,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka module test ho gaya?",
       "pronoun_stripped_low": "module test ho gaya?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "professional:033"
     },
     "notes": ""
   },
@@ -2809,7 +3009,8 @@
     "confounds": {
       "pronoun_stripped_high": "module test ho gaya?",
       "pronoun_stripped_low": "module test ho gaya?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:033"
     },
     "notes": ""
   },
@@ -2823,7 +3024,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko promotion mila?",
       "pronoun_stripped_low": "promotion mila?",
-      "length_ratio": 1.33
+      "length_ratio": 1.33,
+      "template_family": "professional:034"
     },
     "notes": ""
   },
@@ -2837,7 +3039,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko promotion mila?",
       "pronoun_stripped_low": "promotion mila?",
-      "length_ratio": 1.33
+      "length_ratio": 1.33,
+      "template_family": "professional:034"
     },
     "notes": ""
   },
@@ -2851,7 +3054,8 @@
     "confounds": {
       "pronoun_stripped_high": "promotion mila?",
       "pronoun_stripped_low": "promotion mila?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "professional:034"
     },
     "notes": ""
   },
@@ -2865,7 +3069,8 @@
     "confounds": {
       "pronoun_stripped_high": "khana kha lein.",
       "pronoun_stripped_low": "khana kha lo.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:001"
     },
     "notes": ""
   },
@@ -2879,7 +3084,8 @@
     "confounds": {
       "pronoun_stripped_high": "khana kha lein.",
       "pronoun_stripped_low": "khana kha le.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:001"
     },
     "notes": ""
   },
@@ -2893,7 +3099,8 @@
     "confounds": {
       "pronoun_stripped_high": "khana kha lo.",
       "pronoun_stripped_low": "khana kha le.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:001"
     },
     "notes": ""
   },
@@ -2907,7 +3114,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko pata hai beta kahan hai?",
       "pronoun_stripped_low": "pata hai beta kahan hai?",
-      "length_ratio": 1.17
+      "length_ratio": 1.17,
+      "template_family": "family:002"
     },
     "notes": ""
   },
@@ -2921,7 +3129,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko pata hai beta kahan hai?",
       "pronoun_stripped_low": "pata hai beta kahan hai?",
-      "length_ratio": 1.17
+      "length_ratio": 1.17,
+      "template_family": "family:002"
     },
     "notes": ""
   },
@@ -2935,7 +3144,8 @@
     "confounds": {
       "pronoun_stripped_high": "pata hai beta kahan hai?",
       "pronoun_stripped_low": "pata hai beta kahan hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:002"
     },
     "notes": ""
   },
@@ -2949,7 +3159,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki dawa ka waqt ho gaya.",
       "pronoun_stripped_low": "dawa ka waqt ho gaya.",
-      "length_ratio": 1.17
+      "length_ratio": 1.17,
+      "template_family": "family:003"
     },
     "notes": ""
   },
@@ -2963,7 +3174,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki dawa ka waqt ho gaya.",
       "pronoun_stripped_low": "dawa ka waqt ho gaya.",
-      "length_ratio": 1.17
+      "length_ratio": 1.17,
+      "template_family": "family:003"
     },
     "notes": ""
   },
@@ -2977,7 +3189,8 @@
     "confounds": {
       "pronoun_stripped_high": "dawa ka waqt ho gaya.",
       "pronoun_stripped_low": "dawa ka waqt ho gaya.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:003"
     },
     "notes": ""
   },
@@ -2991,7 +3204,8 @@
     "confounds": {
       "pronoun_stripped_high": "ghar kab aayenge?",
       "pronoun_stripped_low": "ghar kab aaoge?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:004"
     },
     "notes": ""
   },
@@ -3005,7 +3219,8 @@
     "confounds": {
       "pronoun_stripped_high": "ghar kab aayenge?",
       "pronoun_stripped_low": "ghar kab aayega?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:004"
     },
     "notes": ""
   },
@@ -3019,7 +3234,8 @@
     "confounds": {
       "pronoun_stripped_high": "ghar kab aaoge?",
       "pronoun_stripped_low": "ghar kab aayega?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:004"
     },
     "notes": ""
   },
@@ -3033,7 +3249,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne kuch khaya?",
       "pronoun_stripped_low": "tumne kuch khaya?",
-      "length_ratio": 1.33
+      "length_ratio": 1.33,
+      "template_family": "family:005"
     },
     "notes": ""
   },
@@ -3047,7 +3264,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne kuch khaya?",
       "pronoun_stripped_low": "kuch khaya?",
-      "length_ratio": 1.33
+      "length_ratio": 1.33,
+      "template_family": "family:005"
     },
     "notes": ""
   },
@@ -3061,7 +3279,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne kuch khaya?",
       "pronoun_stripped_low": "kuch khaya?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:005"
     },
     "notes": ""
   },
@@ -3075,7 +3294,8 @@
     "confounds": {
       "pronoun_stripped_high": "araam karo.",
       "pronoun_stripped_low": "araam karo.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:006"
     },
     "notes": ""
   },
@@ -3089,7 +3309,8 @@
     "confounds": {
       "pronoun_stripped_high": "araam karo.",
       "pronoun_stripped_low": "araam kar.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:006"
     },
     "notes": ""
   },
@@ -3103,7 +3324,8 @@
     "confounds": {
       "pronoun_stripped_high": "araam karo.",
       "pronoun_stripped_low": "araam kar.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:006"
     },
     "notes": ""
   },
@@ -3117,7 +3339,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki beti ki shadi kab hai?",
       "pronoun_stripped_low": "beti ki shadi kab hai?",
-      "length_ratio": 1.17
+      "length_ratio": 1.17,
+      "template_family": "family:007"
     },
     "notes": ""
   },
@@ -3131,7 +3354,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki beti ki shadi kab hai?",
       "pronoun_stripped_low": "beti ki shadi kab hai?",
-      "length_ratio": 1.17
+      "length_ratio": 1.17,
+      "template_family": "family:007"
     },
     "notes": ""
   },
@@ -3145,7 +3369,8 @@
     "confounds": {
       "pronoun_stripped_high": "beti ki shadi kab hai?",
       "pronoun_stripped_low": "beti ki shadi kab hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:007"
     },
     "notes": ""
   },
@@ -3159,7 +3384,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko yeh pasand aaya?",
       "pronoun_stripped_low": "yeh pasand aaya?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "family:008"
     },
     "notes": ""
   },
@@ -3173,7 +3399,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko yeh pasand aaya?",
       "pronoun_stripped_low": "yeh pasand aaya?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "family:008"
     },
     "notes": ""
   },
@@ -3187,7 +3414,8 @@
     "confounds": {
       "pronoun_stripped_high": "yeh pasand aaya?",
       "pronoun_stripped_low": "yeh pasand aaya?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:008"
     },
     "notes": ""
   },
@@ -3201,7 +3429,8 @@
     "confounds": {
       "pronoun_stripped_high": "bahar jaoge?",
       "pronoun_stripped_low": "bahar jaoge?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:009"
     },
     "notes": ""
   },
@@ -3215,7 +3444,8 @@
     "confounds": {
       "pronoun_stripped_high": "bahar jaoge?",
       "pronoun_stripped_low": "bahar jaayega?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:009"
     },
     "notes": ""
   },
@@ -3229,7 +3459,8 @@
     "confounds": {
       "pronoun_stripped_high": "bahar jaoge?",
       "pronoun_stripped_low": "bahar jaayega?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:009"
     },
     "notes": ""
   },
@@ -3243,7 +3474,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki tabiyat theek hai?",
       "pronoun_stripped_low": "tabiyat theek hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "family:010"
     },
     "notes": ""
   },
@@ -3257,7 +3489,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki tabiyat theek hai?",
       "pronoun_stripped_low": "tabiyat theek hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "family:010"
     },
     "notes": ""
   },
@@ -3271,7 +3504,8 @@
     "confounds": {
       "pronoun_stripped_high": "tabiyat theek hai?",
       "pronoun_stripped_low": "tabiyat theek hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:010"
     },
     "notes": ""
   },
@@ -3285,7 +3519,8 @@
     "confounds": {
       "pronoun_stripped_high": "roz walk karte hain?",
       "pronoun_stripped_low": "roz walk karte ho?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:011"
     },
     "notes": ""
   },
@@ -3299,7 +3534,8 @@
     "confounds": {
       "pronoun_stripped_high": "roz walk karte hain?",
       "pronoun_stripped_low": "roz walk karta hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:011"
     },
     "notes": ""
   },
@@ -3313,7 +3549,8 @@
     "confounds": {
       "pronoun_stripped_high": "roz walk karte ho?",
       "pronoun_stripped_low": "roz walk karta hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:011"
     },
     "notes": ""
   },
@@ -3327,7 +3564,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka phone kahan hai?",
       "pronoun_stripped_low": "phone kahan hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "family:012"
     },
     "notes": ""
   },
@@ -3341,7 +3579,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka phone kahan hai?",
       "pronoun_stripped_low": "phone kahan hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "family:012"
     },
     "notes": ""
   },
@@ -3355,7 +3594,8 @@
     "confounds": {
       "pronoun_stripped_high": "phone kahan hai?",
       "pronoun_stripped_low": "phone kahan hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:012"
     },
     "notes": ""
   },
@@ -3369,7 +3609,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne mujhe call kyun nahi kiya?",
       "pronoun_stripped_low": "tumne mujhe call kyun nahi kiya?",
-      "length_ratio": 1.17
+      "length_ratio": 1.17,
+      "template_family": "family:013"
     },
     "notes": ""
   },
@@ -3383,7 +3624,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne mujhe call kyun nahi kiya?",
       "pronoun_stripped_low": "mujhe call kyun nahi kiya?",
-      "length_ratio": 1.17
+      "length_ratio": 1.17,
+      "template_family": "family:013"
     },
     "notes": ""
   },
@@ -3397,7 +3639,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne mujhe call kyun nahi kiya?",
       "pronoun_stripped_low": "mujhe call kyun nahi kiya?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:013"
     },
     "notes": ""
   },
@@ -3411,7 +3654,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka pressure check karwaya?",
       "pronoun_stripped_low": "pressure check karwaya?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "family:014"
     },
     "notes": ""
   },
@@ -3425,7 +3669,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka pressure check karwaya?",
       "pronoun_stripped_low": "pressure check karwaya?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "family:014"
     },
     "notes": ""
   },
@@ -3439,7 +3684,8 @@
     "confounds": {
       "pronoun_stripped_high": "pressure check karwaya?",
       "pronoun_stripped_low": "pressure check karwaya?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:014"
     },
     "notes": ""
   },
@@ -3453,7 +3699,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne doctor se baat ki?",
       "pronoun_stripped_low": "tumne doctor se baat ki?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "family:015"
     },
     "notes": ""
   },
@@ -3467,7 +3714,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne doctor se baat ki?",
       "pronoun_stripped_low": "doctor se baat ki?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "family:015"
     },
     "notes": ""
   },
@@ -3481,7 +3729,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne doctor se baat ki?",
       "pronoun_stripped_low": "doctor se baat ki?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:015"
     },
     "notes": ""
   },
@@ -3495,7 +3744,8 @@
     "confounds": {
       "pronoun_stripped_high": "naraaz hain mujhse?",
       "pronoun_stripped_low": "naraaz ho mujhse?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:016"
     },
     "notes": ""
   },
@@ -3509,7 +3759,8 @@
     "confounds": {
       "pronoun_stripped_high": "naraaz hain mujhse?",
       "pronoun_stripped_low": "naraaz hai mujhse?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:016"
     },
     "notes": ""
   },
@@ -3523,7 +3774,8 @@
     "confounds": {
       "pronoun_stripped_high": "naraaz ho mujhse?",
       "pronoun_stripped_low": "naraaz hai mujhse?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:016"
     },
     "notes": ""
   },
@@ -3537,7 +3789,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki neend kaisi rahi?",
       "pronoun_stripped_low": "neend kaisi rahi?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "family:017"
     },
     "notes": ""
   },
@@ -3551,7 +3804,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki neend kaisi rahi?",
       "pronoun_stripped_low": "neend kaisi rahi?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "family:017"
     },
     "notes": ""
   },
@@ -3565,7 +3819,8 @@
     "confounds": {
       "pronoun_stripped_high": "neend kaisi rahi?",
       "pronoun_stripped_low": "neend kaisi rahi?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:017"
     },
     "notes": ""
   },
@@ -3579,7 +3834,8 @@
     "confounds": {
       "pronoun_stripped_high": "wahan pahunch gaye?",
       "pronoun_stripped_low": "wahan pahunch gaye?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:018"
     },
     "notes": ""
   },
@@ -3593,7 +3849,8 @@
     "confounds": {
       "pronoun_stripped_high": "wahan pahunch gaye?",
       "pronoun_stripped_low": "wahan pahuncha?",
-      "length_ratio": 1.33
+      "length_ratio": 1.33,
+      "template_family": "family:018"
     },
     "notes": ""
   },
@@ -3607,7 +3864,8 @@
     "confounds": {
       "pronoun_stripped_high": "wahan pahunch gaye?",
       "pronoun_stripped_low": "wahan pahuncha?",
-      "length_ratio": 1.33
+      "length_ratio": 1.33,
+      "template_family": "family:018"
     },
     "notes": ""
   },
@@ -3621,7 +3879,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka khayal rakhna.",
       "pronoun_stripped_low": "khayal rakhna.",
-      "length_ratio": 1.33
+      "length_ratio": 1.33,
+      "template_family": "family:019"
     },
     "notes": ""
   },
@@ -3635,7 +3894,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka khayal rakhna.",
       "pronoun_stripped_low": "khayal rakhna.",
-      "length_ratio": 1.33
+      "length_ratio": 1.33,
+      "template_family": "family:019"
     },
     "notes": ""
   },
@@ -3649,7 +3909,8 @@
     "confounds": {
       "pronoun_stripped_high": "khayal rakhna.",
       "pronoun_stripped_low": "khayal rakhna.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:019"
     },
     "notes": ""
   },
@@ -3663,7 +3924,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko mujh par vishwas hai?",
       "pronoun_stripped_low": "mujh par vishwas hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "family:020"
     },
     "notes": ""
   },
@@ -3677,7 +3939,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko mujh par vishwas hai?",
       "pronoun_stripped_low": "mujh par vishwas hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "family:020"
     },
     "notes": ""
   },
@@ -3691,7 +3954,8 @@
     "confounds": {
       "pronoun_stripped_high": "mujh par vishwas hai?",
       "pronoun_stripped_low": "mujh par vishwas hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:020"
     },
     "notes": ""
   },
@@ -3705,7 +3969,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne unse maafi maangi?",
       "pronoun_stripped_low": "tumne unse maafi maangi?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "family:021"
     },
     "notes": ""
   },
@@ -3719,7 +3984,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne unse maafi maangi?",
       "pronoun_stripped_low": "unse maafi maangi?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "family:021"
     },
     "notes": ""
   },
@@ -3733,7 +3999,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne unse maafi maangi?",
       "pronoun_stripped_low": "unse maafi maangi?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:021"
     },
     "notes": ""
   },
@@ -3747,7 +4014,8 @@
     "confounds": {
       "pronoun_stripped_high": "abhi aayenge kya?",
       "pronoun_stripped_low": "abhi aaoge kya?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:022"
     },
     "notes": ""
   },
@@ -3761,7 +4029,8 @@
     "confounds": {
       "pronoun_stripped_high": "abhi aayenge kya?",
       "pronoun_stripped_low": "abhi aayega?",
-      "length_ratio": 1.33
+      "length_ratio": 1.33,
+      "template_family": "family:022"
     },
     "notes": ""
   },
@@ -3775,7 +4044,8 @@
     "confounds": {
       "pronoun_stripped_high": "abhi aaoge kya?",
       "pronoun_stripped_low": "abhi aayega?",
-      "length_ratio": 1.33
+      "length_ratio": 1.33,
+      "template_family": "family:022"
     },
     "notes": ""
   },
@@ -3789,7 +4059,8 @@
     "confounds": {
       "pronoun_stripped_high": "khush ho?",
       "pronoun_stripped_low": "khush ho?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:023"
     },
     "notes": ""
   },
@@ -3803,7 +4074,8 @@
     "confounds": {
       "pronoun_stripped_high": "khush ho?",
       "pronoun_stripped_low": "khush hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:023"
     },
     "notes": ""
   },
@@ -3817,7 +4089,8 @@
     "confounds": {
       "pronoun_stripped_high": "khush ho?",
       "pronoun_stripped_low": "khush hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:023"
     },
     "notes": ""
   },
@@ -3831,7 +4104,8 @@
     "confounds": {
       "pronoun_stripped_high": "se baat karni thi.",
       "pronoun_stripped_low": "baat karni thi.",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "family:024"
     },
     "notes": ""
   },
@@ -3845,7 +4119,8 @@
     "confounds": {
       "pronoun_stripped_high": "se baat karni thi.",
       "pronoun_stripped_low": "baat karni thi.",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "family:024"
     },
     "notes": ""
   },
@@ -3859,7 +4134,8 @@
     "confounds": {
       "pronoun_stripped_high": "baat karni thi.",
       "pronoun_stripped_low": "baat karni thi.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:024"
     },
     "notes": ""
   },
@@ -3873,7 +4149,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki yaad aa rahi thi.",
       "pronoun_stripped_low": "yaad aa rahi thi.",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "family:025"
     },
     "notes": ""
   },
@@ -3887,7 +4164,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki yaad aa rahi thi.",
       "pronoun_stripped_low": "yaad aa rahi thi.",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "family:025"
     },
     "notes": ""
   },
@@ -3901,7 +4179,8 @@
     "confounds": {
       "pronoun_stripped_high": "yaad aa rahi thi.",
       "pronoun_stripped_low": "yaad aa rahi thi.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:025"
     },
     "notes": ""
   },
@@ -3915,7 +4194,8 @@
     "confounds": {
       "pronoun_stripped_high": "theek se so rahe hain?",
       "pronoun_stripped_low": "theek se so rahe ho?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:026"
     },
     "notes": ""
   },
@@ -3929,7 +4209,8 @@
     "confounds": {
       "pronoun_stripped_high": "theek se so rahe hain?",
       "pronoun_stripped_low": "theek se so raha hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:026"
     },
     "notes": ""
   },
@@ -3943,7 +4224,8 @@
     "confounds": {
       "pronoun_stripped_high": "theek se so rahe ho?",
       "pronoun_stripped_low": "theek se so raha hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:026"
     },
     "notes": ""
   },
@@ -3957,7 +4239,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne subah kya khaya?",
       "pronoun_stripped_low": "tumne subah kya khaya?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "family:027"
     },
     "notes": ""
   },
@@ -3971,7 +4254,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne subah kya khaya?",
       "pronoun_stripped_low": "subah kya khaya?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "family:027"
     },
     "notes": ""
   },
@@ -3985,7 +4269,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne subah kya khaya?",
       "pronoun_stripped_low": "subah kya khaya?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:027"
     },
     "notes": ""
   },
@@ -3999,7 +4284,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka birthday kab hai?",
       "pronoun_stripped_low": "birthday kab hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "family:028"
     },
     "notes": ""
   },
@@ -4013,7 +4299,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka birthday kab hai?",
       "pronoun_stripped_low": "birthday kab hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "family:028"
     },
     "notes": ""
   },
@@ -4027,7 +4314,8 @@
     "confounds": {
       "pronoun_stripped_high": "birthday kab hai?",
       "pronoun_stripped_low": "birthday kab hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:028"
     },
     "notes": ""
   },
@@ -4041,7 +4329,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne gifts like the?",
       "pronoun_stripped_low": "tumne gifts like the?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "family:029"
     },
     "notes": ""
   },
@@ -4055,7 +4344,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne gifts like the?",
       "pronoun_stripped_low": "gifts like the?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "family:029"
     },
     "notes": ""
   },
@@ -4069,7 +4359,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne gifts like the?",
       "pronoun_stripped_low": "gifts like the?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:029"
     },
     "notes": ""
   },
@@ -4083,7 +4374,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki class kaisi rahi?",
       "pronoun_stripped_low": "class kaisi rahi?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "family:030"
     },
     "notes": ""
   },
@@ -4097,7 +4389,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki class kaisi rahi?",
       "pronoun_stripped_low": "class kaisi rahi?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "family:030"
     },
     "notes": ""
   },
@@ -4111,7 +4404,8 @@
     "confounds": {
       "pronoun_stripped_high": "class kaisi rahi?",
       "pronoun_stripped_low": "class kaisi rahi?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:030"
     },
     "notes": ""
   },
@@ -4125,7 +4419,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne homework kiya?",
       "pronoun_stripped_low": "tumne homework kiya?",
-      "length_ratio": 1.33
+      "length_ratio": 1.33,
+      "template_family": "family:031"
     },
     "notes": ""
   },
@@ -4139,7 +4434,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne homework kiya?",
       "pronoun_stripped_low": "homework kiya?",
-      "length_ratio": 1.33
+      "length_ratio": 1.33,
+      "template_family": "family:031"
     },
     "notes": ""
   },
@@ -4153,7 +4449,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne homework kiya?",
       "pronoun_stripped_low": "homework kiya?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:031"
     },
     "notes": ""
   },
@@ -4167,7 +4464,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka result kab aayega?",
       "pronoun_stripped_low": "result kab aayega?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "family:032"
     },
     "notes": ""
   },
@@ -4181,7 +4479,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka result kab aayega?",
       "pronoun_stripped_low": "result kab aayega?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "family:032"
     },
     "notes": ""
   },
@@ -4195,7 +4494,8 @@
     "confounds": {
       "pronoun_stripped_high": "result kab aayega?",
       "pronoun_stripped_low": "result kab aayega?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:032"
     },
     "notes": ""
   },
@@ -4209,7 +4509,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki exam kaisi gayi?",
       "pronoun_stripped_low": "exam kaisi gayi?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "family:033"
     },
     "notes": ""
   },
@@ -4223,7 +4524,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki exam kaisi gayi?",
       "pronoun_stripped_low": "exam kaisi gayi?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "family:033"
     },
     "notes": ""
   },
@@ -4237,7 +4539,8 @@
     "confounds": {
       "pronoun_stripped_high": "exam kaisi gayi?",
       "pronoun_stripped_low": "exam kaisi gayi?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:033"
     },
     "notes": ""
   },
@@ -4251,7 +4554,8 @@
     "confounds": {
       "pronoun_stripped_high": "ready ho gaye?",
       "pronoun_stripped_low": "ready ho gaye?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:034"
     },
     "notes": ""
   },
@@ -4265,7 +4569,8 @@
     "confounds": {
       "pronoun_stripped_high": "ready ho gaye?",
       "pronoun_stripped_low": "ready ho gaya?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:034"
     },
     "notes": ""
   },
@@ -4279,7 +4584,8 @@
     "confounds": {
       "pronoun_stripped_high": "ready ho gaye?",
       "pronoun_stripped_low": "ready ho gaya?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "family:034"
     },
     "notes": ""
   },
@@ -4293,7 +4599,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka form number kya hai?",
       "pronoun_stripped_low": "form number kya hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "public_service:001"
     },
     "notes": ""
   },
@@ -4307,7 +4614,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka form number kya hai?",
       "pronoun_stripped_low": "form number kya hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "public_service:001"
     },
     "notes": ""
   },
@@ -4321,7 +4629,8 @@
     "confounds": {
       "pronoun_stripped_high": "form number kya hai?",
       "pronoun_stripped_low": "form number kya hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:001"
     },
     "notes": ""
   },
@@ -4335,7 +4644,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne application submit ki?",
       "pronoun_stripped_low": "tumne application submit ki?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "public_service:002"
     },
     "notes": ""
   },
@@ -4349,7 +4659,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne application submit ki?",
       "pronoun_stripped_low": "application submit ki?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "public_service:002"
     },
     "notes": ""
   },
@@ -4363,7 +4674,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne application submit ki?",
       "pronoun_stripped_low": "application submit ki?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:002"
     },
     "notes": ""
   },
@@ -4377,7 +4689,8 @@
     "confounds": {
       "pronoun_stripped_high": "kya poochna chahte hain?",
       "pronoun_stripped_low": "kya poochna chahte ho?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:003"
     },
     "notes": ""
   },
@@ -4391,7 +4704,8 @@
     "confounds": {
       "pronoun_stripped_high": "kya poochna chahte hain?",
       "pronoun_stripped_low": "kya poochna chahta hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:003"
     },
     "notes": ""
   },
@@ -4405,7 +4719,8 @@
     "confounds": {
       "pronoun_stripped_high": "kya poochna chahte ho?",
       "pronoun_stripped_low": "kya poochna chahta hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:003"
     },
     "notes": ""
   },
@@ -4419,7 +4734,8 @@
     "confounds": {
       "pronoun_stripped_high": "ID proof laaye hain?",
       "pronoun_stripped_low": "ID proof laaye ho?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:004"
     },
     "notes": ""
   },
@@ -4433,7 +4749,8 @@
     "confounds": {
       "pronoun_stripped_high": "ID proof laaye hain?",
       "pronoun_stripped_low": "ID proof laaya hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:004"
     },
     "notes": ""
   },
@@ -4447,7 +4764,8 @@
     "confounds": {
       "pronoun_stripped_high": "ID proof laaye ho?",
       "pronoun_stripped_low": "ID proof laaya hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:004"
     },
     "notes": ""
   },
@@ -4461,7 +4779,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka token number kya hai?",
       "pronoun_stripped_low": "token number kya hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "public_service:005"
     },
     "notes": ""
   },
@@ -4475,7 +4794,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka token number kya hai?",
       "pronoun_stripped_low": "token number kya hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "public_service:005"
     },
     "notes": ""
   },
@@ -4489,7 +4809,8 @@
     "confounds": {
       "pronoun_stripped_high": "token number kya hai?",
       "pronoun_stripped_low": "token number kya hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:005"
     },
     "notes": ""
   },
@@ -4503,7 +4824,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne fees jama ki?",
       "pronoun_stripped_low": "tumne fees jama ki?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "public_service:006"
     },
     "notes": ""
   },
@@ -4517,7 +4839,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne fees jama ki?",
       "pronoun_stripped_low": "fees jama ki?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "public_service:006"
     },
     "notes": ""
   },
@@ -4531,7 +4854,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne fees jama ki?",
       "pronoun_stripped_low": "fees jama ki?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:006"
     },
     "notes": ""
   },
@@ -4545,7 +4869,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko kya problem hai?",
       "pronoun_stripped_low": "kya problem hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "public_service:007"
     },
     "notes": ""
   },
@@ -4559,7 +4884,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko kya problem hai?",
       "pronoun_stripped_low": "kya problem hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "public_service:007"
     },
     "notes": ""
   },
@@ -4573,7 +4899,8 @@
     "confounds": {
       "pronoun_stripped_high": "kya problem hai?",
       "pronoun_stripped_low": "kya problem hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:007"
     },
     "notes": ""
   },
@@ -4587,7 +4914,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka aadhaar card hai?",
       "pronoun_stripped_low": "aadhaar card hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "public_service:008"
     },
     "notes": ""
   },
@@ -4601,7 +4929,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka aadhaar card hai?",
       "pronoun_stripped_low": "aadhaar card hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "public_service:008"
     },
     "notes": ""
   },
@@ -4615,7 +4944,8 @@
     "confounds": {
       "pronoun_stripped_high": "aadhaar card hai?",
       "pronoun_stripped_low": "aadhaar card hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:008"
     },
     "notes": ""
   },
@@ -4629,7 +4959,8 @@
     "confounds": {
       "pronoun_stripped_high": "yahan sign karein.",
       "pronoun_stripped_low": "yahan sign karo.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:009"
     },
     "notes": ""
   },
@@ -4643,7 +4974,8 @@
     "confounds": {
       "pronoun_stripped_high": "yahan sign karein.",
       "pronoun_stripped_low": "yahan sign kar.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:009"
     },
     "notes": ""
   },
@@ -4657,7 +4989,8 @@
     "confounds": {
       "pronoun_stripped_high": "yahan sign karo.",
       "pronoun_stripped_low": "yahan sign kar.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:009"
     },
     "notes": ""
   },
@@ -4671,7 +5004,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki shikayat kya hai?",
       "pronoun_stripped_low": "shikayat kya hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "public_service:010"
     },
     "notes": ""
   },
@@ -4685,7 +5019,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki shikayat kya hai?",
       "pronoun_stripped_low": "shikayat kya hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "public_service:010"
     },
     "notes": ""
   },
@@ -4699,7 +5034,8 @@
     "confounds": {
       "pronoun_stripped_high": "shikayat kya hai?",
       "pronoun_stripped_low": "shikayat kya hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:010"
     },
     "notes": ""
   },
@@ -4713,7 +5049,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne online apply kiya tha?",
       "pronoun_stripped_low": "tumne online apply kiya tha?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "public_service:011"
     },
     "notes": ""
   },
@@ -4727,7 +5064,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne online apply kiya tha?",
       "pronoun_stripped_low": "online apply kiya?",
-      "length_ratio": 1.5
+      "length_ratio": 1.5,
+      "template_family": "public_service:011"
     },
     "notes": ""
   },
@@ -4741,7 +5079,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne online apply kiya tha?",
       "pronoun_stripped_low": "online apply kiya?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "public_service:011"
     },
     "notes": ""
   },
@@ -4755,7 +5094,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka reference number note karo.",
       "pronoun_stripped_low": "reference number note karo.",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "public_service:012"
     },
     "notes": ""
   },
@@ -4769,7 +5109,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka reference number note karo.",
       "pronoun_stripped_low": "reference number note kar.",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "public_service:012"
     },
     "notes": ""
   },
@@ -4783,7 +5124,8 @@
     "confounds": {
       "pronoun_stripped_high": "reference number note karo.",
       "pronoun_stripped_low": "reference number note kar.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:012"
     },
     "notes": ""
   },
@@ -4797,7 +5139,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko kal aana hoga.",
       "pronoun_stripped_low": "kal aana hoga.",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "public_service:013"
     },
     "notes": ""
   },
@@ -4811,7 +5154,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko kal aana hoga.",
       "pronoun_stripped_low": "kal aana hoga.",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "public_service:013"
     },
     "notes": ""
   },
@@ -4825,7 +5169,8 @@
     "confounds": {
       "pronoun_stripped_high": "kal aana hoga.",
       "pronoun_stripped_low": "kal aana hoga.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:013"
     },
     "notes": ""
   },
@@ -4839,7 +5184,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka naam spelling sahi hai?",
       "pronoun_stripped_low": "naam spelling sahi hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "public_service:014"
     },
     "notes": ""
   },
@@ -4853,7 +5199,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka naam spelling sahi hai?",
       "pronoun_stripped_low": "naam spelling sahi hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "public_service:014"
     },
     "notes": ""
   },
@@ -4867,7 +5214,8 @@
     "confounds": {
       "pronoun_stripped_high": "naam spelling sahi hai?",
       "pronoun_stripped_low": "naam spelling sahi hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:014"
     },
     "notes": ""
   },
@@ -4881,7 +5229,8 @@
     "confounds": {
       "pronoun_stripped_high": "ke paas koi letter hai?",
       "pronoun_stripped_low": "tumhare paas koi letter hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "public_service:015"
     },
     "notes": ""
   },
@@ -4895,7 +5244,8 @@
     "confounds": {
       "pronoun_stripped_high": "ke paas koi letter hai?",
       "pronoun_stripped_low": "tere paas koi letter hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "public_service:015"
     },
     "notes": ""
   },
@@ -4909,7 +5259,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumhare paas koi letter hai?",
       "pronoun_stripped_low": "tere paas koi letter hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:015"
     },
     "notes": ""
   },
@@ -4923,7 +5274,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka mobile number kya hai?",
       "pronoun_stripped_low": "mobile number kya hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "public_service:016"
     },
     "notes": ""
   },
@@ -4937,7 +5289,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka mobile number kya hai?",
       "pronoun_stripped_low": "mobile number kya hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "public_service:016"
     },
     "notes": ""
   },
@@ -4951,7 +5304,8 @@
     "confounds": {
       "pronoun_stripped_high": "mobile number kya hai?",
       "pronoun_stripped_low": "mobile number kya hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:016"
     },
     "notes": ""
   },
@@ -4965,7 +5319,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko receipt mil gayi?",
       "pronoun_stripped_low": "receipt mil gayi?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "public_service:017"
     },
     "notes": ""
   },
@@ -4979,7 +5334,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko receipt mil gayi?",
       "pronoun_stripped_low": "receipt mil gayi?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "public_service:017"
     },
     "notes": ""
   },
@@ -4993,7 +5349,8 @@
     "confounds": {
       "pronoun_stripped_high": "receipt mil gayi?",
       "pronoun_stripped_low": "receipt mil gayi?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:017"
     },
     "notes": ""
   },
@@ -5007,7 +5364,8 @@
     "confounds": {
       "pronoun_stripped_high": "kal counter 3 pe aana.",
       "pronoun_stripped_low": "kal counter 3 pe aana.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:018"
     },
     "notes": ""
   },
@@ -5021,7 +5379,8 @@
     "confounds": {
       "pronoun_stripped_high": "kal counter 3 pe aana.",
       "pronoun_stripped_low": "kal counter 3 pe aana.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:018"
     },
     "notes": ""
   },
@@ -5035,7 +5394,8 @@
     "confounds": {
       "pronoun_stripped_high": "kal counter 3 pe aana.",
       "pronoun_stripped_low": "kal counter 3 pe aana.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:018"
     },
     "notes": ""
   },
@@ -5049,7 +5409,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne photo attach ki?",
       "pronoun_stripped_low": "tumne photo attach ki?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "public_service:019"
     },
     "notes": ""
   },
@@ -5063,7 +5424,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne photo attach ki?",
       "pronoun_stripped_low": "photo attach ki?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "public_service:019"
     },
     "notes": ""
   },
@@ -5077,7 +5439,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne photo attach ki?",
       "pronoun_stripped_low": "photo attach ki?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:019"
     },
     "notes": ""
   },
@@ -5091,7 +5454,8 @@
     "confounds": {
       "pronoun_stripped_high": "ke documents poore hain?",
       "pronoun_stripped_low": "tumhare documents poore hain?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "public_service:020"
     },
     "notes": ""
   },
@@ -5105,7 +5469,8 @@
     "confounds": {
       "pronoun_stripped_high": "ke documents poore hain?",
       "pronoun_stripped_low": "tere documents poore hain?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "public_service:020"
     },
     "notes": ""
   },
@@ -5119,7 +5484,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumhare documents poore hain?",
       "pronoun_stripped_low": "tere documents poore hain?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:020"
     },
     "notes": ""
   },
@@ -5133,7 +5499,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne pen se fill kiya?",
       "pronoun_stripped_low": "tumne pen se fill kiya?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "public_service:021"
     },
     "notes": ""
   },
@@ -5147,7 +5514,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne pen se fill kiya?",
       "pronoun_stripped_low": "pen se fill kiya?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "public_service:021"
     },
     "notes": ""
   },
@@ -5161,7 +5529,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne pen se fill kiya?",
       "pronoun_stripped_low": "pen se fill kiya?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:021"
     },
     "notes": ""
   },
@@ -5175,7 +5544,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko waiting time 20 minute hai.",
       "pronoun_stripped_low": "waiting time 20 minute hai.",
-      "length_ratio": 1.17
+      "length_ratio": 1.17,
+      "template_family": "public_service:022"
     },
     "notes": ""
   },
@@ -5189,7 +5559,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko waiting time 20 minute hai.",
       "pronoun_stripped_low": "waiting time 20 minute hai.",
-      "length_ratio": 1.17
+      "length_ratio": 1.17,
+      "template_family": "public_service:022"
     },
     "notes": ""
   },
@@ -5203,7 +5574,8 @@
     "confounds": {
       "pronoun_stripped_high": "waiting time 20 minute hai.",
       "pronoun_stripped_low": "waiting time 20 minute hai.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:022"
     },
     "notes": ""
   },
@@ -5217,7 +5589,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka certificate ready hai.",
       "pronoun_stripped_low": "certificate ready hai.",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "public_service:023"
     },
     "notes": ""
   },
@@ -5231,7 +5604,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka certificate ready hai.",
       "pronoun_stripped_low": "certificate ready hai.",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "public_service:023"
     },
     "notes": ""
   },
@@ -5245,7 +5619,8 @@
     "confounds": {
       "pronoun_stripped_high": "certificate ready hai.",
       "pronoun_stripped_low": "certificate ready hai.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:023"
     },
     "notes": ""
   },
@@ -5259,7 +5634,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne form 7A bhara?",
       "pronoun_stripped_low": "tumne form 7A bhara?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "public_service:024"
     },
     "notes": ""
   },
@@ -5273,7 +5649,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne form 7A bhara?",
       "pronoun_stripped_low": "form 7A bhara?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "public_service:024"
     },
     "notes": ""
   },
@@ -5287,7 +5664,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne form 7A bhara?",
       "pronoun_stripped_low": "form 7A bhara?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:024"
     },
     "notes": ""
   },
@@ -5301,7 +5679,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki date of birth kya hai?",
       "pronoun_stripped_low": "date of birth kya hai?",
-      "length_ratio": 1.17
+      "length_ratio": 1.17,
+      "template_family": "public_service:025"
     },
     "notes": ""
   },
@@ -5315,7 +5694,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki date of birth kya hai?",
       "pronoun_stripped_low": "date of birth kya hai?",
-      "length_ratio": 1.17
+      "length_ratio": 1.17,
+      "template_family": "public_service:025"
     },
     "notes": ""
   },
@@ -5329,7 +5709,8 @@
     "confounds": {
       "pronoun_stripped_high": "date of birth kya hai?",
       "pronoun_stripped_low": "date of birth kya hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:025"
     },
     "notes": ""
   },
@@ -5343,7 +5724,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka address verify ho gaya.",
       "pronoun_stripped_low": "address verify ho gaya.",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "public_service:026"
     },
     "notes": ""
   },
@@ -5357,7 +5739,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka address verify ho gaya.",
       "pronoun_stripped_low": "address verify ho gaya.",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "public_service:026"
     },
     "notes": ""
   },
@@ -5371,7 +5754,8 @@
     "confounds": {
       "pronoun_stripped_high": "address verify ho gaya.",
       "pronoun_stripped_low": "address verify ho gaya.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:026"
     },
     "notes": ""
   },
@@ -5385,7 +5769,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko objection hai?",
       "pronoun_stripped_low": "objection hai?",
-      "length_ratio": 1.33
+      "length_ratio": 1.33,
+      "template_family": "public_service:027"
     },
     "notes": ""
   },
@@ -5399,7 +5784,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko objection hai?",
       "pronoun_stripped_low": "objection hai?",
-      "length_ratio": 1.33
+      "length_ratio": 1.33,
+      "template_family": "public_service:027"
     },
     "notes": ""
   },
@@ -5413,7 +5799,8 @@
     "confounds": {
       "pronoun_stripped_high": "objection hai?",
       "pronoun_stripped_low": "objection hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:027"
     },
     "notes": ""
   },
@@ -5427,7 +5814,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne original laaya?",
       "pronoun_stripped_low": "tumne original laaya?",
-      "length_ratio": 1.33
+      "length_ratio": 1.33,
+      "template_family": "public_service:028"
     },
     "notes": ""
   },
@@ -5441,7 +5829,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne original laaya?",
       "pronoun_stripped_low": "original laaya?",
-      "length_ratio": 1.33
+      "length_ratio": 1.33,
+      "template_family": "public_service:028"
     },
     "notes": ""
   },
@@ -5455,7 +5844,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne original laaya?",
       "pronoun_stripped_low": "original laaya?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:028"
     },
     "notes": ""
   },
@@ -5469,7 +5859,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka case number yeh hai.",
       "pronoun_stripped_low": "case number yeh hai.",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "public_service:029"
     },
     "notes": ""
   },
@@ -5483,7 +5874,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka case number yeh hai.",
       "pronoun_stripped_low": "case number yeh hai.",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "public_service:029"
     },
     "notes": ""
   },
@@ -5497,7 +5889,8 @@
     "confounds": {
       "pronoun_stripped_high": "case number yeh hai.",
       "pronoun_stripped_low": "case number yeh hai.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:029"
     },
     "notes": ""
   },
@@ -5511,7 +5904,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki appointment confirm ho gayi.",
       "pronoun_stripped_low": "appointment confirm ho gayi.",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "public_service:030"
     },
     "notes": ""
   },
@@ -5525,7 +5919,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki appointment confirm ho gayi.",
       "pronoun_stripped_low": "appointment confirm ho gayi.",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "public_service:030"
     },
     "notes": ""
   },
@@ -5539,7 +5934,8 @@
     "confounds": {
       "pronoun_stripped_high": "appointment confirm ho gayi.",
       "pronoun_stripped_low": "appointment confirm ho gayi.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:030"
     },
     "notes": ""
   },
@@ -5553,7 +5949,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne affidavit sign kiya?",
       "pronoun_stripped_low": "tumne affidavit sign kiya?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "public_service:031"
     },
     "notes": ""
   },
@@ -5567,7 +5964,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne affidavit sign kiya?",
       "pronoun_stripped_low": "affidavit sign kiya?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "public_service:031"
     },
     "notes": ""
   },
@@ -5581,7 +5979,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne affidavit sign kiya?",
       "pronoun_stripped_low": "affidavit sign kiya?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:031"
     },
     "notes": ""
   },
@@ -5595,7 +5994,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko helpline pe call karna hoga.",
       "pronoun_stripped_low": "helpline pe call karna hoga.",
-      "length_ratio": 1.17
+      "length_ratio": 1.17,
+      "template_family": "public_service:032"
     },
     "notes": ""
   },
@@ -5609,7 +6009,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko helpline pe call karna hoga.",
       "pronoun_stripped_low": "helpline pe call karna hoga.",
-      "length_ratio": 1.17
+      "length_ratio": 1.17,
+      "template_family": "public_service:032"
     },
     "notes": ""
   },
@@ -5623,7 +6024,8 @@
     "confounds": {
       "pronoun_stripped_high": "helpline pe call karna hoga.",
       "pronoun_stripped_low": "helpline pe call karna hoga.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:032"
     },
     "notes": ""
   },
@@ -5637,7 +6039,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka pension kitne ka hai?",
       "pronoun_stripped_low": "pension kitne ka hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "public_service:033"
     },
     "notes": ""
   },
@@ -5651,7 +6054,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka pension kitne ka hai?",
       "pronoun_stripped_low": "pension kitne ka hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "public_service:033"
     },
     "notes": ""
   },
@@ -5665,7 +6069,8 @@
     "confounds": {
       "pronoun_stripped_high": "pension kitne ka hai?",
       "pronoun_stripped_low": "pension kitne ka hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:033"
     },
     "notes": ""
   },
@@ -5679,7 +6084,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne nominee ka naam diya?",
       "pronoun_stripped_low": "tumne nominee ka naam diya?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "public_service:034"
     },
     "notes": ""
   },
@@ -5693,7 +6099,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne nominee ka naam diya?",
       "pronoun_stripped_low": "nominee ka naam diya?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "public_service:034"
     },
     "notes": ""
   },
@@ -5707,7 +6114,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne nominee ka naam diya?",
       "pronoun_stripped_low": "nominee ka naam diya?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "public_service:034"
     },
     "notes": ""
   },
@@ -5721,7 +6129,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki report aayi?",
       "pronoun_stripped_low": "report aayi?",
-      "length_ratio": 1.33
+      "length_ratio": 1.33,
+      "template_family": "medical:001"
     },
     "notes": ""
   },
@@ -5735,7 +6144,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki report aayi?",
       "pronoun_stripped_low": "report aayi?",
-      "length_ratio": 1.33
+      "length_ratio": 1.33,
+      "template_family": "medical:001"
     },
     "notes": ""
   },
@@ -5749,7 +6159,8 @@
     "confounds": {
       "pronoun_stripped_high": "report aayi?",
       "pronoun_stripped_low": "report aayi?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:001"
     },
     "notes": ""
   },
@@ -5763,7 +6174,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko dard kahan hai?",
       "pronoun_stripped_low": "dard kahan hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "medical:002"
     },
     "notes": ""
   },
@@ -5777,7 +6189,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko dard kahan hai?",
       "pronoun_stripped_low": "dard kahan hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "medical:002"
     },
     "notes": ""
   },
@@ -5791,7 +6204,8 @@
     "confounds": {
       "pronoun_stripped_high": "dard kahan hai?",
       "pronoun_stripped_low": "dard kahan hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:002"
     },
     "notes": ""
   },
@@ -5805,7 +6219,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne dawa li?",
       "pronoun_stripped_low": "tumne dawa li?",
-      "length_ratio": 1.33
+      "length_ratio": 1.33,
+      "template_family": "medical:003"
     },
     "notes": ""
   },
@@ -5819,7 +6234,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne dawa li?",
       "pronoun_stripped_low": "dawa li?",
-      "length_ratio": 1.33
+      "length_ratio": 1.33,
+      "template_family": "medical:003"
     },
     "notes": ""
   },
@@ -5833,7 +6249,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne dawa li?",
       "pronoun_stripped_low": "dawa li?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:003"
     },
     "notes": ""
   },
@@ -5847,7 +6264,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka blood pressure normal hai?",
       "pronoun_stripped_low": "blood pressure normal hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "medical:004"
     },
     "notes": ""
   },
@@ -5861,7 +6279,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka blood pressure normal hai?",
       "pronoun_stripped_low": "blood pressure normal hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "medical:004"
     },
     "notes": ""
   },
@@ -5875,7 +6294,8 @@
     "confounds": {
       "pronoun_stripped_high": "blood pressure normal hai?",
       "pronoun_stripped_low": "blood pressure normal hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:004"
     },
     "notes": ""
   },
@@ -5889,7 +6309,8 @@
     "confounds": {
       "pronoun_stripped_high": "kab se beemar hain?",
       "pronoun_stripped_low": "kab se beemar ho?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:005"
     },
     "notes": ""
   },
@@ -5903,7 +6324,8 @@
     "confounds": {
       "pronoun_stripped_high": "kab se beemar hain?",
       "pronoun_stripped_low": "kab se beemar hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:005"
     },
     "notes": ""
   },
@@ -5917,7 +6339,8 @@
     "confounds": {
       "pronoun_stripped_high": "kab se beemar ho?",
       "pronoun_stripped_low": "kab se beemar hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:005"
     },
     "notes": ""
   },
@@ -5931,7 +6354,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne test karwaya?",
       "pronoun_stripped_low": "tumne test karwaya?",
-      "length_ratio": 1.33
+      "length_ratio": 1.33,
+      "template_family": "medical:006"
     },
     "notes": ""
   },
@@ -5945,7 +6369,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne test karwaya?",
       "pronoun_stripped_low": "test karwaya?",
-      "length_ratio": 1.33
+      "length_ratio": 1.33,
+      "template_family": "medical:006"
     },
     "notes": ""
   },
@@ -5959,7 +6384,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne test karwaya?",
       "pronoun_stripped_low": "test karwaya?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:006"
     },
     "notes": ""
   },
@@ -5973,7 +6399,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko neend aa rahi hai?",
       "pronoun_stripped_low": "neend aa rahi hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "medical:007"
     },
     "notes": ""
   },
@@ -5987,7 +6414,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko neend aa rahi hai?",
       "pronoun_stripped_low": "neend aa rahi hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "medical:007"
     },
     "notes": ""
   },
@@ -6001,7 +6429,8 @@
     "confounds": {
       "pronoun_stripped_high": "neend aa rahi hai?",
       "pronoun_stripped_low": "neend aa rahi hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:007"
     },
     "notes": ""
   },
@@ -6015,7 +6444,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka wajan kitna hai?",
       "pronoun_stripped_low": "wajan kitna hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "medical:008"
     },
     "notes": ""
   },
@@ -6029,7 +6459,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka wajan kitna hai?",
       "pronoun_stripped_low": "wajan kitna hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "medical:008"
     },
     "notes": ""
   },
@@ -6043,7 +6474,8 @@
     "confounds": {
       "pronoun_stripped_high": "wajan kitna hai?",
       "pronoun_stripped_low": "wajan kitna hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:008"
     },
     "notes": ""
   },
@@ -6057,7 +6489,8 @@
     "confounds": {
       "pronoun_stripped_high": "allergic hain kisi cheez se?",
       "pronoun_stripped_low": "allergic ho kisi cheez se?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:009"
     },
     "notes": ""
   },
@@ -6071,7 +6504,8 @@
     "confounds": {
       "pronoun_stripped_high": "allergic hain kisi cheez se?",
       "pronoun_stripped_low": "allergic hai kisi cheez se?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:009"
     },
     "notes": ""
   },
@@ -6085,7 +6519,8 @@
     "confounds": {
       "pronoun_stripped_high": "allergic ho kisi cheez se?",
       "pronoun_stripped_low": "allergic hai kisi cheez se?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:009"
     },
     "notes": ""
   },
@@ -6099,7 +6534,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne doctor se appointment li?",
       "pronoun_stripped_low": "tumne doctor se appointment li?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "medical:010"
     },
     "notes": ""
   },
@@ -6113,7 +6549,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne doctor se appointment li?",
       "pronoun_stripped_low": "doctor se appointment li?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "medical:010"
     },
     "notes": ""
   },
@@ -6127,7 +6564,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne doctor se appointment li?",
       "pronoun_stripped_low": "doctor se appointment li?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:010"
     },
     "notes": ""
   },
@@ -6141,7 +6579,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka sugar level check hua?",
       "pronoun_stripped_low": "sugar level check hua?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "medical:011"
     },
     "notes": ""
   },
@@ -6155,7 +6594,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka sugar level check hua?",
       "pronoun_stripped_low": "sugar level check hua?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "medical:011"
     },
     "notes": ""
   },
@@ -6169,7 +6609,8 @@
     "confounds": {
       "pronoun_stripped_high": "sugar level check hua?",
       "pronoun_stripped_low": "sugar level check hua?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:011"
     },
     "notes": ""
   },
@@ -6183,7 +6624,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko surgery ki zaroorat hai?",
       "pronoun_stripped_low": "surgery ki zaroorat hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "medical:012"
     },
     "notes": ""
   },
@@ -6197,7 +6639,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko surgery ki zaroorat hai?",
       "pronoun_stripped_low": "surgery ki zaroorat hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "medical:012"
     },
     "notes": ""
   },
@@ -6211,7 +6654,8 @@
     "confounds": {
       "pronoun_stripped_high": "surgery ki zaroorat hai?",
       "pronoun_stripped_low": "surgery ki zaroorat hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:012"
     },
     "notes": ""
   },
@@ -6225,7 +6669,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki family history kya hai?",
       "pronoun_stripped_low": "family history kya hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "medical:013"
     },
     "notes": ""
   },
@@ -6239,7 +6684,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki family history kya hai?",
       "pronoun_stripped_low": "family history kya hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "medical:013"
     },
     "notes": ""
   },
@@ -6253,7 +6699,8 @@
     "confounds": {
       "pronoun_stripped_high": "family history kya hai?",
       "pronoun_stripped_low": "family history kya hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:013"
     },
     "notes": ""
   },
@@ -6267,7 +6714,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne kuch naya mahsoos kiya?",
       "pronoun_stripped_low": "tumne kuch naya mahsoos kiya?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "medical:014"
     },
     "notes": ""
   },
@@ -6281,7 +6729,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne kuch naya mahsoos kiya?",
       "pronoun_stripped_low": "kuch naya mahsoos kiya?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "medical:014"
     },
     "notes": ""
   },
@@ -6295,7 +6744,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne kuch naya mahsoos kiya?",
       "pronoun_stripped_low": "kuch naya mahsoos kiya?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:014"
     },
     "notes": ""
   },
@@ -6309,7 +6759,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko chakkar aa rahe hain?",
       "pronoun_stripped_low": "chakkar aa rahe hain?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "medical:015"
     },
     "notes": ""
   },
@@ -6323,7 +6774,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko chakkar aa rahe hain?",
       "pronoun_stripped_low": "chakkar aa rahe hain?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "medical:015"
     },
     "notes": ""
   },
@@ -6337,7 +6789,8 @@
     "confounds": {
       "pronoun_stripped_high": "chakkar aa rahe hain?",
       "pronoun_stripped_low": "chakkar aa rahe hain?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:015"
     },
     "notes": ""
   },
@@ -6351,7 +6804,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka operation kab hai?",
       "pronoun_stripped_low": "operation kab hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "medical:016"
     },
     "notes": ""
   },
@@ -6365,7 +6819,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka operation kab hai?",
       "pronoun_stripped_low": "operation kab hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "medical:016"
     },
     "notes": ""
   },
@@ -6379,7 +6834,8 @@
     "confounds": {
       "pronoun_stripped_high": "operation kab hai?",
       "pronoun_stripped_low": "operation kab hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:016"
     },
     "notes": ""
   },
@@ -6393,7 +6849,8 @@
     "confounds": {
       "pronoun_stripped_high": "araam karo, jaldi theek honge.",
       "pronoun_stripped_low": "araam karo, jaldi theek hoge.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:017"
     },
     "notes": ""
   },
@@ -6407,7 +6864,8 @@
     "confounds": {
       "pronoun_stripped_high": "araam karo, jaldi theek honge.",
       "pronoun_stripped_low": "araam kar, jaldi theek hoga.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:017"
     },
     "notes": ""
   },
@@ -6421,7 +6879,8 @@
     "confounds": {
       "pronoun_stripped_high": "araam karo, jaldi theek hoge.",
       "pronoun_stripped_low": "araam kar, jaldi theek hoga.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:017"
     },
     "notes": ""
   },
@@ -6435,7 +6894,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne pehle yeh dawa li hai?",
       "pronoun_stripped_low": "tumne pehle yeh dawa li hai?",
-      "length_ratio": 1.17
+      "length_ratio": 1.17,
+      "template_family": "medical:018"
     },
     "notes": ""
   },
@@ -6449,7 +6909,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne pehle yeh dawa li hai?",
       "pronoun_stripped_low": "pehle yeh dawa li hai?",
-      "length_ratio": 1.17
+      "length_ratio": 1.17,
+      "template_family": "medical:018"
     },
     "notes": ""
   },
@@ -6463,7 +6924,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne pehle yeh dawa li hai?",
       "pronoun_stripped_low": "pehle yeh dawa li hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:018"
     },
     "notes": ""
   },
@@ -6477,7 +6939,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki breathing theek hai?",
       "pronoun_stripped_low": "breathing theek hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "medical:019"
     },
     "notes": ""
   },
@@ -6491,7 +6954,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki breathing theek hai?",
       "pronoun_stripped_low": "breathing theek hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "medical:019"
     },
     "notes": ""
   },
@@ -6505,7 +6969,8 @@
     "confounds": {
       "pronoun_stripped_high": "breathing theek hai?",
       "pronoun_stripped_low": "breathing theek hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:019"
     },
     "notes": ""
   },
@@ -6519,7 +6984,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne ultrasound karwaya?",
       "pronoun_stripped_low": "tumne ultrasound karwaya?",
-      "length_ratio": 1.33
+      "length_ratio": 1.33,
+      "template_family": "medical:020"
     },
     "notes": ""
   },
@@ -6533,7 +6999,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne ultrasound karwaya?",
       "pronoun_stripped_low": "ultrasound karwaya?",
-      "length_ratio": 1.33
+      "length_ratio": 1.33,
+      "template_family": "medical:020"
     },
     "notes": ""
   },
@@ -6547,7 +7014,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne ultrasound karwaya?",
       "pronoun_stripped_low": "ultrasound karwaya?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:020"
     },
     "notes": ""
   },
@@ -6561,7 +7029,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko yeh symptoms kab se hain?",
       "pronoun_stripped_low": "yeh symptoms kab se hain?",
-      "length_ratio": 1.17
+      "length_ratio": 1.17,
+      "template_family": "medical:021"
     },
     "notes": ""
   },
@@ -6575,7 +7044,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko yeh symptoms kab se hain?",
       "pronoun_stripped_low": "yeh symptoms kab se hain?",
-      "length_ratio": 1.17
+      "length_ratio": 1.17,
+      "template_family": "medical:021"
     },
     "notes": ""
   },
@@ -6589,7 +7059,8 @@
     "confounds": {
       "pronoun_stripped_high": "yeh symptoms kab se hain?",
       "pronoun_stripped_low": "yeh symptoms kab se hain?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:021"
     },
     "notes": ""
   },
@@ -6603,7 +7074,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki age kya hai?",
       "pronoun_stripped_low": "age kya hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "medical:022"
     },
     "notes": ""
   },
@@ -6617,7 +7089,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki age kya hai?",
       "pronoun_stripped_low": "age kya hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "medical:022"
     },
     "notes": ""
   },
@@ -6631,7 +7104,8 @@
     "confounds": {
       "pronoun_stripped_high": "age kya hai?",
       "pronoun_stripped_low": "age kya hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:022"
     },
     "notes": ""
   },
@@ -6645,7 +7119,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne pehle hospital admit hua?",
       "pronoun_stripped_low": "tumne pehle hospital admit hua?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "medical:023"
     },
     "notes": ""
   },
@@ -6659,7 +7134,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne pehle hospital admit hua?",
       "pronoun_stripped_low": "pehle hospital admit hua?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "medical:023"
     },
     "notes": ""
   },
@@ -6673,7 +7149,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne pehle hospital admit hua?",
       "pronoun_stripped_low": "pehle hospital admit hua?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:023"
     },
     "notes": ""
   },
@@ -6687,7 +7164,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka hemoglobin level kya hai?",
       "pronoun_stripped_low": "hemoglobin level kya hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "medical:024"
     },
     "notes": ""
   },
@@ -6701,7 +7179,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka hemoglobin level kya hai?",
       "pronoun_stripped_low": "hemoglobin level kya hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "medical:024"
     },
     "notes": ""
   },
@@ -6715,7 +7194,8 @@
     "confounds": {
       "pronoun_stripped_high": "hemoglobin level kya hai?",
       "pronoun_stripped_low": "hemoglobin level kya hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:024"
     },
     "notes": ""
   },
@@ -6729,7 +7209,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko injection se darna nahi.",
       "pronoun_stripped_low": "injection se darna nahi.",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "medical:025"
     },
     "notes": ""
   },
@@ -6743,7 +7224,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko injection se darna nahi.",
       "pronoun_stripped_low": "injection se darna nahi.",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "medical:025"
     },
     "notes": ""
   },
@@ -6757,7 +7239,8 @@
     "confounds": {
       "pronoun_stripped_high": "injection se darna nahi.",
       "pronoun_stripped_low": "injection se darna nahi.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:025"
     },
     "notes": ""
   },
@@ -6771,7 +7254,8 @@
     "confounds": {
       "pronoun_stripped_high": "theek ho jayenge, fikar mat karo.",
       "pronoun_stripped_low": "theek ho jaoge, fikar mat karo.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:026"
     },
     "notes": ""
   },
@@ -6785,7 +7269,8 @@
     "confounds": {
       "pronoun_stripped_high": "theek ho jayenge, fikar mat karo.",
       "pronoun_stripped_low": "theek ho jaayega, fikar mat kar.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:026"
     },
     "notes": ""
   },
@@ -6799,7 +7284,8 @@
     "confounds": {
       "pronoun_stripped_high": "theek ho jaoge, fikar mat karo.",
       "pronoun_stripped_low": "theek ho jaayega, fikar mat kar.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:026"
     },
     "notes": ""
   },
@@ -6813,7 +7299,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne X-ray karwaya?",
       "pronoun_stripped_low": "tumne X-ray karwaya?",
-      "length_ratio": 1.33
+      "length_ratio": 1.33,
+      "template_family": "medical:027"
     },
     "notes": ""
   },
@@ -6827,7 +7314,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne X-ray karwaya?",
       "pronoun_stripped_low": "X-ray karwaya?",
-      "length_ratio": 1.33
+      "length_ratio": 1.33,
+      "template_family": "medical:027"
     },
     "notes": ""
   },
@@ -6841,7 +7329,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne X-ray karwaya?",
       "pronoun_stripped_low": "X-ray karwaya?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:027"
     },
     "notes": ""
   },
@@ -6855,7 +7344,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka oxygen level theek hai.",
       "pronoun_stripped_low": "oxygen level theek hai.",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "medical:028"
     },
     "notes": ""
   },
@@ -6869,7 +7359,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka oxygen level theek hai.",
       "pronoun_stripped_low": "oxygen level theek hai.",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "medical:028"
     },
     "notes": ""
   },
@@ -6883,7 +7374,8 @@
     "confounds": {
       "pronoun_stripped_high": "oxygen level theek hai.",
       "pronoun_stripped_low": "oxygen level theek hai.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:028"
     },
     "notes": ""
   },
@@ -6897,7 +7389,8 @@
     "confounds": {
       "pronoun_stripped_high": "rozana walk karte hain?",
       "pronoun_stripped_low": "rozana walk karte ho?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:029"
     },
     "notes": ""
   },
@@ -6911,7 +7404,8 @@
     "confounds": {
       "pronoun_stripped_high": "rozana walk karte hain?",
       "pronoun_stripped_low": "rozana walk karta hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:029"
     },
     "notes": ""
   },
@@ -6925,7 +7419,8 @@
     "confounds": {
       "pronoun_stripped_high": "rozana walk karte ho?",
       "pronoun_stripped_low": "rozana walk karta hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:029"
     },
     "notes": ""
   },
@@ -6939,7 +7434,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne diet follow kiya?",
       "pronoun_stripped_low": "tumne diet follow kiya?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "medical:030"
     },
     "notes": ""
   },
@@ -6953,7 +7449,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne diet follow kiya?",
       "pronoun_stripped_low": "diet follow kiya?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "medical:030"
     },
     "notes": ""
   },
@@ -6967,7 +7464,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne diet follow kiya?",
       "pronoun_stripped_low": "diet follow kiya?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:030"
     },
     "notes": ""
   },
@@ -6981,7 +7479,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki ankh mein problem hai?",
       "pronoun_stripped_low": "ankh mein problem hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "medical:031"
     },
     "notes": ""
   },
@@ -6995,7 +7494,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki ankh mein problem hai?",
       "pronoun_stripped_low": "ankh mein problem hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "medical:031"
     },
     "notes": ""
   },
@@ -7009,7 +7509,8 @@
     "confounds": {
       "pronoun_stripped_high": "ankh mein problem hai?",
       "pronoun_stripped_low": "ankh mein problem hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:031"
     },
     "notes": ""
   },
@@ -7023,7 +7524,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne MRI report laaye?",
       "pronoun_stripped_low": "tumne MRI report laaye?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "medical:032"
     },
     "notes": ""
   },
@@ -7037,7 +7539,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne MRI report laaye?",
       "pronoun_stripped_low": "MRI report laaye?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "medical:032"
     },
     "notes": ""
   },
@@ -7051,7 +7554,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne MRI report laaye?",
       "pronoun_stripped_low": "MRI report laaye?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:032"
     },
     "notes": ""
   },
@@ -7065,7 +7569,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka follow-up kab hai?",
       "pronoun_stripped_low": "follow-up kab hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "medical:033"
     },
     "notes": ""
   },
@@ -7079,7 +7584,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka follow-up kab hai?",
       "pronoun_stripped_low": "follow-up kab hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "medical:033"
     },
     "notes": ""
   },
@@ -7093,7 +7599,8 @@
     "confounds": {
       "pronoun_stripped_high": "follow-up kab hai?",
       "pronoun_stripped_low": "follow-up kab hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:033"
     },
     "notes": ""
   },
@@ -7107,7 +7614,8 @@
     "confounds": {
       "pronoun_stripped_high": "tablet roz le rahe hain?",
       "pronoun_stripped_low": "tablet roz le rahe ho?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:034"
     },
     "notes": ""
   },
@@ -7121,7 +7629,8 @@
     "confounds": {
       "pronoun_stripped_high": "tablet roz le rahe hain?",
       "pronoun_stripped_low": "tablet roz le raha hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:034"
     },
     "notes": ""
   },
@@ -7135,7 +7644,8 @@
     "confounds": {
       "pronoun_stripped_high": "tablet roz le rahe ho?",
       "pronoun_stripped_low": "tablet roz le raha hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "medical:034"
     },
     "notes": ""
   },
@@ -7149,7 +7659,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka order number kya hai?",
       "pronoun_stripped_low": "order number kya hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "customer_service:001"
     },
     "notes": ""
   },
@@ -7163,7 +7674,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka order number kya hai?",
       "pronoun_stripped_low": "order number kya hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "customer_service:001"
     },
     "notes": ""
   },
@@ -7177,7 +7689,8 @@
     "confounds": {
       "pronoun_stripped_high": "order number kya hai?",
       "pronoun_stripped_low": "order number kya hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "customer_service:001"
     },
     "notes": ""
   },
@@ -7191,7 +7704,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko kya problem aa rahi hai?",
       "pronoun_stripped_low": "kya problem aa rahi hai?",
-      "length_ratio": 1.17
+      "length_ratio": 1.17,
+      "template_family": "customer_service:002"
     },
     "notes": ""
   },
@@ -7205,7 +7719,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko kya problem aa rahi hai?",
       "pronoun_stripped_low": "kya problem aa rahi hai?",
-      "length_ratio": 1.17
+      "length_ratio": 1.17,
+      "template_family": "customer_service:002"
     },
     "notes": ""
   },
@@ -7219,7 +7734,8 @@
     "confounds": {
       "pronoun_stripped_high": "kya problem aa rahi hai?",
       "pronoun_stripped_low": "kya problem aa rahi hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "customer_service:002"
     },
     "notes": ""
   },
@@ -7233,7 +7749,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne complaint darj ki thi?",
       "pronoun_stripped_low": "tumne complaint darj ki thi?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "customer_service:003"
     },
     "notes": ""
   },
@@ -7247,7 +7764,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne complaint darj ki thi?",
       "pronoun_stripped_low": "complaint darj ki thi?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "customer_service:003"
     },
     "notes": ""
   },
@@ -7261,7 +7779,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne complaint darj ki thi?",
       "pronoun_stripped_low": "complaint darj ki thi?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "customer_service:003"
     },
     "notes": ""
   },
@@ -7275,7 +7794,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka account verify ho gaya.",
       "pronoun_stripped_low": "account verify ho gaya.",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "customer_service:004"
     },
     "notes": ""
   },
@@ -7289,7 +7809,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka account verify ho gaya.",
       "pronoun_stripped_low": "account verify ho gaya.",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "customer_service:004"
     },
     "notes": ""
   },
@@ -7303,7 +7824,8 @@
     "confounds": {
       "pronoun_stripped_high": "account verify ho gaya.",
       "pronoun_stripped_low": "account verify ho gaya.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "customer_service:004"
     },
     "notes": ""
   },
@@ -7317,7 +7839,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne payment ki thi?",
       "pronoun_stripped_low": "tumne payment ki thi?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "customer_service:005"
     },
     "notes": ""
   },
@@ -7331,7 +7854,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne payment ki thi?",
       "pronoun_stripped_low": "payment ki thi?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "customer_service:005"
     },
     "notes": ""
   },
@@ -7345,7 +7869,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne payment ki thi?",
       "pronoun_stripped_low": "payment ki thi?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "customer_service:005"
     },
     "notes": ""
   },
@@ -7359,7 +7884,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko refund kab milega?",
       "pronoun_stripped_low": "refund kab milega?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "customer_service:006"
     },
     "notes": ""
   },
@@ -7373,7 +7899,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko refund kab milega?",
       "pronoun_stripped_low": "refund kab milega?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "customer_service:006"
     },
     "notes": ""
   },
@@ -7387,7 +7914,8 @@
     "confounds": {
       "pronoun_stripped_high": "refund kab milega?",
       "pronoun_stripped_low": "refund kab milega?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "customer_service:006"
     },
     "notes": ""
   },
@@ -7401,7 +7929,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka pin number yaad hai?",
       "pronoun_stripped_low": "pin number yaad hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "customer_service:007"
     },
     "notes": ""
   },
@@ -7415,7 +7944,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka pin number yaad hai?",
       "pronoun_stripped_low": "pin number yaad hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "customer_service:007"
     },
     "notes": ""
   },
@@ -7429,7 +7959,8 @@
     "confounds": {
       "pronoun_stripped_high": "pin number yaad hai?",
       "pronoun_stripped_low": "pin number yaad hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "customer_service:007"
     },
     "notes": ""
   },
@@ -7443,7 +7974,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne delivery address sahi diya?",
       "pronoun_stripped_low": "tumne delivery address sahi diya?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "customer_service:008"
     },
     "notes": ""
   },
@@ -7457,7 +7989,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne delivery address sahi diya?",
       "pronoun_stripped_low": "delivery address sahi diya?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "customer_service:008"
     },
     "notes": ""
   },
@@ -7471,7 +8004,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne delivery address sahi diya?",
       "pronoun_stripped_low": "delivery address sahi diya?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "customer_service:008"
     },
     "notes": ""
   },
@@ -7485,7 +8019,8 @@
     "confounds": {
       "pronoun_stripped_high": "ke paas tracking ID hai?",
       "pronoun_stripped_low": "tumhare paas tracking ID hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "customer_service:009"
     },
     "notes": ""
   },
@@ -7499,7 +8034,8 @@
     "confounds": {
       "pronoun_stripped_high": "ke paas tracking ID hai?",
       "pronoun_stripped_low": "tere paas tracking ID hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "customer_service:009"
     },
     "notes": ""
   },
@@ -7513,7 +8049,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumhare paas tracking ID hai?",
       "pronoun_stripped_low": "tere paas tracking ID hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "customer_service:009"
     },
     "notes": ""
   },
@@ -7527,7 +8064,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne feedback diya?",
       "pronoun_stripped_low": "tumne feedback diya?",
-      "length_ratio": 1.33
+      "length_ratio": 1.33,
+      "template_family": "customer_service:010"
     },
     "notes": ""
   },
@@ -7541,7 +8079,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne feedback diya?",
       "pronoun_stripped_low": "feedback diya?",
-      "length_ratio": 1.33
+      "length_ratio": 1.33,
+      "template_family": "customer_service:010"
     },
     "notes": ""
   },
@@ -7555,7 +8094,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne feedback diya?",
       "pronoun_stripped_low": "feedback diya?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "customer_service:010"
     },
     "notes": ""
   },
@@ -7569,7 +8109,8 @@
     "confounds": {
       "pronoun_stripped_high": "se kuch verify karna tha.",
       "pronoun_stripped_low": "kuch verify karna tha.",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "customer_service:011"
     },
     "notes": ""
   },
@@ -7583,7 +8124,8 @@
     "confounds": {
       "pronoun_stripped_high": "se kuch verify karna tha.",
       "pronoun_stripped_low": "kuch verify karna tha.",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "customer_service:011"
     },
     "notes": ""
   },
@@ -7597,7 +8139,8 @@
     "confounds": {
       "pronoun_stripped_high": "kuch verify karna tha.",
       "pronoun_stripped_low": "kuch verify karna tha.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "customer_service:011"
     },
     "notes": ""
   },
@@ -7611,7 +8154,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka issue resolve ho gaya?",
       "pronoun_stripped_low": "issue resolve ho gaya?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "customer_service:012"
     },
     "notes": ""
   },
@@ -7625,7 +8169,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka issue resolve ho gaya?",
       "pronoun_stripped_low": "issue resolve ho gaya?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "customer_service:012"
     },
     "notes": ""
   },
@@ -7639,7 +8184,8 @@
     "confounds": {
       "pronoun_stripped_high": "issue resolve ho gaya?",
       "pronoun_stripped_low": "issue resolve ho gaya?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "customer_service:012"
     },
     "notes": ""
   },
@@ -7653,7 +8199,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne warranty card rakha?",
       "pronoun_stripped_low": "tumne warranty card rakha?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "customer_service:013"
     },
     "notes": ""
   },
@@ -7667,7 +8214,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne warranty card rakha?",
       "pronoun_stripped_low": "warranty card rakha?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "customer_service:013"
     },
     "notes": ""
   },
@@ -7681,7 +8229,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne warranty card rakha?",
       "pronoun_stripped_low": "warranty card rakha?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "customer_service:013"
     },
     "notes": ""
   },
@@ -7695,7 +8244,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko 24 ghante mein call aayegi.",
       "pronoun_stripped_low": "24 ghante mein call aayegi.",
-      "length_ratio": 1.17
+      "length_ratio": 1.17,
+      "template_family": "customer_service:014"
     },
     "notes": ""
   },
@@ -7709,7 +8259,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko 24 ghante mein call aayegi.",
       "pronoun_stripped_low": "24 ghante mein call aayegi.",
-      "length_ratio": 1.17
+      "length_ratio": 1.17,
+      "template_family": "customer_service:014"
     },
     "notes": ""
   },
@@ -7723,7 +8274,8 @@
     "confounds": {
       "pronoun_stripped_high": "24 ghante mein call aayegi.",
       "pronoun_stripped_low": "24 ghante mein call aayegi.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "customer_service:014"
     },
     "notes": ""
   },
@@ -7737,7 +8289,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki EMI kitne ki hai?",
       "pronoun_stripped_low": "EMI kitne ki hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "customer_service:015"
     },
     "notes": ""
   },
@@ -7751,7 +8304,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki EMI kitne ki hai?",
       "pronoun_stripped_low": "EMI kitne ki hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "customer_service:015"
     },
     "notes": ""
   },
@@ -7765,7 +8319,8 @@
     "confounds": {
       "pronoun_stripped_high": "EMI kitne ki hai?",
       "pronoun_stripped_low": "EMI kitne ki hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "customer_service:015"
     },
     "notes": ""
   },
@@ -7779,7 +8334,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne cancel request diya?",
       "pronoun_stripped_low": "tumne cancel request diya?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "customer_service:016"
     },
     "notes": ""
   },
@@ -7793,7 +8349,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne cancel request diya?",
       "pronoun_stripped_low": "cancel request diya?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "customer_service:016"
     },
     "notes": ""
   },
@@ -7807,7 +8364,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne cancel request diya?",
       "pronoun_stripped_low": "cancel request diya?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "customer_service:016"
     },
     "notes": ""
   },
@@ -7821,7 +8379,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka registered email kya hai?",
       "pronoun_stripped_low": "registered email kya hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "customer_service:017"
     },
     "notes": ""
   },
@@ -7835,7 +8394,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka registered email kya hai?",
       "pronoun_stripped_low": "registered email kya hai?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "customer_service:017"
     },
     "notes": ""
   },
@@ -7849,7 +8409,8 @@
     "confounds": {
       "pronoun_stripped_high": "registered email kya hai?",
       "pronoun_stripped_low": "registered email kya hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "customer_service:017"
     },
     "notes": ""
   },
@@ -7863,7 +8424,8 @@
     "confounds": {
       "pronoun_stripped_high": "satisfied hain service se?",
       "pronoun_stripped_low": "satisfied ho service se?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "customer_service:018"
     },
     "notes": ""
   },
@@ -7877,7 +8439,8 @@
     "confounds": {
       "pronoun_stripped_high": "satisfied hain service se?",
       "pronoun_stripped_low": "satisfied hai service se?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "customer_service:018"
     },
     "notes": ""
   },
@@ -7891,7 +8454,8 @@
     "confounds": {
       "pronoun_stripped_high": "satisfied ho service se?",
       "pronoun_stripped_low": "satisfied hai service se?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "customer_service:018"
     },
     "notes": ""
   },
@@ -7905,7 +8469,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne product use kiya?",
       "pronoun_stripped_low": "tumne product use kiya?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "customer_service:019"
     },
     "notes": ""
   },
@@ -7919,7 +8484,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne product use kiya?",
       "pronoun_stripped_low": "product use kiya?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "customer_service:019"
     },
     "notes": ""
   },
@@ -7933,7 +8499,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne product use kiya?",
       "pronoun_stripped_low": "product use kiya?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "customer_service:019"
     },
     "notes": ""
   },
@@ -7947,7 +8514,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko voucher mila?",
       "pronoun_stripped_low": "voucher mila?",
-      "length_ratio": 1.33
+      "length_ratio": 1.33,
+      "template_family": "customer_service:020"
     },
     "notes": ""
   },
@@ -7961,7 +8529,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko voucher mila?",
       "pronoun_stripped_low": "voucher mila?",
-      "length_ratio": 1.33
+      "length_ratio": 1.33,
+      "template_family": "customer_service:020"
     },
     "notes": ""
   },
@@ -7975,7 +8544,8 @@
     "confounds": {
       "pronoun_stripped_high": "voucher mila?",
       "pronoun_stripped_low": "voucher mila?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "customer_service:020"
     },
     "notes": ""
   },
@@ -7989,7 +8559,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka subscription active hai?",
       "pronoun_stripped_low": "subscription active hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "customer_service:021"
     },
     "notes": ""
   },
@@ -8003,7 +8574,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka subscription active hai?",
       "pronoun_stripped_low": "subscription active hai?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "customer_service:021"
     },
     "notes": ""
   },
@@ -8017,7 +8589,8 @@
     "confounds": {
       "pronoun_stripped_high": "subscription active hai?",
       "pronoun_stripped_low": "subscription active hai?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "customer_service:021"
     },
     "notes": ""
   },
@@ -8031,7 +8604,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne exchange request diya?",
       "pronoun_stripped_low": "tumne exchange request diya?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "customer_service:022"
     },
     "notes": ""
   },
@@ -8045,7 +8619,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne exchange request diya?",
       "pronoun_stripped_low": "exchange request diya?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "customer_service:022"
     },
     "notes": ""
   },
@@ -8059,7 +8634,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne exchange request diya?",
       "pronoun_stripped_low": "exchange request diya?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "customer_service:022"
     },
     "notes": ""
   },
@@ -8073,7 +8649,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki shikayat darj ho gayi hai.",
       "pronoun_stripped_low": "shikayat darj ho gayi hai.",
-      "length_ratio": 1.17
+      "length_ratio": 1.17,
+      "template_family": "customer_service:023"
     },
     "notes": ""
   },
@@ -8087,7 +8664,8 @@
     "confounds": {
       "pronoun_stripped_high": "ki shikayat darj ho gayi hai.",
       "pronoun_stripped_low": "shikayat darj ho gayi hai.",
-      "length_ratio": 1.17
+      "length_ratio": 1.17,
+      "template_family": "customer_service:023"
     },
     "notes": ""
   },
@@ -8101,7 +8679,8 @@
     "confounds": {
       "pronoun_stripped_high": "shikayat darj ho gayi hai.",
       "pronoun_stripped_low": "shikayat darj ho gayi hai.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "customer_service:023"
     },
     "notes": ""
   },
@@ -8115,7 +8694,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka case hum dekhenge.",
       "pronoun_stripped_low": "case hum dekhenge.",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "customer_service:024"
     },
     "notes": ""
   },
@@ -8129,7 +8709,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka case hum dekhenge.",
       "pronoun_stripped_low": "case hum dekhenge.",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "customer_service:024"
     },
     "notes": ""
   },
@@ -8143,7 +8724,8 @@
     "confounds": {
       "pronoun_stripped_high": "case hum dekhenge.",
       "pronoun_stripped_low": "case hum dekhenge.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "customer_service:024"
     },
     "notes": ""
   },
@@ -8157,7 +8739,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko ticket number note karo.",
       "pronoun_stripped_low": "ticket number note karo.",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "customer_service:025"
     },
     "notes": ""
   },
@@ -8171,7 +8754,8 @@
     "confounds": {
       "pronoun_stripped_high": "ko ticket number note karo.",
       "pronoun_stripped_low": "ticket number note kar.",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "customer_service:025"
     },
     "notes": ""
   },
@@ -8185,7 +8769,8 @@
     "confounds": {
       "pronoun_stripped_high": "ticket number note karo.",
       "pronoun_stripped_low": "ticket number note kar.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "customer_service:025"
     },
     "notes": ""
   },
@@ -8199,7 +8784,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne invoice download ki?",
       "pronoun_stripped_low": "tumne invoice download ki?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "customer_service:026"
     },
     "notes": ""
   },
@@ -8213,7 +8799,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne invoice download ki?",
       "pronoun_stripped_low": "invoice download ki?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "customer_service:026"
     },
     "notes": ""
   },
@@ -8227,7 +8814,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne invoice download ki?",
       "pronoun_stripped_low": "invoice download ki?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "customer_service:026"
     },
     "notes": ""
   },
@@ -8241,7 +8829,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka plan upgrade hua?",
       "pronoun_stripped_low": "plan upgrade hua?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "customer_service:027"
     },
     "notes": ""
   },
@@ -8255,7 +8844,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka plan upgrade hua?",
       "pronoun_stripped_low": "plan upgrade hua?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "customer_service:027"
     },
     "notes": ""
   },
@@ -8269,7 +8859,8 @@
     "confounds": {
       "pronoun_stripped_high": "plan upgrade hua?",
       "pronoun_stripped_low": "plan upgrade hua?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "customer_service:027"
     },
     "notes": ""
   },
@@ -8283,7 +8874,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne app update ki?",
       "pronoun_stripped_low": "tumne app update ki?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "customer_service:028"
     },
     "notes": ""
   },
@@ -8297,7 +8889,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne app update ki?",
       "pronoun_stripped_low": "app update ki?",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "customer_service:028"
     },
     "notes": ""
   },
@@ -8311,7 +8904,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne app update ki?",
       "pronoun_stripped_low": "app update ki?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "customer_service:028"
     },
     "notes": ""
   },
@@ -8325,7 +8919,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka coupon valid hai.",
       "pronoun_stripped_low": "coupon valid hai.",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "customer_service:029"
     },
     "notes": ""
   },
@@ -8339,7 +8934,8 @@
     "confounds": {
       "pronoun_stripped_high": "ka coupon valid hai.",
       "pronoun_stripped_low": "coupon valid hai.",
-      "length_ratio": 1.25
+      "length_ratio": 1.25,
+      "template_family": "customer_service:029"
     },
     "notes": ""
   },
@@ -8353,7 +8949,8 @@
     "confounds": {
       "pronoun_stripped_high": "coupon valid hai.",
       "pronoun_stripped_low": "coupon valid hai.",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "customer_service:029"
     },
     "notes": ""
   },
@@ -8367,7 +8964,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne review diya product ka?",
       "pronoun_stripped_low": "tumne review diya product ka?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "customer_service:030"
     },
     "notes": ""
   },
@@ -8381,7 +8979,8 @@
     "confounds": {
       "pronoun_stripped_high": "ne review diya product ka?",
       "pronoun_stripped_low": "review diya product ka?",
-      "length_ratio": 1.2
+      "length_ratio": 1.2,
+      "template_family": "customer_service:030"
     },
     "notes": ""
   },
@@ -8395,7 +8994,8 @@
     "confounds": {
       "pronoun_stripped_high": "tumne review diya product ka?",
       "pronoun_stripped_low": "review diya product ka?",
-      "length_ratio": 1.0
+      "length_ratio": 1.0,
+      "template_family": "customer_service:030"
     },
     "notes": ""
   }

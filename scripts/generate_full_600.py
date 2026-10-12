@@ -243,7 +243,15 @@ TEMPLATES: dict[str, list[tuple[str, str, str]]] = {
 }
 
 
-def make_pair(uid: str, high: str, low: str, h_level: str, l_level: str, domain: str) -> HonorificPair:
+def make_pair(
+    uid: str,
+    high: str,
+    low: str,
+    h_level: str,
+    l_level: str,
+    domain: str,
+    template_family: str,
+) -> HonorificPair:
     return HonorificPair(
         id=uid, high=high, low=low,
         high_level=h_level, low_level=l_level,
@@ -252,6 +260,7 @@ def make_pair(uid: str, high: str, low: str, h_level: str, l_level: str, domain:
             "pronoun_stripped_high": strip_pronouns(high),
             "pronoun_stripped_low":  strip_pronouns(low),
             "length_ratio": length_ratio(high, low),
+            "template_family": template_family,
         },
     )
 
@@ -260,10 +269,11 @@ def main() -> None:
     pairs: list[HonorificPair] = []
     counter = 1
     for domain, templates in TEMPLATES.items():
-        for aap_s, tum_s, tu_s in templates:
-            pairs.append(make_pair(f"h{counter:03d}", aap_s, tum_s, "aap", "tum", domain)); counter += 1
-            pairs.append(make_pair(f"h{counter:03d}", aap_s, tu_s,  "aap", "tu",  domain)); counter += 1
-            pairs.append(make_pair(f"h{counter:03d}", tum_s, tu_s,  "tum", "tu",  domain)); counter += 1
+        for template_index, (aap_s, tum_s, tu_s) in enumerate(templates, start=1):
+            family = f"{domain}:{template_index:03d}"
+            pairs.append(make_pair(f"h{counter:03d}", aap_s, tum_s, "aap", "tum", domain, family)); counter += 1
+            pairs.append(make_pair(f"h{counter:03d}", aap_s, tu_s,  "aap", "tu",  domain, family)); counter += 1
+            pairs.append(make_pair(f"h{counter:03d}", tum_s, tu_s,  "tum", "tu",  domain, family)); counter += 1
 
     pairs = pairs[:600]
     assert len(pairs) == 600, f"Expected 600 pairs, got {len(pairs)}"

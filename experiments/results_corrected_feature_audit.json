@@ -1,0 +1,466 @@
+{
+  "layer": 2,
+  "n_pairs": 600,
+  "n_candidates": 50,
+  "criterion": {
+    "auc_honorific_stripped_min": 0.8,
+    "auc_pronoun_presence_max": 0.55
+  },
+  "audit_definition": {
+    "honorific": "aap-class vs tum/tu-class on pronoun-stripped pairs",
+    "pronoun": "matched raw vs pronoun-stripped sentences",
+    "auc_orientation": "max(AUC, 1-AUC)"
+  },
+  "features": [
+    {
+      "raw_rank": 1,
+      "feature_idx": 646,
+      "raw_cohen_d": 2.2088770866394043,
+      "stripped_cohen_d_signed": -0.09699705988168716,
+      "auc_honorific_stripped": 0.5143125,
+      "auc_pronoun_presence": 0.807804513888889,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 2,
+      "feature_idx": 7832,
+      "raw_cohen_d": 2.1775755882263184,
+      "stripped_cohen_d_signed": 0.019352886825799942,
+      "auc_honorific_stripped": 0.5057916666666666,
+      "auc_pronoun_presence": 0.7865458333333334,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 3,
+      "feature_idx": 4358,
+      "raw_cohen_d": 1.9232112169265747,
+      "stripped_cohen_d_signed": 0.0,
+      "auc_honorific_stripped": 0.5,
+      "auc_pronoun_presence": 0.6666666666666666,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 4,
+      "feature_idx": 11821,
+      "raw_cohen_d": 1.9225624799728394,
+      "stripped_cohen_d_signed": 0.0,
+      "auc_honorific_stripped": 0.5,
+      "auc_pronoun_presence": 0.6613333333333333,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 5,
+      "feature_idx": 816,
+      "raw_cohen_d": 1.9222779273986816,
+      "stripped_cohen_d_signed": 0.0,
+      "auc_honorific_stripped": 0.5,
+      "auc_pronoun_presence": 0.6666666666666666,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 6,
+      "feature_idx": 1418,
+      "raw_cohen_d": 1.922277808189392,
+      "stripped_cohen_d_signed": 0.0,
+      "auc_honorific_stripped": 0.5,
+      "auc_pronoun_presence": 0.6666666666666666,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 7,
+      "feature_idx": 5512,
+      "raw_cohen_d": 1.922277808189392,
+      "stripped_cohen_d_signed": -0.08178607374429703,
+      "auc_honorific_stripped": 0.5016666666666667,
+      "auc_pronoun_presence": 0.6655833333333332,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 8,
+      "feature_idx": 10431,
+      "raw_cohen_d": 1.9222776889801025,
+      "stripped_cohen_d_signed": 0.0,
+      "auc_honorific_stripped": 0.5,
+      "auc_pronoun_presence": 0.6666666666666666,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 9,
+      "feature_idx": 13074,
+      "raw_cohen_d": 1.9222776889801025,
+      "stripped_cohen_d_signed": 0.0,
+      "auc_honorific_stripped": 0.5,
+      "auc_pronoun_presence": 0.6666666666666666,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 10,
+      "feature_idx": 2549,
+      "raw_cohen_d": 1.922277569770813,
+      "stripped_cohen_d_signed": 0.0,
+      "auc_honorific_stripped": 0.5,
+      "auc_pronoun_presence": 0.6666666666666666,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 11,
+      "feature_idx": 5354,
+      "raw_cohen_d": 1.922277569770813,
+      "stripped_cohen_d_signed": 0.00026459741638973355,
+      "auc_honorific_stripped": 0.5,
+      "auc_pronoun_presence": 0.6611694444444444,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 12,
+      "feature_idx": 8258,
+      "raw_cohen_d": 1.922277569770813,
+      "stripped_cohen_d_signed": 0.0,
+      "auc_honorific_stripped": 0.5,
+      "auc_pronoun_presence": 0.6666666666666666,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 13,
+      "feature_idx": 2753,
+      "raw_cohen_d": 1.9222774505615234,
+      "stripped_cohen_d_signed": 0.0,
+      "auc_honorific_stripped": 0.5,
+      "auc_pronoun_presence": 0.6666666666666666,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 14,
+      "feature_idx": 7120,
+      "raw_cohen_d": 1.9222774505615234,
+      "stripped_cohen_d_signed": 0.0,
+      "auc_honorific_stripped": 0.5,
+      "auc_pronoun_presence": 0.6666666666666666,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 15,
+      "feature_idx": 7321,
+      "raw_cohen_d": 1.9222774505615234,
+      "stripped_cohen_d_signed": -0.13380055129528046,
+      "auc_honorific_stripped": 0.5066638888888889,
+      "auc_pronoun_presence": 0.6619555555555555,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 16,
+      "feature_idx": 8757,
+      "raw_cohen_d": 1.9222773313522339,
+      "stripped_cohen_d_signed": 0.0,
+      "auc_honorific_stripped": 0.5,
+      "auc_pronoun_presence": 0.6666666666666666,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 17,
+      "feature_idx": 8665,
+      "raw_cohen_d": 1.918702483177185,
+      "stripped_cohen_d_signed": -0.006431069690734148,
+      "auc_honorific_stripped": 0.5000083333333334,
+      "auc_pronoun_presence": 0.665,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 18,
+      "feature_idx": 5104,
+      "raw_cohen_d": 1.9165947437286377,
+      "stripped_cohen_d_signed": -0.09846062958240509,
+      "auc_honorific_stripped": 0.505,
+      "auc_pronoun_presence": 0.6647777777777777,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 19,
+      "feature_idx": 522,
+      "raw_cohen_d": 1.9118022918701172,
+      "stripped_cohen_d_signed": 0.014929985627532005,
+      "auc_honorific_stripped": 0.5016333333333334,
+      "auc_pronoun_presence": 0.6607472222222222,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 20,
+      "feature_idx": 8880,
+      "raw_cohen_d": 1.9103573560714722,
+      "stripped_cohen_d_signed": -0.043414417654275894,
+      "auc_honorific_stripped": 0.5004083333333333,
+      "auc_pronoun_presence": 0.656586111111111,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 21,
+      "feature_idx": 8049,
+      "raw_cohen_d": 1.9090856313705444,
+      "stripped_cohen_d_signed": 0.0,
+      "auc_honorific_stripped": 0.5,
+      "auc_pronoun_presence": 0.6675,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 22,
+      "feature_idx": 7298,
+      "raw_cohen_d": 1.9065978527069092,
+      "stripped_cohen_d_signed": 0.018784016370773315,
+      "auc_honorific_stripped": 0.5033166666666667,
+      "auc_pronoun_presence": 0.665820486111111,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 23,
+      "feature_idx": 12511,
+      "raw_cohen_d": 1.9060851335525513,
+      "stripped_cohen_d_signed": -0.050350990146398544,
+      "auc_honorific_stripped": 0.5016888888888889,
+      "auc_pronoun_presence": 0.6644986111111111,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 24,
+      "feature_idx": 13497,
+      "raw_cohen_d": 1.901271104812622,
+      "stripped_cohen_d_signed": -0.05121578276157379,
+      "auc_honorific_stripped": 0.5016388888888889,
+      "auc_pronoun_presence": 0.665213888888889,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 25,
+      "feature_idx": 2027,
+      "raw_cohen_d": 1.9008119106292725,
+      "stripped_cohen_d_signed": -0.00180141965392977,
+      "auc_honorific_stripped": 0.5000111111111111,
+      "auc_pronoun_presence": 0.666276388888889,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 26,
+      "feature_idx": 15730,
+      "raw_cohen_d": 1.9001883268356323,
+      "stripped_cohen_d_signed": -0.034187257289886475,
+      "auc_honorific_stripped": 0.5033055555555556,
+      "auc_pronoun_presence": 0.6558513888888888,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 27,
+      "feature_idx": 5100,
+      "raw_cohen_d": 1.8942116498947144,
+      "stripped_cohen_d_signed": -0.03822245076298714,
+      "auc_honorific_stripped": 0.5069972222222222,
+      "auc_pronoun_presence": 0.6645833333333333,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 28,
+      "feature_idx": 11027,
+      "raw_cohen_d": 1.892989993095398,
+      "stripped_cohen_d_signed": 0.0018095469567924738,
+      "auc_honorific_stripped": 0.5016555555555555,
+      "auc_pronoun_presence": 0.6674430555555555,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 29,
+      "feature_idx": 14583,
+      "raw_cohen_d": 1.8840726613998413,
+      "stripped_cohen_d_signed": -0.027570493519306183,
+      "auc_honorific_stripped": 0.5016555555555555,
+      "auc_pronoun_presence": 0.6640555555555555,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 30,
+      "feature_idx": 16027,
+      "raw_cohen_d": 1.8829917907714844,
+      "stripped_cohen_d_signed": -0.028541697189211845,
+      "auc_honorific_stripped": 0.5017152777777778,
+      "auc_pronoun_presence": 0.6596291666666666,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 31,
+      "feature_idx": 4385,
+      "raw_cohen_d": 1.8812001943588257,
+      "stripped_cohen_d_signed": 0.05785568431019783,
+      "auc_honorific_stripped": 0.5016666666666666,
+      "auc_pronoun_presence": 0.6669944444444446,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 32,
+      "feature_idx": 9250,
+      "raw_cohen_d": 1.866970181465149,
+      "stripped_cohen_d_signed": -0.06995416432619095,
+      "auc_honorific_stripped": 0.5017666666666666,
+      "auc_pronoun_presence": 0.6595597222222221,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 33,
+      "feature_idx": 11822,
+      "raw_cohen_d": 1.8662649393081665,
+      "stripped_cohen_d_signed": -0.08178606629371643,
+      "auc_honorific_stripped": 0.5016666666666667,
+      "auc_pronoun_presence": 0.6663874999999999,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 34,
+      "feature_idx": 5752,
+      "raw_cohen_d": 1.8649431467056274,
+      "stripped_cohen_d_signed": 0.029639123007655144,
+      "auc_honorific_stripped": 0.50165,
+      "auc_pronoun_presence": 0.6642805555555555,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 35,
+      "feature_idx": 16155,
+      "raw_cohen_d": 1.8545286655426025,
+      "stripped_cohen_d_signed": -0.08332136273384094,
+      "auc_honorific_stripped": 0.5050777777777777,
+      "auc_pronoun_presence": 0.6675611111111112,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 36,
+      "feature_idx": 8902,
+      "raw_cohen_d": 1.8518381118774414,
+      "stripped_cohen_d_signed": 0.0647452175617218,
+      "auc_honorific_stripped": 0.5033305555555555,
+      "auc_pronoun_presence": 0.6619555555555556,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 37,
+      "feature_idx": 8869,
+      "raw_cohen_d": 1.848510980606079,
+      "stripped_cohen_d_signed": -0.0803658664226532,
+      "auc_honorific_stripped": 0.5016805555555556,
+      "auc_pronoun_presence": 0.6682444444444444,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 38,
+      "feature_idx": 4891,
+      "raw_cohen_d": 1.8482723236083984,
+      "stripped_cohen_d_signed": -0.07327455282211304,
+      "auc_honorific_stripped": 0.5050638888888889,
+      "auc_pronoun_presence": 0.663938888888889,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 39,
+      "feature_idx": 12956,
+      "raw_cohen_d": 1.8427670001983643,
+      "stripped_cohen_d_signed": 0.08914458751678467,
+      "auc_honorific_stripped": 0.5033388888888889,
+      "auc_pronoun_presence": 0.6653736111111112,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 40,
+      "feature_idx": 14665,
+      "raw_cohen_d": 1.8380894660949707,
+      "stripped_cohen_d_signed": -0.05785568431019783,
+      "auc_honorific_stripped": 0.5016666666666667,
+      "auc_pronoun_presence": 0.6681111111111112,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 41,
+      "feature_idx": 8118,
+      "raw_cohen_d": 1.8371626138687134,
+      "stripped_cohen_d_signed": 0.0281006321310997,
+      "auc_honorific_stripped": 0.5017166666666667,
+      "auc_pronoun_presence": 0.6630916666666666,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 42,
+      "feature_idx": 10909,
+      "raw_cohen_d": 1.8260748386383057,
+      "stripped_cohen_d_signed": 0.0441121980547905,
+      "auc_honorific_stripped": 0.503311111111111,
+      "auc_pronoun_presence": 0.6613777777777778,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 43,
+      "feature_idx": 13135,
+      "raw_cohen_d": 1.825027585029602,
+      "stripped_cohen_d_signed": -0.01135178841650486,
+      "auc_honorific_stripped": 0.5000083333333334,
+      "auc_pronoun_presence": 0.6657305555555555,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 44,
+      "feature_idx": 6572,
+      "raw_cohen_d": 1.8238309621810913,
+      "stripped_cohen_d_signed": 0.03517898544669151,
+      "auc_honorific_stripped": 0.50165,
+      "auc_pronoun_presence": 0.6639,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 45,
+      "feature_idx": 5264,
+      "raw_cohen_d": 1.8175486326217651,
+      "stripped_cohen_d_signed": -0.05178685858845711,
+      "auc_honorific_stripped": 0.5033611111111111,
+      "auc_pronoun_presence": 0.6666319444444444,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 46,
+      "feature_idx": 14667,
+      "raw_cohen_d": 1.8112016916275024,
+      "stripped_cohen_d_signed": -0.1048748791217804,
+      "auc_honorific_stripped": 0.5183569444444444,
+      "auc_pronoun_presence": 0.7829090277777778,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 47,
+      "feature_idx": 2551,
+      "raw_cohen_d": 1.8027554750442505,
+      "stripped_cohen_d_signed": -0.06627892702817917,
+      "auc_honorific_stripped": 0.5052,
+      "auc_pronoun_presence": 0.6692097222222222,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 48,
+      "feature_idx": 901,
+      "raw_cohen_d": 1.8010194301605225,
+      "stripped_cohen_d_signed": 0.019623249769210815,
+      "auc_honorific_stripped": 0.50165,
+      "auc_pronoun_presence": 0.6661833333333333,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 49,
+      "feature_idx": 6550,
+      "raw_cohen_d": 1.7976093292236328,
+      "stripped_cohen_d_signed": 0.0,
+      "auc_honorific_stripped": 0.5,
+      "auc_pronoun_presence": 0.6683208333333333,
+      "passes_specificity": false
+    },
+    {
+      "raw_rank": 50,
+      "feature_idx": 13592,
+      "raw_cohen_d": 1.7951087951660156,
+      "stripped_cohen_d_signed": -0.047995083034038544,
+      "auc_honorific_stripped": 0.5017180555555556,
+      "auc_pronoun_presence": 0.6608250000000001,
+      "passes_specificity": false
+    }
+  ]
+}

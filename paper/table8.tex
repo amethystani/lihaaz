@@ -1,0 +1,32 @@
+\begin{table}[H]
+\centering
+\small
+\setlength\tabcolsep{7pt}
+\begin{tabular}{llrrrr}
+\toprule
+& & \multicolumn{2}{c}{\textbf{Raw AUROC}} & \multicolumn{2}{c}{\textbf{Stripped AUROC}} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}
+\textbf{Model} & \textbf{Series} & Max & Spread & Max & Spread \\
+\midrule
+Gemma-2-2B    & Gemma-2   & 0.894 & 0.003 & 0.817 & 0.020 \\
+Qwen2.5-1.5B  & Qwen2.5   & 0.895 & 0.003 & 0.816 & 0.021 \\
+Qwen2.5-3B    & Qwen2.5   & 0.894 & 0.002 & 0.817 & 0.021 \\
+Qwen3-4B      & Qwen3     & 0.894 & 0.002 & 0.818 & 0.026 \\
+Qwen3-8B      & Qwen3     & 0.893 & 0.002 & 0.816 & 0.019 \\
+Llama-3.1-8B  & Llama-3   & 0.893 & 0.002 & 0.820 & 0.018 \\
+Nemotron-8B$^\dagger$  & Nemotron  & 0.893 & 0.002 & 0.819 & 0.039 \\
+Phi-4-14B     & Phi       & 0.893 & 0.004 & 0.816 & 0.023 \\
+Mistral-22B   & Mistral   & 0.892 & 0.002 & 0.816 & 0.009 \\
+\bottomrule
+\end{tabular}
+\caption{The decodable-but-flat signature replicates across seven model series
+  (Gemma-2, Qwen2.5, Qwen3, Llama-3.1, Nemotron, Phi, Mistral) in nine models spanning
+  six parameter scales (1.5B--22B). ``Spread'' is the AUROC range over all
+  layers; near-zero raw spread ($\le 0.004$) everywhere shows that linear
+  separability varies little with depth. It does not establish where the
+  information is computed or exclude additional representations.
+  $^\dagger$Nemotron-8B is an RLHF fine-tune of Llama-3.1; its higher
+  stripped spread (0.039 vs. $\le 0.026$ for base models) does not affect
+  the raw-curve conclusion.}
+\label{tab:multimodel}
+\end{table}

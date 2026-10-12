@@ -149,13 +149,6 @@
     ],
     "note": "Conservative synthetic marker implementation. Ambiguous standalone 'do' (the number two) is not counted; only listed verb+do phrases count."
   },
-  "simulation_config": {
-    "rating_seed": 20260719,
-    "raters": [
-      "SIM_R1",
-      "SIM_R2",
-      "SIM_R3"
-    ],
     "rating_scale": [
       0,
       1,

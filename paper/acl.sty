@@ -37,9 +37,8 @@
   % https://texblog.org/2012/02/08/adding-line-numbers-to-documents/
   \usepackage[switch,mathlines]{lineno}
 
-  % Line numbers in gray 8pt sans-bold. phvb (Helvetica) is unavailable in
-  % this TeX install; cmssbx10 is the always-shipped Computer Modern fallback.
-  \font\aclhv = cmssbx10 at 8pt
+  % Line numbers in gray Helvetica 8pt
+  \font\aclhv = phvb at 8pt
   \renewcommand\linenumberfont{\aclhv\color{lightgray}}
 
   % Zero-fill line numbers
